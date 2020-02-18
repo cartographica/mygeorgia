@@ -41,17 +41,6 @@
   stroke-width: 8.5px, 7.9px;
   stroke-linecap: round;
   z-index: 20, 41;
-  label: [name_eng];
-  font-family: Arial;
-  font-weight: bold;
-  font-fill: black;
-  font-size: 10;
-  halo-color: white;
-  halo-radius: 1;
-  label-follow-line: true;
-  label-max-angle-delta: 90;
-  label-max-displacement: 400;
-  label-repeat: 150;
 }
 
 /* @title International HWY in Tunnel (2 lines) */
@@ -290,18 +279,54 @@
   z-index: 36;
 }
 /* @title Streets in Cities (small) (2 lines) 10k */
-["class_id"="62201000"] [@sd < 10000] {
+["class_id"="62201000"] [@sd > 5000] [@sd < 10000] {
   stroke: #4b4b4b;
   stroke-opacity: 0.85;
   stroke-width: 3px;
   stroke-linecap: round;
   z-index: 10;
 }
-["class_id"="62201000"] [@sd < 10000] {
+["class_id"="62201000"] [@sd > 5000] [@sd < 10000] {
   stroke: #fffefd;
   stroke-width: 2.5px;
   stroke-linecap: round;
   z-index: 36;
+  label: [name];
+  font-family: Arial;
+  font-weight: normal;
+  font-fill: black;
+  font-size: 10;
+  halo-color: white;
+  halo-radius: 1;
+  label-follow-line: true;
+  label-max-angle-delta: 90;
+  label-max-displacement: 400;
+  label-repeat: 30;
+}
+/* @title Streets in Cities (small) (2 lines) 5k */
+["class_id"="62201000"] [@sd < 5000] {
+  stroke: #4b4b4b;
+  stroke-opacity: 0.85;
+  stroke-width: 7.5px;
+  stroke-linecap: round;
+  z-index: 10;
+}
+["class_id"="62201000"] [@sd < 5000] {
+  stroke: #fffefd;
+  stroke-width: 6.25px;
+  stroke-linecap: round;
+  z-index: 36;
+  label: [name];
+  font-family: Arial;
+  font-weight: normal;
+  font-fill: black;
+  font-size: 10;
+  halo-color: white;
+  halo-radius: 1;
+  label-follow-line: true;
+  label-max-angle-delta: 90;
+  label-max-displacement: 400;
+  label-repeat: 150;
 }
 
 /* @title Streets in Villages (2 lines) */

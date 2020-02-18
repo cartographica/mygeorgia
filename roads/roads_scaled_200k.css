@@ -76,7 +76,7 @@
   z-index: 15, 38;
 }
 
-/* @title Paved */
+/* @title Local Paved Road */
 ["class_id"="62001100"] [@sd > 100000] [@sd < 300000] {
   stroke: #4b4b4b, #f2f20b;
   stroke-width: 3.4px, 2.5px;
@@ -105,14 +105,6 @@
   stroke-dasharray: 11.3 11.3;
   stroke-linecap: butt;
   z-index: 38;
-}
-
-/* @title Pedestrian Street */
-["class_id"="62354000"] [@sd > 100000] [@sd < 300000] {
-  stroke: #e3e2e2;
-  stroke-width: 0.3px;
-  stroke-linecap: round;
-  z-index: 35;
 }
 
 /* @title Improved Unpaved (2 lines) */
@@ -166,67 +158,6 @@
   stroke-width: 1.4px;
   stroke-linecap: round;
   z-index: 36;
-}
-
-/* @title Underground Street (2 lines) */
-["class_id"="62007000"] [@sd > 100000] [@sd < 300000] {
-  stroke: #a3a2a2;
-  stroke-width: 0.3px;
-  stroke-linecap: round;
-  z-index: 8;
-}
-["class_id"="62007000"] [@sd > 100000] [@sd < 300000] {
-  stroke: #ffffff;
-  stroke-width: 0.3px;
-  stroke-dasharray: 0.3, 0.6;
-  stroke-linecap: butt;
-  z-index: 35;
-}
-
-/* @title Underground Crossing */
-["class_id"="62352000"] [@sd > 100000] [@sd < 300000] {
-  stroke: #808080;
-  stroke-width: 0.6px;
-  stroke-linecap: round;
-  z-index: 7;
-}
-["class_id"="62352000"] [@sd > 100000] [@sd < 300000] {
-  stroke: #ffffff;
-  stroke-width: 0.3px;
-  stroke-dasharray: 1, 2;
-  stroke-linecap: square;
-  z-index: 36;
-}
-
-/* @title Stairway */
-["class_id"="62351000"] [@sd > 100000] [@sd < 300000] {
-  stroke: #808080;
-  stroke-width: 0.6px;
-  stroke-linecap: round;
-  z-index: 6;
-}
-["class_id"="62351000"] [@sd > 100000] [@sd < 300000] {
-  stroke: #ffffff;
-  stroke-width: 0.3px;
-  stroke-dasharray: 0.3, 0.3;
-  stroke-linecap: square;
-  z-index: 36;
-}
-
-/* @title Park Path */
-["class_id"="62353000"] [@sd > 100000] [@sd < 300000] {
-  stroke: #c3d366;
-  stroke-width: 0.7px;
-  stroke-linecap: round;
-  z-index: 5;
-}
-
-/* @title Service or Access Road */
-["class_id"="62201100"] [@sd > 100000] [@sd < 300000] {
-  stroke: #787878;
-  stroke-width: 0.6px;
-  stroke-linecap: square;
-  z-index: 4;
 }
 
 /* @title Rural Dirt */

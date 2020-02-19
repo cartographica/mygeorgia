@@ -1,0 +1,23 @@
+/* @title Internation HWY 10k */
+["class_id"="62001000"] [@sd < 10000] {
+  stroke: #4b4b4b, #ff8805;
+  stroke-width: 8.5px, 7.9px;
+  stroke-linecap: round;
+  z-index: 21, 41;
+}
+
+/* @title Internation HWY */
+["class_id"="62001000"] [@sd > 10000] [@sd < 100000] {
+  stroke: #4b4b4b, #ff8805;
+  stroke-width: 5.7px, 4.9px;
+  stroke-linecap: round;
+  z-index: 21, 41;
+}
+
+/* @title International HWY */
+["class_id"="62001000"] [@sd > 100000] [@sd < 300000] {
+  stroke: #4b4b4b, #ff8805;
+  stroke-width: 5.7px, 4.9px;
+  stroke-linecap: round;
+  z-index: 21, 41;
+}

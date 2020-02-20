@@ -31,7 +31,7 @@
   stroke-width: 4.9px;
   stroke-dasharray: 5 10;
   stroke-linecap: butt;
-  z-index: 41;
+  z-index: 25;
 }
 /* @title State HWY */
 ["class_id"="62122000"] [@sd > 10000] [@sd < 100000] {
@@ -59,7 +59,7 @@
   stroke-width: 3.4px;
   stroke-dasharray: 13.6 6.8;
   stroke-linecap: butt;
-  z-index: 39;
+  z-index: 24;
 }
 /* @title State Road Unpaved */
 ["class_id"="62340000"] [@sd > 10000] [@sd < 100000] {
@@ -94,7 +94,7 @@
   stroke-width: 2.1px;
   stroke-dasharray: 11.3 11.3;
   stroke-linecap: butt;
-  z-index: 38;
+  z-index: 23;
 }
 /* @title Pedestrian Street */
 ["class_id"="62354000"] [@sd > 10000] [@sd < 100000] {

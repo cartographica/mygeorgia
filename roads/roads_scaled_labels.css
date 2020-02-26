@@ -7,10 +7,30 @@
 }
 /* @title Autobahn 10k */
 ["class_id"="62111000"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #ff8805, #4b4b4b;
-  stroke-width: 10.8px, 8.5px, 2px;
+  stroke: #4b4b4b, #ff8805;
+  stroke-width: 10.8px, 8.5px;
   stroke-linecap: round;
-  z-index: 22, 42, 43;
+  z-index: 22, 42;
+}
+/* @title Autobahn 10k label */
+["class_id"="62111000"] [@sd > 5000] [@sd < 10000] {
+  stroke: #4b4b4b;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  z-index: 43;
+  label: [name_eng];
+  font-family: Arial;
+  font-weight: normal;
+  font-fill: white;
+  font-size: 15;
+  label-max-displacement: 400;
+  label-repeat: 1200;
+  shield: symbol(square);
+  :shield {
+    fill: #30a61b;
+    stroke: white;
+    size: 22;
+  }
 }
 /* @title Autobahn 5k */
 ["class_id"="62111000"] [@sd > 3000] [@sd < 5000] {
@@ -142,7 +162,7 @@
 ["class_id"="62121100"] [@sd > 5000] [@sd < 10000] {
   stroke: #ff8805;
   stroke-width: 7.9px;
-  stroke-dasharray: 5 10;
+  stroke-dasharray: 10 15;
   stroke-linecap: butt;
   z-index: 25;
 }
@@ -155,8 +175,8 @@
 }
 ["class_id"="62121100"] [@sd > 3000] [@sd < 5000] {
   stroke: #ff8805;
-  stroke-width: 10.6px;
-  stroke-dasharray: 5 10;
+  stroke-width: 15.9px;
+  stroke-dasharray: 20 30;
   stroke-linecap: butt;
   z-index: 25;
 }
@@ -170,7 +190,7 @@
 ["class_id"="62121100"] [@sd < 3000] {
   stroke: #ff8805;
   stroke-width: 23.7px;
-  stroke-dasharray: 5 10;
+  stroke-dasharray: 30 45;
   stroke-linecap: butt;
   z-index: 25;
 }
@@ -581,16 +601,16 @@
 }
 /* @title Improved Unpaved (2 lines) 5k */
 ["class_id"="62131000"] [@sd > 3000] [@sd < 5000] {
-  stroke: #1a1a1a;
+  stroke: #787878;
   stroke-opacity: 0.85;
-  stroke-width: 12.5px;
-  stroke-linecap: round;
+  stroke-width: 10px;
+  stroke-linecap: butt;
   z-index: 12;
 }
 ["class_id"="62131000"] [@sd > 3000] [@sd < 5000] {
   stroke: #ffffff;
-  stroke-width: 7.4px;
-  stroke-linecap: round;
+  stroke-width: 7.5px;
+  stroke-linecap: butt;
   z-index: 37;
 }
 /* @title Improved Unpaved (2 lines) 3k */
@@ -609,14 +629,14 @@
 }
 
 /* @title Streets in Cities (big) */
-["class_id"="62100000"] [@sd > 10000] [@sd < 100000] {
+["class_id"="62200000"] [@sd > 10000] [@sd < 100000] {
   stroke: #4b4b4b, #fffefd;
   stroke-width: 2.3px, 1.8px;
   stroke-linecap: round;
   z-index: 11, 36;
 }
 /* @title Streets in Cities (big) 10k */
-["class_id"="62100000"] [@sd > 5000] [@sd < 10000] {
+["class_id"="62200000"] [@sd > 5000] [@sd < 10000] {
   stroke: #4b4b4b, #fffefd;
   stroke-width: 3.4px, 2.8px;
   stroke-linecap: round;
@@ -634,7 +654,7 @@
   label-repeat: 150;
 }
 /* @title Streets in Cities (big) 5k */
-["class_id"="62100000"] [@sd > 3000] [@sd < 5000] {
+["class_id"="62200000"] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b, #fffefd;
   stroke-width: 6.8px, 5.6px;
   stroke-linecap: round;
@@ -652,9 +672,9 @@
   label-repeat: 150;
 }
 /* @title Streets in Cities (big) 3k */
-["class_id"="62100000"] [@sd < 3000] {
+["class_id"="62200000"] [@sd < 3000] {
   stroke: #4b4b4b, #fffefd;
-  stroke-width: 10.2px, 8.4px;
+  stroke-width: 15px, 13px;
   stroke-linecap: round;
   z-index: 11, 36;
   label: [name];
@@ -738,13 +758,13 @@
 ["class_id"="62201000"] [@sd < 3000] {
   stroke: #4b4b4b;
   stroke-opacity: 0.85;
-  stroke-width: 9px;
+  stroke-width: 12px;
   stroke-linecap: round;
   z-index: 10;
 }
 ["class_id"="62201000"] [@sd < 3000] {
   stroke: #fffefd;
-  stroke-width: 7.5px;
+  stroke-width: 10.5px;
   stroke-linecap: round;
   z-index: 36;
   label: [name];

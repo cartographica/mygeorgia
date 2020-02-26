@@ -40,7 +40,7 @@
 ["class_id"="62121100"] [@sd > 3000] [@sd < 5000] {
   stroke: #ff8805;
   stroke-width: 15.9px;
-  stroke-dasharray: 5 10;
+  stroke-dasharray: 20 30;
   stroke-linecap: butt;
   z-index: 25;
 }
@@ -149,20 +149,20 @@
 }
 /* @title Improved Unpaved (2 lines) 5k */
 ["class_id"="62131000"] [@sd > 3000] [@sd < 5000] {
-  stroke: #1a1a1a;
+  stroke: #787878;
   stroke-opacity: 0.85;
-  stroke-width: 12.5px;
-  stroke-linecap: round;
+  stroke-width: 10px;
+  stroke-linecap: butt;
   z-index: 12;
 }
 ["class_id"="62131000"] [@sd > 3000] [@sd < 5000] {
   stroke: #ffffff;
-  stroke-width: 7.4px;
-  stroke-linecap: round;
+  stroke-width: 7.5px;
+  stroke-linecap: butt;
   z-index: 37;
 }
 /* @title Streets in Cities (big) 5k */
-["class_id"="62100000"] [@sd > 3000] [@sd < 5000] {
+["class_id"="62200000"] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b, #fffefd;
   stroke-width: 6.8px, 5.6px;
   stroke-linecap: round;

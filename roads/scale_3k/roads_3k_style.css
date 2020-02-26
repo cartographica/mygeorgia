@@ -40,7 +40,7 @@
 ["class_id"="62121100"] [@sd < 3000] {
   stroke: #ff8805;
   stroke-width: 23.7px;
-  stroke-dasharray: 5 10;
+  stroke-dasharray: 30 45;
   stroke-linecap: butt;
   z-index: 25;
 }
@@ -162,9 +162,9 @@
   z-index: 37;
 }
 /* @title Streets in Cities (big) 3k */
-["class_id"="62100000"] [@sd < 3000] {
+["class_id"="62200000"] [@sd < 3000] {
   stroke: #4b4b4b, #fffefd;
-  stroke-width: 10.2px, 8.4px;
+  stroke-width: 15px, 13px;
   stroke-linecap: round;
   z-index: 11, 36;
   label: [name];
@@ -183,13 +183,13 @@
 ["class_id"="62201000"] [@sd < 3000] {
   stroke: #4b4b4b;
   stroke-opacity: 0.85;
-  stroke-width: 9px;
+  stroke-width: 12px;
   stroke-linecap: round;
   z-index: 10;
 }
 ["class_id"="62201000"] [@sd < 3000] {
   stroke: #fffefd;
-  stroke-width: 7.5px;
+  stroke-width: 10.5px;
   stroke-linecap: round;
   z-index: 36;
   label: [name];

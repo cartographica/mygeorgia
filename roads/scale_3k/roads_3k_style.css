@@ -19,6 +19,7 @@
   stroke-linecap: round;
   z-index: 20, 41;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -58,6 +59,7 @@
   stroke-linecap: round;
   z-index: 17, 40;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -104,6 +106,7 @@
   stroke-linecap: round;
   z-index: 13, 38;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -136,6 +139,7 @@
   stroke-linecap: round;
   z-index: 35;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -168,6 +172,7 @@
   stroke-linecap: round;
   z-index: 11, 36;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -193,6 +198,7 @@
   stroke-linecap: round;
   z-index: 36;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;

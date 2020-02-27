@@ -5,13 +5,14 @@
   stroke-linecap: round;
   z-index: 22, 42;
 }
-/* @title Autobahn 10k label*/
+/* @title Autobahn 10k symbol */
 ["class_id"="62111000"] [@sd > 5000] [@sd < 10000] {
   stroke: #4b4b4b;
   stroke-width: 2px;
   stroke-linecap: round;
   z-index: 43;
-  label: [name_eng];
+  label: [name_geo];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: white;
@@ -19,9 +20,12 @@
   label-max-displacement: 400;
   label-repeat: 1200;
   shield: symbol(square);
+  shield-resize: stretch;
+  shield-margin: 4;
   :shield {
     fill: #30a61b;
     stroke: white;
+    stroke-width: 1.5;
     size: 22;
   }
 }
@@ -32,6 +36,7 @@
   stroke-linecap: round;
   z-index: 21, 41;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -48,6 +53,7 @@
   stroke-linecap: round;
   z-index: 20, 41;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -87,6 +93,7 @@
   stroke-linecap: round;
   z-index: 17, 40;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -133,6 +140,7 @@
   stroke-linecap: round;
   z-index: 13, 38;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -186,6 +194,7 @@
   stroke-linecap: round;
   z-index: 11, 36;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;
@@ -211,6 +220,7 @@
   stroke-linecap: round;
   z-index: 36;
   label: [name];
+  label-group: true;
   font-family: Arial;
   font-weight: normal;
   font-fill: black;

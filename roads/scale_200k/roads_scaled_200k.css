@@ -49,7 +49,7 @@
   font-family: Arial;
   font-weight: normal;
   font-fill: white;
-  font-size: 10;
+  font-size: 12;
   label-max-displacement: 400;
   label-repeat: 600;
   label-anchor: 0.5 0.5;
@@ -57,7 +57,7 @@
   shield-resize: stretch;
   shield-margin: 4;
   :shield {
-    fill: #2967df;
+    fill: #30a61b;
     stroke: white;
     stroke-width: 1.5;
     size: 22;
@@ -82,7 +82,7 @@
   font-family: Arial;
   font-weight: normal;
   font-fill: white;
-  font-size: 10;
+  font-size: 12;
   label-max-displacement: 400;
   label-repeat: 600;
   label-anchor: 0.5 0.5;
@@ -90,7 +90,7 @@
   shield-resize: stretch;
   shield-margin: 4;
   :shield {
-    fill: #2967df;
+    fill: #30a61b;
     stroke: white;
     stroke-width: 1.5;
     size: 22;
@@ -115,7 +115,7 @@
   font-family: Arial;
   font-weight: normal;
   font-fill: white;
-  font-size: 10;
+  font-size: 12;
   label-max-displacement: 400;
   label-repeat: 600;
   label-anchor: 0.5 0.5;
@@ -123,7 +123,7 @@
   shield-resize: stretch;
   shield-margin: 4;
   :shield {
-    fill: #2967df;
+    fill: #30a61b;
     stroke: white;
     stroke-width: 1.5;
     size: 22;

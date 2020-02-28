@@ -5,7 +5,7 @@
   stroke-linecap: round;
   z-index: 22, 42;
 }
-/* @title Autobahn 10k symbol */
+/* @title Autobahn symbol 10k */
 ["class_id"="62111000"] [@sd > 5000] [@sd < 10000] {
   stroke: #4b4b4b;
   stroke-width: 2px;
@@ -36,7 +36,7 @@
   stroke-linecap: round;
   z-index: 21;
 }
-/* @title International HWY 10k symbol */
+/* @title International HWY symbol 10k */
 ["class_id"="62121000"] [@sd > 5000] [@sd < 10000] {
   stroke: #ff8805;
   stroke-width: 7.9px;
@@ -47,7 +47,7 @@
   font-family: Arial;
   font-weight: normal;
   font-fill: white;
-  font-size: 12;
+  font-size: 15;
   label-max-displacement: 400;
   label-repeat: 600;
   label-anchor: 0.5 0.5;
@@ -55,7 +55,7 @@
   shield-resize: stretch;
   shield-margin: 4;
   :shield {
-    fill: #2967df;
+    fill: #30a61b;
     stroke: white;
     stroke-width: 1.5;
     size: 22;
@@ -68,7 +68,7 @@
   stroke-linecap: round;
   z-index: 20;
 }
-/* @title International HWY in City 10k label */
+/* @title International HWY in City label 10k */
 ["class_id"="62001000"] [@sd > 5000] [@sd < 10000] {
   stroke: #ff8805;
   stroke-width: 7.9px;
@@ -103,17 +103,49 @@
 }
 /* @title State HWY 10k */
 ["class_id"="62122000"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #ffc105;
-  stroke-width: 7px, 6.5px;
+  stroke: #4b4b4b;
+  stroke-width: 7px;
   stroke-linecap: round;
-  z-index: 18, 40;
+  z-index: 18;
+}
+/* @title State HWY symbol 10k */
+["class_id"="62122000"] [@sd > 5000] [@sd < 10000] {
+  stroke: #ffc105;
+  stroke-width: 6.5px;
+  stroke-linecap: round;
+  z-index: 40;
+  label: [name_geo];
+  label-group: true;
+  font-family: Arial;
+  font-weight: normal;
+  font-fill: white;
+  font-size: 12;
+  label-max-displacement: 100;
+  label-repeat: 400;
+  label-anchor: 0.5 0.5;
+  shield: symbol(square);
+  shield-resize: stretch;
+  shield-margin: 4;
+  :shield {
+    fill: #2967df;
+    stroke: white;
+    stroke-width: 1.5;
+    size: 22;
+  }
 }
 /* @title State HWY in City 10k */
 ["class_id"="62002000"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #ffc105;
-  stroke-width: 5.7px, 5.1px;
+  stroke: #4b4b4b;
+  stroke-width: 5.7px;
   stroke-linecap: round;
-  z-index: 17, 40;
+  z-index: 17;
+}
+/* @title State HWY in City label 10k */
+["class_id"="62002000"] [@sd > 5000] [@sd < 10000] {
+  stroke: #ffc105;
+  stroke-width: 5.1px;
+  stroke-linecap: round;
+  z-index: 40;
   label: [name];
   label-group: true;
   font-family: Arial;
@@ -143,24 +175,81 @@
 }
 /* @title State Road Unpaved 10k */
 ["class_id"="62340000"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #ffdf7f;
-  stroke-width: 5.7px, 5.1px;
+  stroke: #4b4b4b;
+  stroke-width: 5.7px;
   stroke-linecap: round;
-  z-index: 15, 38;
+  z-index: 15;
+}
+/* @title State Road Unpaved symbol 10k */
+["class_id"="62340000"] [@sd > 5000] [@sd < 10000] {
+  stroke: #ffdf7f;
+  stroke-width: 5.1px;
+  stroke-linecap: round;
+  z-index: 38;
+  label: [name_geo];
+  label-group: true;
+  font-family: Arial;
+  font-weight: normal;
+  font-fill: white;
+  font-size: 12;
+  label-max-displacement: 100;
+  label-repeat: 400;
+  label-anchor: 0.5 0.5;
+  shield: symbol(square);
+  shield-resize: stretch;
+  shield-margin: 4;
+  :shield {
+    fill: #2967df;
+    stroke: white;
+    stroke-width: 1.5;
+    size: 22;
+  }
 }
 /* @title Paved 10k */
 ["class_id"="62001100"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #f2f20b;
-  stroke-width: 5.1px, 4.5px;
+  stroke: #4b4b4b;
+  stroke-width: 5.1px;
   stroke-linecap: round;
-  z-index: 14, 38;
+  z-index: 14;
+}
+/* @title Paved symbol 10k */
+["class_id"="62001100"] [@sd > 5000] [@sd < 10000] {
+  stroke: #f2f20b;
+  stroke-width: 4.5px;
+  stroke-linecap: round;
+  z-index: 38;
+  label: [name_geo];
+  label-group: true;
+  font-family: Arial;
+  font-weight: normal;
+  font-fill: white;
+  font-size: 12;
+  label-max-displacement: 100;
+  label-repeat: 400;
+  label-anchor: 0.5 0.5;
+  shield: symbol(square);
+  shield-resize: stretch;
+  shield-margin: 4;
+  :shield {
+    fill: #2967df;
+    stroke: white;
+    stroke-width: 1.5;
+    size: 22;
+  }
 }
 /* @title HWY in City 10k */
 ["class_id"="62001200"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #f2f20b;
-  stroke-width: 5.1px, 4.5px;
+  stroke: #4b4b4b;
+  stroke-width: 5.1px;
   stroke-linecap: round;
-  z-index: 13, 38;
+  z-index: 13;
+}
+/* @title HWY in City label 10k */
+["class_id"="62001200"] [@sd > 5000] [@sd < 10000] {
+  stroke: #f2f20b;
+  stroke-width: 4.5px;
+  stroke-linecap: round;
+  z-index: 38;
   label: [name];
   label-group: true;
   font-family: Arial;
@@ -188,12 +277,24 @@
   stroke-linecap: butt;
   z-index: 23;
 }
-/* @title Pedestrian Street 10k */
+/* @title Pedestrian Street label 10k */
 ["class_id"="62354000"] [@sd > 5000] [@sd < 10000] {
   stroke: #e3e2e2;
   stroke-width: 2.8px;
   stroke-linecap: round;
   z-index: 35;
+  label: [name];
+  label-group: true;
+  font-family: Arial;
+  font-weight: normal;
+  font-fill: black;
+  font-size: 10;
+  halo-color: white;
+  halo-radius: 1;
+  label-follow-line: true;
+  label-max-angle-delta: 90;
+  label-max-displacement: 100;
+  label-repeat: 150;
 }
 /* @title Improved Unpaved (2 lines) 10k */
 ["class_id"="62131000"] [@sd > 5000] [@sd < 10000] {
@@ -211,10 +312,17 @@
 }
 /* @title Streets in Cities (big) 10k */
 ["class_id"="62200000"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #fffefd;
-  stroke-width: 3.4px, 2.8px;
+  stroke: #4b4b4b;
+  stroke-width: 3.4px;
   stroke-linecap: round;
-  z-index: 11, 36;
+  z-index: 11;
+}
+/* @title Streets in Cities (big) label 10k */
+["class_id"="62200000"] [@sd > 5000] [@sd < 10000] {
+  stroke: #fffefd;
+  stroke-width: 2.8px;
+  stroke-linecap: round;
+  z-index: 36;
   label: [name];
   label-group: true;
   font-family: Arial;
@@ -228,7 +336,7 @@
   label-max-displacement: 400;
   label-repeat: 150;
 }
-/* @title Streets in Cities (small) (2 lines) 10k */
+/* @title Streets in Cities (small) (2 lines) label 10k */
 ["class_id"="62201000"] [@sd > 5000] [@sd > 5000] [@sd < 10000] {
   stroke: #4b4b4b;
   stroke-opacity: 0.85;

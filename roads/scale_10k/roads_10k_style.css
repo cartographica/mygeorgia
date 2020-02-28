@@ -31,20 +31,35 @@
 }
 /* @title International HWY 10k */
 ["class_id"="62001000"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #ff8805;
-  stroke-width: 8.5px, 7.9px;
+  stroke: #4b4b4b;
+  stroke-width: 8.5px;
   stroke-linecap: round;
-  z-index: 21, 41;
-  label: [name];
+  z-index: 21;
+}
+/* @title International HWY 10k symbol */
+["class_id"="62001000"] [@sd > 5000] [@sd < 10000] {
+  stroke: #ff8805;
+  stroke-width: 7.9px;
+  stroke-linecap: round;
+  z-index: 41;
+  label: [name_geo];
   label-group: true;
   font-family: Arial;
   font-weight: normal;
-  font-fill: black;
-  font-size: 10;
-  halo-color: white;
-  halo-radius: 1;
+  font-fill: white;
+  font-size: 12;
   label-max-displacement: 400;
-  label-repeat: 150;
+  label-repeat: 600;
+  label-anchor: 0.5 0.5;
+  shield: symbol(square);
+  shield-resize: stretch;
+  shield-margin: 4;
+  :shield {
+    fill: #2967df;
+    stroke: white;
+    stroke-width: 1.5;
+    size: 22;
+  }
 }
 /* @title International HWY in City 10k */
 ["class_id"="62121000"] [@sd > 5000] [@sd < 10000] {
@@ -63,7 +78,7 @@
   label-follow-line: true;
   label-max-angle-delta: 90;
   label-max-displacement: 400;
-  label-repeat: 150;
+  label-repeat: 500;
 }
 /* @title International HWY in Tunnel (2 lines) 10k */
 ["class_id"="62121100"] [@sd > 5000] [@sd < 10000] {
@@ -149,8 +164,8 @@
   halo-radius: 1;
   label-follow-line: true;
   label-max-angle-delta: 90;
-  label-max-displacement: 400;
-  label-repeat: 150;
+  label-max-displacement: 100;
+  label-repeat: 600;
 }
 /* @title HWY in Tunnel 2 lines 10k */
 ["class_id"="62001300"] [@sd > 5000] [@sd < 10000] {
@@ -230,7 +245,7 @@
   label-follow-line: true;
   label-max-angle-delta: 90;
   label-max-displacement: 400;
-  label-repeat: 30;
+  label-repeat: 150;
 }
 /* @title Streets in Villages (2 lines) 10k */
 ["class_id"="62210000"] [@sd > 5000] [@sd < 10000] {

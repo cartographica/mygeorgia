@@ -264,7 +264,7 @@
   stroke-linecap: round;
   z-index: 35;
 }
-/* @title Improved Unpaved (2 lines) symbol */
+/* @title Improved Unpaved (2 lines) */
 ["class_id"="62131000"] [@sd > 10000] [@sd < 100000] {
   stroke: #1a1a1a;
   stroke-opacity: 0.85;
@@ -277,24 +277,6 @@
   stroke-width: 2.3px;
   stroke-linecap: round;
   z-index: 37;
-  label: [name_geo];
-  label-group: true;
-  font-family: Arial;
-  font-weight: normal;
-  font-fill: white;
-  font-size: 10;
-  label-max-displacement: 100;
-  label-repeat: 400;
-  label-anchor: 0.5 0.5;
-  shield: symbol(square);
-  shield-resize: stretch;
-  shield-margin: 4;
-  :shield {
-    fill: #2967df;
-    stroke: white;
-    stroke-width: 1.5;
-    size: 22;
-  }
 }
 /* @title Streets in Cities (big) */
 ["class_id"="62100000"] [@sd > 10000] [@sd < 100000] {

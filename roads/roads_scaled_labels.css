@@ -111,10 +111,35 @@
 }
 /* @title International HWY 10k */
 ["class_id"="62121000"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #ff8805;
-  stroke-width: 8.5px, 7.9px;
+  stroke: #4b4b4b;
+  stroke-width: 8.5px;
   stroke-linecap: round;
-  z-index: 21, 41;
+  z-index: 21;
+}
+/* @title International HWY 10k symbol */
+["class_id"="62121000"] [@sd > 5000] [@sd < 10000] {
+  stroke: #ff8805;
+  stroke-width: 7.9px;
+  stroke-linecap: round;
+  z-index: 41;
+  label: [name_geo];
+  label-group: true;
+  font-family: Arial;
+  font-weight: normal;
+  font-fill: white;
+  font-size: 12;
+  label-max-displacement: 400;
+  label-repeat: 600;
+  label-anchor: 0.5 0.5;
+  shield: symbol(square);
+  shield-resize: stretch;
+  shield-margin: 4;
+  :shield {
+    fill: #2967df;
+    stroke: white;
+    stroke-width: 1.5;
+    size: 22;
+  }
 }
 /* @title International HWY 5k */
 ["class_id"="62121000"] [@sd > 3000] [@sd < 5000] {
@@ -155,7 +180,7 @@
   label-follow-line: true;
   label-max-angle-delta: 90;
   label-max-displacement: 400;
-  label-repeat: 150;
+  label-repeat: 500;
 }
 /* @title International HWY in City 5k */
 ["class_id"="62001000"] [@sd > 3000] [@sd < 5000] {
@@ -596,8 +621,8 @@
   halo-radius: 1;
   label-follow-line: true;
   label-max-angle-delta: 90;
-  label-max-displacement: 400;
-  label-repeat: 150;
+  label-max-displacement: 100;
+  label-repeat: 600;
 }
 /* @title HWY in City 5k */
 ["class_id"="62001200"] [@sd > 3000] [@sd < 5000] {
@@ -748,7 +773,7 @@
   label-repeat: 150;
 }
 
-/* @title Improved Unpaved (2 lines) symbol */
+/* @title Improved Unpaved (2 lines) */
 ["class_id"="62131000"] [@sd > 10000] [@sd < 100000] {
   stroke: #1a1a1a;
   stroke-opacity: 0.85;
@@ -761,24 +786,6 @@
   stroke-width: 2.3px;
   stroke-linecap: round;
   z-index: 37;
-  label: [name_geo];
-  label-group: true;
-  font-family: Arial;
-  font-weight: normal;
-  font-fill: white;
-  font-size: 10;
-  label-max-displacement: 100;
-  label-repeat: 400;
-  label-anchor: 0.5 0.5;
-  shield: symbol(square);
-  shield-resize: stretch;
-  shield-margin: 4;
-  :shield {
-    fill: #2967df;
-    stroke: white;
-    stroke-width: 1.5;
-    size: 22;
-  }
 }
 /* @title Improved Unpaved (2 lines) 10k */
 ["class_id"="62131000"] [@sd > 5000] [@sd < 10000] {
@@ -926,7 +933,7 @@
   label-follow-line: true;
   label-max-angle-delta: 90;
   label-max-displacement: 400;
-  label-repeat: 30;
+  label-repeat: 150;
 }
 /* @title Streets in Cities (small) (2 lines) 5k */
 ["class_id"="62201000"] [@sd > 3000] [@sd < 5000] {

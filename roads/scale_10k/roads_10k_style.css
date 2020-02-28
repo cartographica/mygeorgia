@@ -30,14 +30,14 @@
   }
 }
 /* @title International HWY 10k */
-["class_id"="62001000"] [@sd > 5000] [@sd < 10000] {
+["class_id"="62121000"] [@sd > 5000] [@sd < 10000] {
   stroke: #4b4b4b;
   stroke-width: 8.5px;
   stroke-linecap: round;
   z-index: 21;
 }
 /* @title International HWY 10k symbol */
-["class_id"="62001000"] [@sd > 5000] [@sd < 10000] {
+["class_id"="62121000"] [@sd > 5000] [@sd < 10000] {
   stroke: #ff8805;
   stroke-width: 7.9px;
   stroke-linecap: round;
@@ -62,11 +62,18 @@
   }
 }
 /* @title International HWY in City 10k */
-["class_id"="62121000"] [@sd > 5000] [@sd < 10000] {
-  stroke: #4b4b4b, #ff8805;
-  stroke-width: 8.5px, 7.9px;
+["class_id"="62001000"] [@sd > 5000] [@sd < 10000] {
+  stroke: #4b4b4b;
+  stroke-width: 8.5px;
   stroke-linecap: round;
-  z-index: 20, 41;
+  z-index: 20;
+}
+/* @title International HWY in City 10k label */
+["class_id"="62001000"] [@sd > 5000] [@sd < 10000] {
+  stroke: #ff8805;
+  stroke-width: 7.9px;
+  stroke-linecap: round;
+  z-index: 41;
   label: [name];
   label-group: true;
   font-family: Arial;

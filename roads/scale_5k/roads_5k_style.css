@@ -6,14 +6,14 @@
   z-index: 22, 42, 43;
 }
 /* @title International HWY 5k */
-["class_id"="62001000"] [@sd > 3000] [@sd < 5000] {
+["class_id"="62121000"] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b, #ff8805;
   stroke-width: 17px, 15.9px;
   stroke-linecap: round;
   z-index: 21, 41;
 }
 /* @title International HWY in City 5k */
-["class_id"="62121000"] [@sd > 3000] [@sd < 5000] {
+["class_id"="62001000"] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b, #ff8805;
   stroke-width: 17px, 15.9px;
   stroke-linecap: round;

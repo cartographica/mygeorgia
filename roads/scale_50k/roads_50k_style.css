@@ -20,6 +20,7 @@
   label-max-displacement: 400;
   label-repeat: 600;
   label-anchor: 0.5 0.5;
+  label-padding: 100;
   shield: symbol(square);
   shield-resize: stretch;
   shield-margin: 4;
@@ -52,6 +53,7 @@
   label-max-displacement: 400;
   label-repeat: 600;
   label-anchor: 0.5 0.5;
+  label-padding: 70;
   shield: symbol(square);
   shield-resize: stretch;
   shield-margin: 4;
@@ -91,6 +93,7 @@
   label-max-displacement: 400;
   label-repeat: 600;
   label-anchor: 0.5 0.5;
+  label-padding: 70;
   shield: symbol(square);
   shield-resize: stretch;
   shield-margin: 4;
@@ -123,6 +126,7 @@
   label-max-displacement: 100;
   label-repeat: 400;
   label-anchor: 0.5 0.5;
+  label-padding: 70;
   shield: symbol(square);
   shield-resize: stretch;
   shield-margin: 4;
@@ -162,6 +166,7 @@
   label-max-displacement: 100;
   label-repeat: 400;
   label-anchor: 0.5 0.5;
+  label-padding: 70;
   shield: symbol(square);
   shield-resize: stretch;
   shield-margin: 4;
@@ -194,6 +199,7 @@
   label-max-displacement: 100;
   label-repeat: 400;
   label-anchor: 0.5 0.5;
+  label-padding: 70;
   shield: symbol(square);
   shield-resize: stretch;
   shield-margin: 4;
@@ -226,6 +232,7 @@
   label-max-displacement: 100;
   label-repeat: 400;
   label-anchor: 0.5 0.5;
+  label-padding: 70;
   shield: symbol(square);
   shield-resize: stretch;
   shield-margin: 4;

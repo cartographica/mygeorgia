@@ -1,12 +1,12 @@
 /* @title Autobahn 5k */
-["class_id"="62111000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62111000'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b, #ff8805;
   stroke-width: 21.7px, 17px;
   stroke-linecap: round;
   z-index: 22, 42;
 }
 /* @title Autobahn symbol 5k */
-["class_id"="62111000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62111000'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 4px;
   stroke-linecap: round;
@@ -30,14 +30,14 @@
   }
 }
 /* @title International HWY 5k */
-["class_id"="62121000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62121000'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 17px;
   stroke-linecap: round;
   z-index: 21;
 }
 /* @title International HWY symbol 5k */
-["class_id"="62121000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62121000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ff8805;
   stroke-width: 15.9px;
   stroke-linecap: round;
@@ -62,14 +62,14 @@
   }
 }
 /* @title International HWY in City 5k */
-["class_id"="62001000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62001000'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 17px;
   stroke-linecap: round;
   z-index: 20;
 }
 /* @title International HWY in City label 5k */
-["class_id"="62001000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62001000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ff8805;
   stroke-width: 15.9px;
   stroke-linecap: round;
@@ -87,14 +87,27 @@
   label-max-displacement: 400;
   label-repeat: 500;
 }
+/* @title International HWY in City oneway-arrow 5k */
+["class_id"='62001000'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
+  stroke: symbol(arrow);
+  stroke-dashoffset: 5;
+  stroke-dasharray: 4 50;
+  z-index: 45;
+  :stroke {
+    size: 7;
+    fill: grey;
+    stroke: none;
+    stroke-width: 5;
+  }
+}
 /* @title International HWY in Tunnel (2 lines) 5k */
-["class_id"="62121100"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62121100'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 17px;
   stroke-linecap: butt;
   z-index: 19;
 }
-["class_id"="62121100"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62121100'] [@sd > 3000] [@sd < 5000] {
   stroke: #ff8805;
   stroke-width: 15.9px;
   stroke-dasharray: 20 30;
@@ -102,14 +115,14 @@
   z-index: 25;
 }
 /* @title State HWY 5k */
-["class_id"="62122000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62122000'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 14px;
   stroke-linecap: round;
   z-index: 18;
 }
 /* @title State HWY symbol 5k */
-["class_id"="62122000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62122000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffc105;
   stroke-width: 13px;
   stroke-linecap: round;
@@ -134,14 +147,14 @@
   }
 }
 /* @title State HWY in City 5k */
-["class_id"="62002000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62002000'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 11.5px;
   stroke-linecap: round;
   z-index: 17;
 }
 /* @title State HWY in City label 5k */
-["class_id"="62002000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62002000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffc105;
   stroke-width: 10.6px;
   stroke-linecap: round;
@@ -159,14 +172,27 @@
   label-max-displacement: 400;
   label-repeat: 150;
 }
+/* @title State HWY in in City oneway-arrow 5k */
+["class_id"='62002000'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
+  stroke: symbol(arrow);
+  stroke-dashoffset: 5;
+  stroke-dasharray: 4 50;
+  z-index: 45;
+  :stroke {
+    size: 7;
+    fill: grey;
+    stroke: none;
+    stroke-width: 5;
+  }
+}
 /* @title State HWY in Tunnel (2 lines) 5k */
-["class_id"="62122100"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62122100'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 11.5px;
   stroke-linecap: square;
   z-index: 16;
 }
-["class_id"="62122100"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62122100'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffc105;
   stroke-width: 10.6px;
   stroke-dasharray: 13.6 6.8;
@@ -174,14 +200,14 @@
   z-index: 24;
 }
 /* @title State Road Unpaved 5k */
-["class_id"="62340000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62340000'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 11.5px;
   stroke-linecap: round;
   z-index: 15;
 }
 /* @title State Road Unpaved symbol 5k */
-["class_id"="62340000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62340000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffdf7f;
   stroke-width: 10.6px;
   stroke-linecap: round;
@@ -206,14 +232,14 @@
   }
 }
 /* @title Paved 5k */
-["class_id"="62001100"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62001100'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 10.6px;
   stroke-linecap: round;
   z-index: 14;
 }
 /* @title Paved symbol 5k */
-["class_id"="62001100"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62001100'] [@sd > 3000] [@sd < 5000] {
   stroke: #f2f20b;
   stroke-width: 9px;
   stroke-linecap: round;
@@ -238,14 +264,14 @@
   }
 }
 /* @title HWY in City 5k */
-["class_id"="62001200"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62001200'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 10.6px;
   stroke-linecap: round;
   z-index: 13;
 }
 /* @title HWY in City label 5k */
-["class_id"="62001200"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62001200'] [@sd > 3000] [@sd < 5000] {
   stroke: #f2f20b;
   stroke-width: 9px;
   stroke-linecap: round;
@@ -263,14 +289,27 @@
   label-max-displacement: 100;
   label-repeat: 600;
 }
+/* @title HWY in City oneway-arrow 5k */
+["class_id"='62001200'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
+  stroke: symbol(arrow);
+  stroke-dashoffset: 5;
+  stroke-dasharray: 4 50;
+  z-index: 45;
+  :stroke {
+    size: 7;
+    fill: grey;
+    stroke: none;
+    stroke-width: 5;
+  }
+}
 /* @title HWY in Tunnel 2 lines 5k */
-["class_id"="62001300"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62001300'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 10.6px;
   stroke-linecap: round;
   z-index: 13;
 }
-["class_id"="62001300"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62001300'] [@sd > 3000] [@sd < 5000] {
   stroke: #f2f20b;
   stroke-width: 9px;
   stroke-dasharray: 11.3 11.3;
@@ -278,7 +317,7 @@
   z-index: 23;
 }
 /* @title Pedestrian Street label 5k */
-["class_id"="62354000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62354000'] [@sd > 3000] [@sd < 5000] {
   stroke: #e3e2e2;
   stroke-width: 5.6px;
   stroke-linecap: round;
@@ -297,28 +336,28 @@
   label-repeat: 150;
 }
 /* @title Improved Unpaved (2 lines) 5k */
-["class_id"="62131000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62131000'] [@sd > 3000] [@sd < 5000] {
   stroke: #787878;
   stroke-opacity: 0.85;
   stroke-width: 10px;
   stroke-linecap: butt;
   z-index: 12;
 }
-["class_id"="62131000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62131000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffffff;
   stroke-width: 7.5px;
   stroke-linecap: butt;
   z-index: 37;
 }
 /* @title Streets in Cities (big) 5k */
-["class_id"="62200000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62200000'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-width: 12px;
   stroke-linecap: round;
   z-index: 11;
 }
 /* @title Streets in Cities (big) label 5k */
-["class_id"="62200000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62200000'] [@sd > 3000] [@sd < 5000] {
   stroke: #fffefd;
   stroke-width: 11px;
   stroke-linecap: round;
@@ -336,15 +375,28 @@
   label-max-displacement: 400;
   label-repeat: 150;
 }
+/* @title Streets in Cities (big) oneway-arrow 5k */
+["class_id"='62200000'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
+  stroke: symbol(arrow);
+  stroke-dashoffset: 5;
+  stroke-dasharray: 4 50;
+  z-index: 45;
+  :stroke {
+    size: 7;
+    fill: grey;
+    stroke: none;
+    stroke-width: 5;
+  }
+}
 /* @title Streets in Cities (small) (2 lines) label 5k */
-["class_id"="62201000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62201000'] [@sd > 3000] [@sd < 5000] {
   stroke: #4b4b4b;
   stroke-opacity: 0.85;
   stroke-width: 10px;
   stroke-linecap: round;
   z-index: 10;
 }
-["class_id"="62201000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62201000'] [@sd > 3000] [@sd < 5000] {
   stroke: #fffefd;
   stroke-width: 9px;
   stroke-linecap: round;
@@ -362,28 +414,41 @@
   label-max-displacement: 400;
   label-repeat: 150;
 }
+/* @title Streets in Cities (small) oneway-arrow 5k */
+["class_id"='62201000'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
+  stroke: symbol(arrow);
+  stroke-dashoffset: 5;
+  stroke-dasharray: 4 50;
+  z-index: 45;
+  :stroke {
+    size: 7;
+    fill: grey;
+    stroke: none;
+    stroke-width: 5;
+  }
+}
 /* @title Streets in Villages (2 lines) 5k */
-["class_id"="62210000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62210000'] [@sd > 3000] [@sd < 5000] {
   stroke: #000000;
   stroke-opacity: 0.5;
   stroke-width: 6px;
   stroke-linecap: round;
   z-index: 9;
 }
-["class_id"="62210000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62210000'] [@sd > 3000] [@sd < 5000] {
   stroke: #fffefd;
   stroke-width: 5px;
   stroke-linecap: round;
   z-index: 36;
 }
 /* @title Underground Street (2 lines) 5k */
-["class_id"="62007000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62007000'] [@sd > 3000] [@sd < 5000] {
   stroke: #a3a2a2;
   stroke-width: 2.8px;
   stroke-linecap: round;
   z-index: 8;
 }
-["class_id"="62007000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62007000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffffff;
   stroke-width: 2.8px;
   stroke-dasharray: 0.3, 0.6;
@@ -391,13 +456,13 @@
   z-index: 35;
 }
 /* @title Underground Crossing 5k */
-["class_id"="62352000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62352000'] [@sd > 3000] [@sd < 5000] {
   stroke: #808080;
   stroke-width: 2.8px;
   stroke-linecap: round;
   z-index: 7;
 }
-["class_id"="62352000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62352000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffffff;
   stroke-width: 2.8px;
   stroke-dasharray: 1, 2;
@@ -405,13 +470,13 @@
   z-index: 36;
 }
 /* @title Stairway (2 lines) 5k */
-["class_id"="62351000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62351000'] [@sd > 3000] [@sd < 5000] {
   stroke: #808080;
   stroke-width: 2.8px;
   stroke-linecap: round;
   z-index: 6;
 }
-["class_id"="62351000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62351000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffffff;
   stroke-width: 2.8px;
   stroke-dasharray: 0.3, 0.3;
@@ -419,34 +484,34 @@
   z-index: 36;
 }
 /* @title Park Path 5k */
-["class_id"="62353000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62353000'] [@sd > 3000] [@sd < 5000] {
   stroke: #c3d366;
   stroke-width: 1.4px;
   stroke-linecap: round;
   z-index: 5;
 }
 /* @title Service or Access Road 5k */
-["class_id"="62201100"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62201100'] [@sd > 3000] [@sd < 5000] {
   stroke: #787878;
   stroke-width: 3.6px;
   stroke-linecap: butt;
   z-index: 4;
 }
 /* @title Rural Dirt (2 lines) 5k */
-["class_id"="62132000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62132000'] [@sd > 3000] [@sd < 5000] {
   stroke: #787878;
   stroke-width: 5.8px;
   stroke-linecap: butt;
   z-index: 3;
 }
-["class_id"="62132000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62132000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffffff;
   stroke-width: 3.2px;
   stroke-linecap: butt;
   z-index: 36;
 }
 /* @title Forest Dirt 5k */
-["class_id"="62133000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62133000'] [@sd > 3000] [@sd < 5000] {
   stroke: #797979;
   stroke-width: 3.6px;
   stroke-dasharray: 7.2, 3.2;
@@ -454,7 +519,7 @@
   z-index: 2;
 }
 /* @title Cart Road 5k */
-["class_id"="62151000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62151000'] [@sd > 3000] [@sd < 5000] {
   stroke: #797979;
   stroke-width: 3.6px;
   stroke-dasharray: 4.8, 2.4;
@@ -462,7 +527,7 @@
   z-index: 1;
 }
 /* @title Path 5k */
-["class_id"="62152000"] [@sd > 3000] [@sd < 5000] {
+["class_id"='62152000'] [@sd > 3000] [@sd < 5000] {
   stroke: #797979;
   stroke-width: 3.6px;
   stroke-dasharray: 2.4, 1.6;

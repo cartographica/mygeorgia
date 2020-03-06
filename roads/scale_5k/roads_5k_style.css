@@ -293,7 +293,9 @@
 ["class_id"='62001200'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
   stroke: symbol(arrow);
   stroke-dashoffset: 5;
-  stroke-dasharray: 4 50;
+  stroke-dasharray: 4 150;
+  stroke-repeat: repeat;
+  stroke-linejoin: round;
   z-index: 45;
   :stroke {
     size: 7;
@@ -379,7 +381,7 @@
 ["class_id"='62200000'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
   stroke: symbol(arrow);
   stroke-dashoffset: 5;
-  stroke-dasharray: 4 50;
+  stroke-dasharray: 4 75;
   z-index: 45;
   :stroke {
     size: 7;
@@ -418,7 +420,7 @@
 ["class_id"='62201000'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
   stroke: symbol(arrow);
   stroke-dashoffset: 5;
-  stroke-dasharray: 4 50;
+  stroke-dasharray: 4 75;
   z-index: 45;
   :stroke {
     size: 7;

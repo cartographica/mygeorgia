@@ -91,7 +91,7 @@
 ["class_id"='62001000'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
   stroke: symbol(arrow);
   stroke-dashoffset: 5;
-  stroke-dasharray: 4 50;
+  stroke-dasharray: 4 250;
   z-index: 45;
   :stroke {
     size: 7;
@@ -176,7 +176,7 @@
 ["class_id"='62002000'] ["one_way"='Y'] [@sd > 3000] [@sd < 5000] {
   stroke: symbol(arrow);
   stroke-dashoffset: 5;
-  stroke-dasharray: 4 50;
+  stroke-dasharray: 4 250;
   z-index: 45;
   :stroke {
     size: 7;

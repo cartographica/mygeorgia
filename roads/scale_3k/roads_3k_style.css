@@ -339,16 +339,16 @@
 }
 /* @title Improved Unpaved (2 lines) 3k */
 ["class_id"='62131000'] [@sd < 3000] {
-  stroke: #1a1a1a;
+  stroke: #787878;
   stroke-opacity: 0.85;
   stroke-width: 18.7px;
-  stroke-linecap: butt;
+  stroke-linecap: round;
   z-index: 12;
 }
 ["class_id"='62131000'] [@sd < 3000] {
   stroke: #ffffff;
-  stroke-width: 11.1px;
-  stroke-linecap: butt;
+  stroke-width: 14px;
+  stroke-linecap: round;
   z-index: 37;
 }
 /* @title Streets in Cities (big) 3k */

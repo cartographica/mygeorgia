@@ -342,13 +342,13 @@
   stroke: #787878;
   stroke-opacity: 0.85;
   stroke-width: 10px;
-  stroke-linecap: butt;
+  stroke-linecap: round;
   z-index: 12;
 }
 ["class_id"='62131000'] [@sd > 3000] [@sd < 5000] {
   stroke: #ffffff;
   stroke-width: 7.5px;
-  stroke-linecap: butt;
+  stroke-linecap: round;
   z-index: 37;
 }
 /* @title Streets in Cities (big) 5k */

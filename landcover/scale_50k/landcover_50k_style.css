@@ -152,9 +152,28 @@
 
 /* @title Bush Plantation 50k */
 ["class_id"='71712000'] [@sd < 150000],
-["class_id"='71721000'] [@sd < 150000],
-["class_id"='71722000'] [@sd < 150000] {
+["class_id"='71721000'] [@sd < 150000] {
   fill: #c8d38d, symbol('shape://vertline');
+  fill-opacity: 0.5;
+  z-index: 1, 2;
+  fill-random: free;
+  fill-random-seed: 10;
+  fill-random-rotation: none;
+  fill-random-symbol-count: 1;
+  fill-random-tile-size: 30;
+  :fill {
+    size: 4;
+    stroke: #576831;
+    stroke-width: 1;
+    stroke-linecap: mitter;
+  }
+}
+
+/* @title Bush Plantation 50k */
+["class_id"='71722000'] [@sd < 150000] {
+  fill: #c8d38d, url(https://svgshare.com/i/J4B.svg);
+  fill-mime: "image/svg";
+  fill-size: 30px;
   fill-opacity: 0.5;
   z-index: 1, 2;
   fill-random: free;

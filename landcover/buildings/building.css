@@ -1,0 +1,50 @@
+/* @title buidlings */
+* [@sd > 5000] [@sd < 50000] {
+    stroke: #c8bcb2;
+    stroke-width: 0.5;
+    fill: #d9d0c9;
+    z-index:1;
+}
+/* @title buidlings */
+* [@sd < 50000]{
+    fill-geometry: [offset(geom, 1.5, -1.5)];
+    fill: darkgray;
+    z-index:0;
+}
+
+/* @title buidlings */
+* [@sd > 2000] [@sd < 5000] {
+    stroke: #c8bcb2;
+    stroke-width: 0.5;
+    fill: #d9d0c9;
+    z-index:1;
+    label: [house_number];
+    label-group: true;
+    halo-radius:2;
+    halo-color:white;
+    halo-opacity:0.6;
+    font-family: Arial;
+    font-weight: normal;
+    font-fill: black;
+    font-size: 8;
+    label-anchor: 0.5 0.5;
+}
+
+/* @title buidlings */
+* [@sd < 2000] {
+    stroke: #c8bcb2;
+    stroke-width: 0.5;
+    fill: #d9d0c9;
+    z-index:1;
+    label: [strt_addr_geo];
+    label-group: true;
+    label-conflict-resolution: true;
+    halo-radius: 2;
+    halo-color:white;
+    halo-opacity: 0.6;
+    font-family: Arial;
+    font-weight: normal;
+    font-fill: black;
+    font-size: 10;
+    label-anchor: 0.5 0.5;
+}

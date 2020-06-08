@@ -1,5 +1,5 @@
 /* @title settlements 50k */
-* [@sd > 100000] [@sd < 200000] {
+* [@sd < 200000] {
     label: [set_geo];
     halo-radius: 2;
     halo-color: white;
@@ -38,7 +38,7 @@
 }
 
 /* ------ 200k labels ------ */
-* ["urb_stat" = '1'] ["pop_range" = '1'] [@sd > 100000] [@sd > 100000] [@sd < 200000] {
+* ["urb_stat" = '1'] ["pop_range" = '1'] [@sd > 100000] [@sd < 200000] {
     font-size: 20;
 }
 

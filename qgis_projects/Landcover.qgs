@@ -19,15 +19,15 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer providerKey="postgres" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table=&quot;subtypes&quot;.&quot;st_landcoverpoly&quot; sql=" expanded="1" id="st_landcoverpoly_7609d119_57a3_42ef_b4bd_bd4094f560e1" checked="Qt::Checked" name="st_landcoverpoly">
+    <layer-tree-layer providerKey="postgres" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table=&quot;subtypes&quot;.&quot;st_landcoverpoly&quot; sql=" expanded="1" id="st_landcoverpoly_7609d119_57a3_42ef_b4bd_bd4094f560e1" checked="Qt::Checked" name="st_landcoverpoly">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="postgres" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id_0' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;landcover&quot;.&quot;gl_50_landcoverpoly&quot; (geom) sql=" expanded="0" id="LANDCOVER_POLY2020030514184796630068" checked="Qt::Checked" name="Landcover_poly">
+    <layer-tree-layer providerKey="postgres" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id_0' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;landcover&quot;.&quot;gl_50_landcoverpoly&quot; (geom) sql=" expanded="0" id="LANDCOVER_POLY2020030514184796630068" checked="Qt::Checked" name="Landcover_poly">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="postgres" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Geoland_Cartography' sslmode=disable key='id_0' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;landcover&quot;.&quot;gl_50_landcoverpoly&quot; (geom) sql=" expanded="0" id="LANDCOVER_POLY2020030611415123912247" checked="Qt::Unchecked" name="Landcover_poly_xyz">
+    <layer-tree-layer providerKey="postgres" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id_0' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;landcover&quot;.&quot;gl_50_landcoverpoly&quot; (geom) sql=" expanded="0" id="LANDCOVER_POLY2020030611415123912247" checked="Qt::Unchecked" name="Landcover_poly_xyz">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -35,7 +35,7 @@
     <layer-tree-layer providerKey="wms" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://a.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" expanded="1" id="OpenStreetMap_63610b4b_7fb7_476f_9085_296da596ff20" checked="Qt::Unchecked" name="OpenStreetMap">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="postgres" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_200k&quot;.&quot;gl_200_landcover_poly&quot; (geom) sql=" expanded="0" id="მიწის_საფარი_copy2020030917222335311172" checked="Qt::Unchecked" name="Landcover 200k">
+    <layer-tree-layer providerKey="postgres" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_200k&quot;.&quot;gl_200_landcover_poly&quot; (geom) sql=" expanded="0" id="მიწის_საფარი_copy2020030917222335311172" checked="Qt::Unchecked" name="Landcover 200k">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -118,7 +118,7 @@
         <ymax>4861735.80099999997764826</ymax>
       </extent>
       <id>LANDCOVER_POLY2020030514184796630068</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id_0' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="landcover"."gl_50_landcoverpoly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id_0' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="landcover"."gl_50_landcoverpoly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2075,7 +2075,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4861735.80099999997764826</ymax>
       </extent>
       <id>LANDCOVER_POLY2020030611415123912247</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Geoland_Cartography' password='Geoland_Cartography' sslmode=disable key='id_0' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="landcover"."gl_50_landcoverpoly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id_0' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="landcover"."gl_50_landcoverpoly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4117,7 +4117,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" readOnly="0" type="vector" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" geometry="No geometry" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" maxScale="0">
       <id>st_landcoverpoly_7609d119_57a3_42ef_b4bd_bd4094f560e1</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table="subtypes"."st_landcoverpoly" sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table="subtypes"."st_landcoverpoly" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4290,7 +4290,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4852548.20626113004982471</ymax>
       </extent>
       <id>მიწის_საფარი_copy2020030917222335311172</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_200k"."gl_200_landcover_poly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_200k"."gl_200_landcover_poly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>

@@ -23,22 +23,22 @@
       <customproperties/>
       <layer-tree-group name="წარწერები_ქართული" checked="Qt::Unchecked" expanded="1">
         <customproperties/>
-        <layer-tree-layer name="anno_650k_countires_geo" providerKey="postgres" id="anno_650k_countires_geo_fbda9d3b_7045_43e1_9aaa_1516e912510c" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_countires_geo&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="anno_650k_countires_geo" providerKey="postgres" id="anno_650k_countires_geo_fbda9d3b_7045_43e1_9aaa_1516e912510c" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_countires_geo&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="ანოტაცია_ჰორიზონტალური" providerKey="postgres" id="anno_650k_horizontal_lines_copy2018032912094197022659" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_horizontal_pnt&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="ანოტაცია_ჰორიზონტალური" providerKey="postgres" id="anno_650k_horizontal_lines_copy2018032912094197022659" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_horizontal_pnt&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="ანოტაცია_მრუდი" providerKey="postgres" id="anno_650k_curved_lines20180329161348717" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_curved_lines&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="ანოტაცია_მრუდი" providerKey="postgres" id="anno_650k_curved_lines20180329161348717" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_curved_lines&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="ანოტაცია_კავკასიონი" providerKey="postgres" id="anno_1000k_caucasus_geo2017030617525356117395" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_caucasus_geo&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="ანოტაცია_კავკასიონი" providerKey="postgres" id="anno_1000k_caucasus_geo2017030617525356117395" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_caucasus_geo&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
@@ -46,63 +46,63 @@
       </layer-tree-group>
       <layer-tree-group name="რუკის ფენები" checked="Qt::Unchecked" expanded="0">
         <customproperties/>
-        <layer-tree-layer name="საინტერესო ობიექტები" providerKey="postgres" id="gl_1000k_poi_copy2017030617525356110565" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_poi&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="საინტერესო ობიექტები" providerKey="postgres" id="gl_1000k_poi_copy2017030617525356110565" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_poi&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="სიმაღლის ნიშნულები" providerKey="postgres" id="gl_1000k_summit_pass_copy2017030617525356116196" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_summit_pass&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="სიმაღლის ნიშნულები" providerKey="postgres" id="gl_1000k_summit_pass_copy2017030617525356116196" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_summit_pass&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="დასახლებული პუნქტები" providerKey="postgres" id="gl_1000k_settlements_copy2017030617525356116610" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_settlements&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="დასახლებული პუნქტები" providerKey="postgres" id="gl_1000k_settlements_copy2017030617525356116610" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_settlements&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="საზღვრები" providerKey="postgres" id="gl_1000k_administrative_line_GEORGIA_copy201703061752535616120" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="საზღვრები" providerKey="postgres" id="gl_1000k_administrative_line_GEORGIA_copy201703061752535616120" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
             <property value="1" key="overview"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="ოკუპირებული ტერიტორია" providerKey="postgres" id="ოკუპირებული_ტერიტორია_copy2017030617525357710550" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_region&quot; (geom) sql=&quot;occupied&quot; = 1" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="ოკუპირებული ტერიტორია" providerKey="postgres" id="ოკუპირებული_ტერიტორია_copy2017030617525357710550" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_region&quot; (geom) sql=&quot;occupied&quot; = 1" checked="Qt::Unchecked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="გზები" providerKey="postgres" id="gl_1000k_roads_copy2017030617525357725939" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_roads&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="გზები" providerKey="postgres" id="gl_1000k_roads_copy2017030617525357725939" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_roads&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="რკინიგზები" providerKey="postgres" id="gl_1000k_railroad_copy201703061752535777149" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_railroad&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="რკინიგზები" providerKey="postgres" id="gl_1000k_railroad_copy201703061752535777149" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_railroad&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="დაცული ტერიტორიების" providerKey="postgres" id="gl_1000k_protected_areas_line_copy2017030617525357725212" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_line&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="დაცული ტერიტორიების" providerKey="postgres" id="gl_1000k_protected_areas_line_copy2017030617525357725212" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_line&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="ჰიდროგრაფია (პოლიგონი)" providerKey="postgres" id="gl_1000k_Hydrography_poly_copy201703061752535773624" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="ჰიდროგრაფია (პოლიგონი)" providerKey="postgres" id="gl_1000k_Hydrography_poly_copy201703061752535773624" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="gl_1000k_administrative_poly" providerKey="postgres" id="gl_1000k_administrative_poly_de013e09_839b_44b1_be2f_b0b8e606a26c" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_poly&quot; (geom) sql=&quot;state&quot; in ( 'BSE', 'KSP')" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="gl_1000k_administrative_poly" providerKey="postgres" id="gl_1000k_administrative_poly_de013e09_839b_44b1_be2f_b0b8e606a26c" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_poly&quot; (geom) sql=&quot;state&quot; in ( 'BSE', 'KSP')" checked="Qt::Unchecked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="მდინარე" providerKey="postgres" id="gl_1000k_rivers_copy201703061752535774553" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_rivers&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="მდინარე" providerKey="postgres" id="gl_1000k_rivers_copy201703061752535774553" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_rivers&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="დაცული ტერიტორიები (პოლიგონი)" providerKey="postgres" id="gl_1000k_protected_areas_poly_copy201703061752535779450" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_poly&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="დაცული ტერიტორიები (პოლიგონი)" providerKey="postgres" id="gl_1000k_protected_areas_poly_copy201703061752535779450" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_poly&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
@@ -113,22 +113,22 @@
       <customproperties/>
       <layer-tree-group name="Anno_ENG" checked="Qt::Checked" expanded="1">
         <customproperties/>
-        <layer-tree-layer name="anno_650k_countires_eng" providerKey="postgres" id="anno_650k_countires_eng_ecfa3cc5_6e68_4315_bc49_b2cc5e3ae6b4" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_countires_eng&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="anno_650k_countires_eng" providerKey="postgres" id="anno_650k_countires_eng_ecfa3cc5_6e68_4315_bc49_b2cc5e3ae6b4" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_countires_eng&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="anno_650k_curved_lines" providerKey="postgres" id="anno_650k_curved_lines20180329162335946" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_curved_lines&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="anno_650k_curved_lines" providerKey="postgres" id="anno_650k_curved_lines20180329162335946" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_curved_lines&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="anno_650k_horizontal_pnt" providerKey="postgres" id="anno_650k_horizontal_lines20180329142524627" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_horizontal_pnt&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="anno_650k_horizontal_pnt" providerKey="postgres" id="anno_650k_horizontal_lines20180329142524627" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_horizontal_pnt&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Anno_caucasus" providerKey="postgres" id="anno_1000k_caucasus_eng201703061752249877953" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_caucasus_eng&quot; (geom) sql=" checked="Qt::Checked" expanded="1">
+        <layer-tree-layer name="Anno_caucasus" providerKey="postgres" id="anno_1000k_caucasus_eng201703061752249877953" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_caucasus_eng&quot; (geom) sql=" checked="Qt::Checked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
@@ -146,73 +146,73 @@
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Monuments 50k" providerKey="postgres" id="GL_50_Poi_copy201802018201802018020190201908301230010099594" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;gl_50_poi&quot; (geom) sql=&quot;scale&quot; >= 650" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="Monuments 50k" providerKey="postgres" id="GL_50_Poi_copy201802018201802018020190201908301230010099594" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;gl_50_poi&quot; (geom) sql=&quot;scale&quot; >= 650" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Monuments" providerKey="postgres" id="gl_1000k_poi_copy2017030617522498715887" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_poi&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="Monuments" providerKey="postgres" id="gl_1000k_poi_copy2017030617522498715887" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_poi&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Summit/Pass" providerKey="postgres" id="gl_1000k_summit_pass_copy201703061752250031450" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_summit_pass&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="Summit/Pass" providerKey="postgres" id="gl_1000k_summit_pass_copy201703061752250031450" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_summit_pass&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Settlements" providerKey="postgres" id="gl_1000k_settlements_copy201703061752250033778" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_settlements&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="Settlements" providerKey="postgres" id="gl_1000k_settlements_copy201703061752250033778" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_settlements&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="State Boundary" providerKey="postgres" id="gl_1000k_administrative_line_GEORGIA_copy2017030617522500315601" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="State Boundary" providerKey="postgres" id="gl_1000k_administrative_line_GEORGIA_copy2017030617522500315601" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Russian Occupation zone" providerKey="postgres" id="ოკუპირებული_ტერიტორია_copy201703061752250033764" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_region&quot; (geom) sql=&quot;occupied&quot; = 1  AND &quot;state&quot; = 'GEO'" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="Russian Occupation zone" providerKey="postgres" id="ოკუპირებული_ტერიტორია_copy201703061752250033764" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_region&quot; (geom) sql=&quot;occupied&quot; = 1  AND &quot;state&quot; = 'GEO'" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Armenian_occupation_zone" providerKey="postgres" id="gl_1000k_karabakh_occupation_zone_ad3c6fec_c272_44c1_92f0_02ddefba7210" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_karabakh_occupation_zone&quot; (geom) sql=" checked="Qt::Checked" expanded="1">
+        <layer-tree-layer name="Armenian_occupation_zone" providerKey="postgres" id="gl_1000k_karabakh_occupation_zone_ad3c6fec_c272_44c1_92f0_02ddefba7210" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_karabakh_occupation_zone&quot; (geom) sql=" checked="Qt::Checked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Region Boundary" providerKey="postgres" id="State_Boundary_587fbb8a_1aab_4c1b_8ba7_f580d89078db" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=LineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="Region Boundary" providerKey="postgres" id="State_Boundary_587fbb8a_1aab_4c1b_8ba7_f580d89078db" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=LineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
             <property value="1" key="overview"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Roads" providerKey="postgres" id="gl_1000k_roads_copy2017030617522500330520" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_roads&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="Roads" providerKey="postgres" id="gl_1000k_roads_copy2017030617522500330520" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_roads&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Railways" providerKey="postgres" id="gl_1000k_railroad_copy201703061752250031924" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_railroad&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="Railways" providerKey="postgres" id="gl_1000k_railroad_copy201703061752250031924" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_railroad&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Hydrography (Polygon)" providerKey="postgres" id="gl_1000k_landcover_poly_copy2017030617522500312133" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="Hydrography (Polygon)" providerKey="postgres" id="gl_1000k_landcover_poly_copy2017030617522500312133" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="River" providerKey="postgres" id="gl_1000k_rivers2017040718074830912951" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_rivers&quot; (geom) sql=" checked="Qt::Checked" expanded="1">
+        <layer-tree-layer name="River" providerKey="postgres" id="gl_1000k_rivers2017040718074830912951" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_rivers&quot; (geom) sql=" checked="Qt::Checked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Protected areas" providerKey="postgres" id="დაცული_ტერიტორიები__პოლიგონი__copy20180329163635941" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_poly&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+        <layer-tree-layer name="Protected areas" providerKey="postgres" id="დაცული_ტერიტორიები__პოლიგონი__copy20180329163635941" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_poly&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer name="Sea" providerKey="postgres" id="gl_1000k_administrative_poly_de013e09_839b_44b1_2018070516095386715167" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_poly&quot; (geom) sql=&quot;state&quot; in ( 'BSE', 'KSP')" checked="Qt::Checked" expanded="1">
+        <layer-tree-layer name="Sea" providerKey="postgres" id="gl_1000k_administrative_poly_de013e09_839b_44b1_2018070516095386715167" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_poly&quot; (geom) sql=&quot;state&quot; in ( 'BSE', 'KSP')" checked="Qt::Checked" expanded="1">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
@@ -223,56 +223,56 @@
       <customproperties/>
       <layer-tree-group name="anotacia_РУССКИЕ " checked="Qt::Unchecked" expanded="1">
         <customproperties/>
-        <layer-tree-layer name="anno_650k_curved_lines" providerKey="postgres" id="anno_650k_curved_lines20180329164344979" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_curved_lines&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="anno_650k_curved_lines" providerKey="postgres" id="anno_650k_curved_lines20180329164344979" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_curved_lines&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="anno_650k_horizontal_lines" providerKey="postgres" id="anno_650k_horizontal_lines20180329152611517" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_horizontal_pnt&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="anno_650k_horizontal_lines" providerKey="postgres" id="anno_650k_horizontal_lines20180329152611517" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_horizontal_pnt&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Анно_Кавказский хребет_rus" providerKey="postgres" id="anno_1000k_caucasus_rus20161130111622176" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_caucasus_rus&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="Анно_Кавказский хребет_rus" providerKey="postgres" id="anno_1000k_caucasus_rus20161130111622176" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;anno_650k_caucasus_rus&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group name="РУССКИЕ " checked="Qt::Unchecked" expanded="1">
         <customproperties/>
-        <layer-tree-layer name="Монументы" providerKey="postgres" id="gl_1000k_poi_copy20161115102259840" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_poi&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="Монументы" providerKey="postgres" id="gl_1000k_poi_copy20161115102259840" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_poi&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Высоты" providerKey="postgres" id="gl_1000k_summit_pass_copy20161115102300163" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_summit_pass&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="Высоты" providerKey="postgres" id="gl_1000k_summit_pass_copy20161115102300163" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_summit_pass&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Населенные пункты" providerKey="postgres" id="gl_1000k_settlements_copy20161115172653321" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_settlements&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="Населенные пункты" providerKey="postgres" id="gl_1000k_settlements_copy20161115172653321" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_settlements&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Границы" providerKey="postgres" id="gl_1000k_administrative_line_GEORGIA_copy20161115102300361" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="Границы" providerKey="postgres" id="gl_1000k_administrative_line_GEORGIA_copy20161115102300361" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Зона окупации" providerKey="postgres" id="ოკუპირებული_ტერიტორია_copy20161115102300971" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_region&quot; (geom) sql=&quot;occupied&quot; = 1" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="Зона окупации" providerKey="postgres" id="ოკუპირებული_ტერიტორია_copy20161115102300971" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_region&quot; (geom) sql=&quot;occupied&quot; = 1" checked="Qt::Unchecked" expanded="1">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Дороги" providerKey="postgres" id="gl_1000k_roads_copy20161115102301648" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_roads&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="Дороги" providerKey="postgres" id="gl_1000k_roads_copy20161115102301648" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_roads&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Железные дороги" providerKey="postgres" id="gl_1000k_railroad_copy20161115102301530" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_railroad&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="Железные дороги" providerKey="postgres" id="gl_1000k_railroad_copy20161115102301530" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_railroad&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Природоохранная зона" providerKey="postgres" id="gl_1000k_protected_areas_line_copy20161128121704636" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_line&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="Природоохранная зона" providerKey="postgres" id="gl_1000k_protected_areas_line_copy20161128121704636" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_line&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Гидрография (полиггон)" providerKey="postgres" id="gl_1000k_Hydrography_poly_copy20161128121705059" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="Гидрография (полиггон)" providerKey="postgres" id="gl_1000k_Hydrography_poly_copy20161128121705059" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Реки, каналы" providerKey="postgres" id="gl_1000k_rivers_copy20161115102301747" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_rivers&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
+        <layer-tree-layer name="Реки, каналы" providerKey="postgres" id="gl_1000k_rivers_copy20161115102301747" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_rivers&quot; (geom) sql=" checked="Qt::Unchecked" expanded="1">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer name="Природоохранная зона (полигон)" providerKey="postgres" id="gl_1000k_protected_areas_poly_copy20161128121705261" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_poly&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
+        <layer-tree-layer name="Природоохранная зона (полигон)" providerKey="postgres" id="gl_1000k_protected_areas_poly_copy20161128121705261" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_protected_areas_poly&quot; (geom) sql=" checked="Qt::Unchecked" expanded="0">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
     <layer-tree-group name="Background" checked="Qt::Checked" expanded="0">
       <customproperties/>
-      <layer-tree-layer name="gl_1000k_landcover_poly" providerKey="postgres" id="gl_1000k_landcover_poly_copy2018032917093270210772" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+      <layer-tree-layer name="gl_1000k_landcover_poly" providerKey="postgres" id="gl_1000k_landcover_poly_copy2018032917093270210772" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
         <customproperties>
           <property key="expandedLegendNodes"/>
           <property value="1" key="overview"/>
@@ -284,7 +284,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer name="st_quadrant" providerKey="postgres" id="st_quadrant20170324173311498" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='class_id' checkPrimaryKeyUnicity='1' table=&quot;subtypes&quot;.&quot;st_quadrant&quot; sql=" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer name="st_quadrant" providerKey="postgres" id="st_quadrant20170324173311498" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='class_id' checkPrimaryKeyUnicity='1' table=&quot;subtypes&quot;.&quot;st_quadrant&quot; sql=" checked="Qt::Checked" expanded="1">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -729,7 +729,7 @@
         <ymax>4789028.08027308993041515</ymax>
       </extent>
       <id>GL_50_Poi_copy201802018201802018020190201908301230010099594</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="public"."gl_50_poi" (geom) sql="scale" >= 650</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="public"."gl_50_poi" (geom) sql="scale" >= 650</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -26596,7 +26596,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5034132.2026791600510478</ymax>
       </extent>
       <id>State_Boundary_587fbb8a_1aab_4c1b_8ba7_f580d89078db</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=LineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_line" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=LineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_line" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -27857,7 +27857,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4844355.48909750021994114</ymax>
       </extent>
       <id>anno_1000k_caucasus_eng201703061752249877953</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_eng" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_eng" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -28138,7 +28138,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4851424.56721314042806625</ymax>
       </extent>
       <id>anno_1000k_caucasus_geo2017030617525356117395</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_geo" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_geo" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -28404,7 +28404,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4847940.38404208980500698</ymax>
       </extent>
       <id>anno_1000k_caucasus_rus20161130111622176</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_rus" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=MultiPoint checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_rus" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -28653,7 +28653,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4844355.48909750021994114</ymax>
       </extent>
       <id>anno_650k_caucasus_eng_9f16b827_f744_420b_80c7_7a6188697b22</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_eng" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_eng" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -28827,7 +28827,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4851424.56721314042806625</ymax>
       </extent>
       <id>anno_650k_caucasus_geo_ecf3b1cd_d68d_41b2_b76e_2bbd63e99f0a</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_geo" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_caucasus_geo" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -29012,7 +29012,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4922859.68662208970636129</ymax>
       </extent>
       <id>anno_650k_countires_eng_5f18cd47_99c0_4584_8dff_1abddd58e8f3</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_countires_eng" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_countires_eng" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -29186,7 +29186,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4922859.68662208970636129</ymax>
       </extent>
       <id>anno_650k_countires_eng_ecfa3cc5_6e68_4315_bc49_b2cc5e3ae6b4</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_countires_eng" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_countires_eng" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -29454,7 +29454,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4922859.68662208970636129</ymax>
       </extent>
       <id>anno_650k_countires_geo_fbda9d3b_7045_43e1_9aaa_1516e912510c</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_countires_geo" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_countires_geo" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -29715,7 +29715,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4861719.22139859013259411</ymax>
       </extent>
       <id>anno_650k_curved_lines20180329161348717</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_curved_lines" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_curved_lines" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -30478,7 +30478,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4861719.22139859013259411</ymax>
       </extent>
       <id>anno_650k_curved_lines20180329162335946</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_curved_lines" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_curved_lines" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -31291,7 +31291,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4861719.22139859013259411</ymax>
       </extent>
       <id>anno_650k_curved_lines20180329164344979</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_curved_lines" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_curved_lines" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -32053,7 +32053,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5021655.24350577965378761</ymax>
       </extent>
       <id>anno_650k_horizontal_lines20180329142524627</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_horizontal_pnt" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_horizontal_pnt" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -33609,7 +33609,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5021655.24350577965378761</ymax>
       </extent>
       <id>anno_650k_horizontal_lines20180329152611517</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_horizontal_pnt" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_horizontal_pnt" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -34968,7 +34968,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5021655.24350577965378761</ymax>
       </extent>
       <id>anno_650k_horizontal_lines_copy2018032912094197022659</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_horizontal_pnt" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' checkPrimaryKeyUnicity='1' table="gl_1000k"."anno_650k_horizontal_pnt" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -36384,7 +36384,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5033365.3787424499168992</ymax>
       </extent>
       <id>gl_1000k_Hydrography_poly_copy20161128121705059</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_landcover_poly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_landcover_poly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -37048,7 +37048,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5033365.3787424499168992</ymax>
       </extent>
       <id>gl_1000k_Hydrography_poly_copy201703061752535773624</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_landcover_poly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_landcover_poly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -37714,7 +37714,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5034132.2026791600510478</ymax>
       </extent>
       <id>gl_1000k_administrative_line_GEORGIA_copy20161115102300361</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_line" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_line" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -38814,7 +38814,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5034132.2026791600510478</ymax>
       </extent>
       <id>gl_1000k_administrative_line_GEORGIA_copy2017030617522500315601</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_line" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_line" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -39838,7 +39838,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5034132.2026791600510478</ymax>
       </extent>
       <id>gl_1000k_administrative_line_GEORGIA_copy201703061752535616120</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_line" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_line" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -41639,7 +41639,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5033711.8849827703088522</ymax>
       </extent>
       <id>gl_1000k_administrative_poly_41cff0cb_9e60_47bb_af3e_0ec144e59062</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_poly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_poly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -41916,7 +41916,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5033691.91416675038635731</ymax>
       </extent>
       <id>gl_1000k_administrative_poly_de013e09_839b_44b1_2018070516095386715167</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_poly" (geom) sql="state" in ( 'BSE', 'KSP')</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_poly" (geom) sql="state" in ( 'BSE', 'KSP')</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -42290,7 +42290,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5033691.91416675038635731</ymax>
       </extent>
       <id>gl_1000k_administrative_poly_de013e09_839b_44b1_be2f_b0b8e606a26c</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_poly" (geom) sql="state" in ( 'BSE', 'KSP')</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_administrative_poly" (geom) sql="state" in ( 'BSE', 'KSP')</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -42664,7 +42664,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4473576.86663115955889225</ymax>
       </extent>
       <id>gl_1000k_karabakh_occupation_zone_ad3c6fec_c272_44c1_92f0_02ddefba7210</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_karabakh_occupation_zone" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_karabakh_occupation_zone" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -43022,7 +43022,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4473576.86663115955889225</ymax>
       </extent>
       <id>gl_1000k_karabakh_occupation_zone_bb7dbca5_48ac_49e1_b5e3_f60d7ee07c8b</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_karabakh_occupation_zone" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_karabakh_occupation_zone" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -43235,7 +43235,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4473576.86663115955889225</ymax>
       </extent>
       <id>gl_1000k_karabakh_occupation_zone_fe012a1d_6e79_4184_919e_24abe58903fb</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_karabakh_occupation_zone" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_karabakh_occupation_zone" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -43448,7 +43448,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5033365.3787424499168992</ymax>
       </extent>
       <id>gl_1000k_landcover_poly_copy2017030617522500312133</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_landcover_poly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_landcover_poly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -44113,7 +44113,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5033365.3787424499168992</ymax>
       </extent>
       <id>gl_1000k_landcover_poly_copy2018032917093270210772</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_landcover_poly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_landcover_poly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -44676,7 +44676,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5020297.29258628003299236</ymax>
       </extent>
       <id>gl_1000k_poi_copy20161115102259840</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_poi" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_poi" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -48798,7 +48798,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5020297.29258628003299236</ymax>
       </extent>
       <id>gl_1000k_poi_copy2017030617522498715887</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_poi" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_poi" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -53374,7 +53374,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5020297.29258628003299236</ymax>
       </extent>
       <id>gl_1000k_poi_copy2017030617525356110565</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_poi" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_poi" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -57550,7 +57550,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5024720.34347038995474577</ymax>
       </extent>
       <id>gl_1000k_protected_areas_line20170410143034297</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_line" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_line" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -57759,7 +57759,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5024720.34347038995474577</ymax>
       </extent>
       <id>gl_1000k_protected_areas_line_copy20161128121704636</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_line" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_line" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -58010,7 +58010,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5024720.34347038995474577</ymax>
       </extent>
       <id>gl_1000k_protected_areas_line_copy2017030617525357725212</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_line" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_line" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -58263,7 +58263,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5024720.34347038995474577</ymax>
       </extent>
       <id>gl_1000k_protected_areas_poly_copy20161128121705261</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_poly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_poly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -58693,7 +58693,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5024720.34347038995474577</ymax>
       </extent>
       <id>gl_1000k_protected_areas_poly_copy201703061752535779450</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_poly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_poly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -59125,7 +59125,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5044962.56364925019443035</ymax>
       </extent>
       <id>gl_1000k_railroad_copy20161115102301530</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_railroad" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_railroad" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -59504,7 +59504,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5044962.56364925019443035</ymax>
       </extent>
       <id>gl_1000k_railroad_copy201703061752250031924</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_railroad" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_railroad" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -59942,7 +59942,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5044962.56364925019443035</ymax>
       </extent>
       <id>gl_1000k_railroad_copy201703061752535777149</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_railroad" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_railroad" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -60323,7 +60323,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5050472.6229183804243803</ymax>
       </extent>
       <id>gl_1000k_rivers2017040718074830912951</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_rivers" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_rivers" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -61034,7 +61034,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5050472.6229183804243803</ymax>
       </extent>
       <id>gl_1000k_rivers_copy20161115102301747</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_rivers" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_rivers" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -61723,7 +61723,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5050472.6229183804243803</ymax>
       </extent>
       <id>gl_1000k_rivers_copy201703061752535774553</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_rivers" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_rivers" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -62449,7 +62449,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5053237.91495294962078333</ymax>
       </extent>
       <id>gl_1000k_roads_copy20161115102301648</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_roads" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_roads" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -63265,7 +63265,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5053237.91495294962078333</ymax>
       </extent>
       <id>gl_1000k_roads_copy2017030617522500330520</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_roads" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_roads" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -64227,7 +64227,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5053237.91495294962078333</ymax>
       </extent>
       <id>gl_1000k_roads_copy2017030617525357725939</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_roads" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_roads" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -65045,7 +65045,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5032263.08750000037252903</ymax>
       </extent>
       <id>gl_1000k_settlements_copy20161115172653321</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_settlements" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_settlements" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -66783,7 +66783,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5032263.08750000037252903</ymax>
       </extent>
       <id>gl_1000k_settlements_copy201703061752250033778</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_settlements" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_settlements" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -68710,7 +68710,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5032263.08750000037252903</ymax>
       </extent>
       <id>gl_1000k_settlements_copy2017030617525356116610</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_settlements" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_settlements" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -70518,7 +70518,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4978116.52710699010640383</ymax>
       </extent>
       <id>gl_1000k_summit_pass_copy20161115102300163</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_summit_pass" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_summit_pass" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -71793,7 +71793,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4978116.52710699010640383</ymax>
       </extent>
       <id>gl_1000k_summit_pass_copy201703061752250031450</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_summit_pass" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_summit_pass" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -73211,7 +73211,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4978116.52710699010640383</ymax>
       </extent>
       <id>gl_1000k_summit_pass_copy2017030617525356116196</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_summit_pass" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_summit_pass" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -74985,7 +74985,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer autoRefreshEnabled="0" maxScale="0" readOnly="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" geometry="No geometry" autoRefreshTime="0" minScale="1e+08">
       <id>st_quadrant20170324173311498</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='class_id' checkPrimaryKeyUnicity='1' table="subtypes"."st_quadrant" sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='class_id' checkPrimaryKeyUnicity='1' table="subtypes"."st_quadrant" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -75509,7 +75509,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>5024720.34347038995474577</ymax>
       </extent>
       <id>დაცული_ტერიტორიები__პოლიგონი__copy20180329163635941</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_poly" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_protected_areas_poly" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -76614,7 +76614,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4837212.06886375974863768</ymax>
       </extent>
       <id>ოკუპირებული_ტერიტორია_copy20161115102300971</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_region" (geom) sql="occupied" = 1</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_region" (geom) sql="occupied" = 1</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -76945,7 +76945,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4837212.06886375974863768</ymax>
       </extent>
       <id>ოკუპირებული_ტერიტორია_copy201703061752250033764</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_region" (geom) sql="occupied" = 1  AND "state" = 'GEO'</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_region" (geom) sql="occupied" = 1  AND "state" = 'GEO'</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -77415,7 +77415,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>4837212.06886375974863768</ymax>
       </extent>
       <id>ოკუპირებული_ტერიტორია_copy2017030617525357710550</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_region" (geom) sql="occupied" = 1</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_region" (geom) sql="occupied" = 1</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -78621,45 +78621,45 @@ def my_form_open(dialog, layer, feature):
         </styles>
         <layer-tree-group>
           <customproperties/>
-          <layer-tree-layer name="საინტერესო ობიექტები" providerKey="postgres" id="gl_1000k_poi_copy2017030617525356110565" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_poi&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+          <layer-tree-layer name="საინტერესო ობიექტები" providerKey="postgres" id="gl_1000k_poi_copy2017030617525356110565" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_poi&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer name="საზღვრები" providerKey="postgres" id="gl_1000k_administrative_line_GEORGIA_copy201703061752535616120" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+          <layer-tree-layer name="საზღვრები" providerKey="postgres" id="gl_1000k_administrative_line_GEORGIA_copy201703061752535616120" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_administrative_line&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
             <customproperties>
               <property value="0,6,10" key="legend/node-order"/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer name="გზები" providerKey="postgres" id="gl_1000k_roads_copy2017030617525357725939" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_roads&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+          <layer-tree-layer name="გზები" providerKey="postgres" id="gl_1000k_roads_copy2017030617525357725939" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_roads&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
             <customproperties>
               <property value="0,1,2,3,5,6,7" key="legend/node-order"/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer name="რკინიგზები" providerKey="postgres" id="gl_1000k_railroad_copy201703061752535777149" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_railroad&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+          <layer-tree-layer name="რკინიგზები" providerKey="postgres" id="gl_1000k_railroad_copy201703061752535777149" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_railroad&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
             <customproperties/>
           </layer-tree-layer>
-          <layer-tree-layer name="დასახლებული პუნქტები" providerKey="postgres" id="gl_1000k_settlements_copy2017030617525356116610" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_settlements&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+          <layer-tree-layer name="დასახლებული პუნქტები" providerKey="postgres" id="gl_1000k_settlements_copy2017030617525356116610" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='id' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_settlements&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
             <customproperties>
               <property value="0,1,2,3,4,6,7" key="legend/node-order"/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer name="ჰიდროგრაფია (პოლიგონი)" providerKey="postgres" id="gl_1000k_Hydrography_poly_copy201703061752535773624" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+          <layer-tree-layer name="ჰიდროგრაფია (პოლიგონი)" providerKey="postgres" id="gl_1000k_Hydrography_poly_copy201703061752535773624" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_landcover_poly&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
             <customproperties>
               <property value="0,1,4" key="legend/node-order"/>
               <property value="ჰიდროგრაფია" key="legend/title-label"/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer name="მდინარე" providerKey="postgres" id="gl_1000k_rivers_copy201703061752535774553" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_rivers&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+          <layer-tree-layer name="მდინარე" providerKey="postgres" id="gl_1000k_rivers_copy201703061752535774553" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_rivers&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
             <customproperties>
               <property value="0" key="legend/node-order"/>
               <property value="hidden" key="legend/title-style"/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer name="ოკუპირებული ტერიტორია" providerKey="postgres" id="ოკუპირებული_ტერიტორია_copy2017030617525357710550" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_region&quot; (geom) sql=&quot;occupied&quot; = 1" checked="Qt::Checked" expanded="1">
+          <layer-tree-layer name="ოკუპირებული ტერიტორია" providerKey="postgres" id="ოკუპირებული_ტერიტორია_copy2017030617525357710550" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_region&quot; (geom) sql=&quot;occupied&quot; = 1" checked="Qt::Checked" expanded="1">
             <customproperties>
               <property value="subgroup" key="legend/title-style"/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer name="სიმაღლის ნიშნულები" providerKey="postgres" id="gl_1000k_summit_pass_copy2017030617525356116196" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_summit_pass&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
+          <layer-tree-layer name="სიმაღლის ნიშნულები" providerKey="postgres" id="gl_1000k_summit_pass_copy2017030617525356116196" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' sslmode=disable key='gid' srid=32638 type=Point checkPrimaryKeyUnicity='1' table=&quot;gl_1000k&quot;.&quot;gl_1000k_summit_pass&quot; (geom) sql=" checked="Qt::Checked" expanded="0">
             <customproperties>
               <property value="2,3" key="legend/node-order"/>
             </customproperties>

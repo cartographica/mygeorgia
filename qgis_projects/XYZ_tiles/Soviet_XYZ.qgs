@@ -22,7 +22,7 @@
     <layer-tree-layer expanded="1" source="M:\PROJECTS\XYZ_tiles\Grid\xyz_grid_25k.shp|layerid=0|subset=&quot;yn&quot; = '1'" id="xyz_grid_25k_2b814cc7_6c0f_4d6b_a3f6_51a18a727d5c" name="xyz_grid_25k" checked="Qt::Checked" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" source="dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;gl_50_admregion&quot; (geom) sql=" id="gl_50_admregion_1039f53b_4a6a_4150_b02b_e5f9aa57c030" name="gl_50_admregion" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer expanded="1" source="dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;gl_50_admregion&quot; (geom) sql=" id="gl_50_admregion_1039f53b_4a6a_4150_b02b_e5f9aa57c030" name="gl_50_admregion" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" source="R:\SOVIET\25k.ecw" id="25k_3fe871ae_69f6_4676_bb1b_494691edd3a5" name="25k" checked="Qt::Unchecked" providerKey="gdal">
@@ -846,7 +846,7 @@
         <ymax>4848333.99060538038611412</ymax>
       </extent>
       <id>anno_50k_straight_lines_af1d4a24_e721_4ba0_a801_b16d45babd51</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Geoland_Cartography' password='Geoland_Cartography' key='id' checkPrimaryKeyUnicity='1' table="public"."anno_50k_straight_lines" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='id' checkPrimaryKeyUnicity='1' table="public"."anno_50k_straight_lines" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1339,7 +1339,7 @@
         <ymax>5033711.8849827703088522</ymax>
       </extent>
       <id>gl_1000k_region_406ac428_f3b6_409b_aade_7a8a00b1adaa</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_region" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' srid=32638 type=Polygon checkPrimaryKeyUnicity='1' table="gl_1000k"."gl_1000k_region" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1552,7 +1552,7 @@
         <ymax>4940436.12787202000617981</ymax>
       </extent>
       <id>gl_50_admregion_1039f53b_4a6a_4150_b02b_e5f9aa57c030</id>
-      <datasource>dbname='gl_50k' host=192.168.1.254 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="public"."gl_50_admregion" (geom) sql=</datasource>
+      <datasource>dbname='gl_50k' host=80.241.251.158 port=5432 user='Giorgi_Balakhadze' password='Giorgi_Balakhadze' key='gid' srid=32638 type=MultiPolygon checkPrimaryKeyUnicity='1' table="public"."gl_50_admregion" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>

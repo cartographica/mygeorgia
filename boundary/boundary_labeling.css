@@ -1,0 +1,23 @@
+/* @title Boundary Labeling */
+["reg_code" in ('11')]{
+  fill:blue;
+  stroke: red;
+  stroke-width: 5px;
+  stroke-linecap: round;
+}
+
+["reg_code" in ('11')] {
+  stroke-geometry: [boundary(buffer(geom, 100))];
+  label: [reg_eng];
+  label-group: true;
+  font-family: Arial;
+  font-weight: normal;
+  font-fill: black;
+  font-size: 10;
+  halo-color: white;
+  halo-radius: 1;
+  label-follow-line: true;
+  label-max-angle-delta: 90;
+  label-max-displacement: 400;
+  label-repeat: 150;
+}

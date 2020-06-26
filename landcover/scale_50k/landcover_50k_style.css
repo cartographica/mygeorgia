@@ -169,7 +169,7 @@
   }
 }
 
-/* @title Bush Plantation 50k */
+/* @title Vineyard Plantation 50k */
 ["class_id"='71722000'] [@sd < 150000] {
   fill: #c8d38d,
     url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/icons/garden-vinary_100k.svg);

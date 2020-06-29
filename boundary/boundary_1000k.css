@@ -2,7 +2,7 @@
 /* @title State 1000k */
 ["class_id" in ('1','3')] [@sd > 600k] {
    ["river" not in ('2')] {
-    stroke: #ff4dca;
+    stroke: #ff00bf;
     stroke-width: 6px;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -34,7 +34,7 @@
 /* @title State 500k */
 ["class_id" in ('1','3')] [@sd > 300k] [@sd < 600k] {
   ["river" not in ('2')] {
-   stroke: #ff4dca;
+   stroke: #ff00bf;
    stroke-width: 10px;
    stroke-linecap: round;
    stroke-linejoin: round;
@@ -66,7 +66,7 @@
 /* @title State 200k */
 ["class_id" in ('1','3')] [@sd > 150k] [@sd < 300k] {
   ["river" not in ('2')] {
-   stroke: #ff4dca;
+   stroke: #ff00bf;
    stroke-width: 12px;
    stroke-linecap: round;
    stroke-linejoin: round;
@@ -101,7 +101,7 @@
 /* @title Autonomy 1000k */
 ["class_id" in ('2','8')] [@sd > 600k] {
   ["river" not in ('2')] {
-   stroke: #ff4dca;
+   stroke: #ff4ccd;
    stroke-width: 5px;
    stroke-linecap: round;
    stroke-linejoin: round;
@@ -133,7 +133,7 @@
 /* @title Autonomy 500k */
 ["class_id" in ('2','8')] [@sd > 300k] [@sd < 600k] {
   ["river" not in ('2')] {
-   stroke: #ff4dca;
+   stroke: #ff4ccd;
    stroke-width: 7px;
    stroke-linecap: round;
    stroke-linejoin: round;
@@ -165,7 +165,7 @@
 /* @title Autonomy 200k */
 ["class_id" in ('2','8')] [@sd > 150k] [@sd < 300k] {
   ["river" not in ('2')] {
-   stroke: #ff4dca;
+   stroke: #ff4ccd;
    stroke-width: 9px;
    stroke-linecap: round;
    stroke-linejoin: round;
@@ -299,7 +299,7 @@
 /* @title Region 1000k */
 ["class_id" in ('6', '9')] [@sd > 600k] {
   ["river" not in ('2')] {
-    stroke: #ff4dca;
+    stroke: #ff66d4;
     stroke-width: 3.5px;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -331,7 +331,7 @@
 /* @title Region 500k */
 ["class_id" in ('6', '9')] [@sd > 300k] [@sd < 600k] {
   ["river" not in ('2')] {
-    stroke: #ff4dca;
+    stroke: #ff66d4;
     stroke-width: 4.5px;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -344,7 +344,7 @@
       z-index: 39;
     };
     ["river"='1'] {
-      stroke: #0091c1;
+      stroke: #ff66d4;
       stroke-width: 0.5px;
       stroke-linecap: round;
       stroke-linejoin: round;
@@ -363,7 +363,7 @@
 /* @title Region 200k */
 ["class_id" in ('6', '9')] [@sd > 150k] [@sd < 300k] {
   ["river" not in ('2')] {
-    stroke: #ff4dca;
+    stroke: #ff66d4;
     stroke-width: 6.5px;
     stroke-linecap: round;
     stroke-linejoin: round;

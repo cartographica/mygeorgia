@@ -2,7 +2,7 @@
 /* @title State 100k */
 ["class_id" in ('90','94')] [@sd > 70k] [@sd < 150k] {
   ["river_bound" not in ('4')] {
-   stroke: #ff4dca;
+   stroke: #ff00b7;
    stroke-width: 12px;
    stroke-linecap: round;
    stroke-linejoin: round;
@@ -34,7 +34,7 @@
 /* @title State 50k */
 ["class_id" in ('90','94')] [@sd > 50k] [@sd < 70k] {
  ["river_bound" not in ('4')] {
-  stroke: #ff4dca;
+  stroke: #ff00b7;
   stroke-width: 20px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -66,7 +66,7 @@
 /* @title State 25k */
 ["class_id" in ('90','94')] [@sd < 50k] {
  ["river_bound" not in ('4')] {
-  stroke: #ff4dca;
+  stroke: #ff00b7;
   stroke-width: 24px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -101,7 +101,7 @@
 /* @title Autonomy 100k */
 ["class_id" in ('91','95')] [@sd > 70k] [@sd < 150k] {
  ["river_bound" not in ('4')] {
-  stroke: #ff4dca;
+  stroke: #ff4ccd;
   stroke-width: 10px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -133,21 +133,21 @@
 /* @title Autonomy 50k */
 ["class_id" in ('91','95')] [@sd > 50k] [@sd < 70k] {
  ["river_bound" not in ('4')] {
-  stroke: #ff4dca;
-  stroke-width: 7px;
+  stroke: #ff4ccd;
+  stroke-width: 14px;
   stroke-linecap: round;
   stroke-linejoin: round;
   z-index: 21;
   ["river_bound"='0'] {
     stroke: black;
-    stroke-width: 0.6px;
+    stroke-width: 1.2px;
     stroke-dasharray: 10 3 1 3 1 3;
     stroke-linecap: butt;
     z-index: 41;
   };
   ["river_bound" in ('1', '2')] {
     stroke: #0091c1;
-    stroke-width: 0.6px;
+    stroke-width: 1.2px;
     stroke-linecap: round;
     stroke-linejoin: round;
     z-index: 41;
@@ -155,7 +155,7 @@
 };
 ["river_bound"='4']{
   stroke: black;
-  stroke-width: 0.6px;
+  stroke-width: 1.2px;
   stroke-dasharray: 10 3 1 3 1 3;
   stroke-linecap: butt;
   z-index: 41;
@@ -165,8 +165,8 @@
 /* @title Autonomy 25k */
 ["class_id" in ('91','95')] [@sd < 50k] {
  ["river_bound" not in ('4')] {
-  stroke: #ff4dca;
-  stroke-width: 9px;
+  stroke: #ff4ccd;
+  stroke-width: 18px;
   stroke-linecap: round;
   stroke-linejoin: round;
   z-index: 21;
@@ -201,20 +201,20 @@
 ["class_id" in ('100')] [@sd > 70k] [@sd < 150k] {
  ["river_bound" not in ('4')] {
    stroke: #b3b3b3;
-   stroke-width: 14px;
+   stroke-width: 9px;
    stroke-linecap: round;
    stroke-linejoin: round;
    z-index: 20;
    ["river_bound"='0'] {
      stroke: black;
-     stroke-width: 1.6px;
+     stroke-width: 0.8px;
      stroke-dasharray: 10 3 1 3 1 3;
      stroke-linecap: butt;
      z-index: 40;
    };
    ["river_bound" in ('1', '2')] {
      stroke: #0091c1;
-     stroke-width: 1.6px;
+     stroke-width: 0.8px;
      stroke-linecap: round;
      stroke-linejoin: round;
      z-index: 40;
@@ -222,7 +222,7 @@
  };
  ["river_bound"='4'] {
    stroke: black;
-   stroke-width: 1.6px;
+   stroke-width: 0.8px;
    stroke-dasharray: 10 3 1 3 1 3;
    stroke-linecap: butt;
    z-index: 40;
@@ -299,7 +299,7 @@
 /* @title Region 100k */
 ["class_id" in ('92')] [@sd > 70k] [@sd < 150k] {
  ["river_bound" not in ('4')] {
-   stroke: #ff4dca;
+   stroke: #ff66d4;
    stroke-width: 7px;
    stroke-linecap: round;
    stroke-linejoin: round;
@@ -331,8 +331,8 @@
 /* @title Region 50k */
 ["class_id" in ('92')] [@sd > 50k] [@sd < 70k] {
  ["river_bound" not in ('4')] {
-   stroke: #ff4dca;
-   stroke-width: 7px;
+   stroke: #ff66d4;
+   stroke-width: 9px;
    stroke-linecap: round;
    stroke-linejoin: round;
    z-index: 19;
@@ -363,7 +363,7 @@
 /* @title Region 25k */
 ["class_id" in ('92')] [@sd < 50k] {
  ["river_bound" not in ('4')] {
-   stroke: #ff4dca;
+   stroke: #ff66d4;
    stroke-width: 13px;
    stroke-linecap: round;
    stroke-linejoin: round;
@@ -395,6 +395,38 @@
 
 
 /*! START Municipality */
+/* @title Municipality 100k */
+["class_id" in ('93')] [@sd > 70k] [@sd < 150k] {
+  ["river_bound" not in ('4')] {
+    stroke: #ff99e2;
+    stroke-width: 4px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    z-index: 18;
+    ["river_bound" in ('0', '3')] {
+      stroke: black;
+      stroke-width: 0.3px;
+      stroke-dasharray: 10 3 1 3 1 3 1 3 1 3;
+      stroke-linecap: butt;
+      z-index: 38;
+    };
+    ["river_bound" in ('1', '2')] {
+      stroke: #0091c1;
+      stroke-width: 0.3px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      z-index: 38;
+    }
+  };
+  ["river_bound"='4'] {
+    stroke: black;
+    stroke-width: 0.3px;
+    stroke-dasharray: 10 3 1 3 1 3 1 3 1 3;
+    stroke-linecap: butt;
+    z-index: 38;
+  }
+ }
+
 /* @title Municipality 50k */
 ["class_id" in ('93')] [@sd > 50k] [@sd < 70k] {
  ["river_bound" not in ('4')] {
@@ -463,7 +495,7 @@
 
 /*! START City */
 /* @title City 50k */
-["class_id" in ('93')] [@sd > 50k] [@sd < 70k] {
+["class_id" in ('96')] [@sd > 50k] [@sd < 70k] {
   ["river_bound" not in ('4')] {
     stroke: #ff99e2;
     stroke-width: 3px;
@@ -495,7 +527,7 @@
  }
  
  /* @title City 25k */
- ["class_id" in ('93')] [@sd < 50k] {
+ ["class_id" in ('96')] [@sd < 50k] {
   ["river_bound" not in ('4')] {
     stroke: #ff99e2;
     stroke-width: 5px;

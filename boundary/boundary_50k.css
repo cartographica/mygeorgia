@@ -319,6 +319,9 @@
      z-index: 39;
    }
  };
+ ["river_bound"='3'] {
+   stroke-opacity: 0.3;
+ };
  ["river_bound"='4'] {
    stroke: black;
    stroke-width: 0.6px;
@@ -351,6 +354,9 @@
      z-index: 39;
    }
  };
+ ["river_bound"='3'] {
+   stroke-opacity: 0.3;
+ };
  ["river_bound"='4'] {
    stroke: black;
    stroke-width: 1px;
@@ -382,6 +388,9 @@
      stroke-linejoin: round;
      z-index: 39;
    }
+ };
+ ["river_bound"='3'] {
+   stroke-opacity: 0.3;
  };
  ["river_bound"='4'] {
    stroke: black;
@@ -418,6 +427,9 @@
       z-index: 38;
     }
   };
+  ["river_bound"='3'] {
+    stroke-opacity: 0.5;
+  };
   ["river_bound"='4'] {
     stroke: black;
     stroke-width: 0.3px;
@@ -450,6 +462,9 @@
      z-index: 38;
    }
  };
+ ["river_bound"='3'] {
+   stroke-opacity: 0.5;
+ };
  ["river_bound"='4'] {
    stroke: black;
    stroke-width: 0.4px;
@@ -481,6 +496,9 @@
      stroke-linejoin: round;
      z-index: 38;
    }
+ };
+ ["river_bound"='3'] {
+   stroke-opacity: 0.5;
  };
  ["river_bound"='4'] {
    stroke: black;
@@ -517,6 +535,9 @@
       z-index: 38;
     }
   };
+  ["river_bound"='3'] {
+    stroke-opacity: 0.5;
+  };
   ["river_bound"='4'] {
     stroke: black;
     stroke-width: 0.3px;
@@ -548,6 +569,9 @@
       stroke-linejoin: round;
       z-index: 38;
     }
+  };
+  ["river_bound"='3'] {
+    stroke-opacity: 0.5;
   };
   ["river_bound"='4'] {
     stroke: black;

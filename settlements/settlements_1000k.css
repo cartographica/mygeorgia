@@ -1,0 +1,82 @@
+/* @title settlements 1000k */
+[@sd > 600k] [@sd < 2500k] {
+  label: [name_geo_g];
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-fill: black;
+  label-anchor: 0.5 0.5;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-all-group: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-padding: 20;
+  label-priority:["scale"/1000];
+  label-max-displacement: 5;
+}
+
+/*! ------ 1000k labels ------ */
+["urb_stat" = '1'] [@sd > 600k] [@sd < 1500k] {
+    ["pop_range" = '> 500 000'] {
+      font-size: 22;
+    };
+    ["pop_range" = '100 000 - 500 000'] {
+      font-size: 16;
+    };
+    ["pop_range" = '50 000 - 100 000'] {
+      font-size: 15;
+    };
+    ["pop_range" = '10 000 - 50 000'] {
+      font-size: 13;
+    }
+  }
+  
+  
+["urb_stat" = '1'] ["pop_range" in ('2 000 - 10 000')],
+["urb_stat" = '2'] ["pop_range" in ('10 000 - 50 000', '2 000 - 10 000', '< 2 000')],
+[@sd > 600k] [@sd < 1500k] {
+  font-size: 11;
+}
+
+
+["urb_stat" in ('3', '4')] 
+[@sd > 600k] [@sd < 1500k] {
+  font-size: 10;
+}
+
+
+/*! ------ 2000k labels ------ */
+["urb_stat" = '1'] [@sd > 1500k] [@sd < 2500k] {
+    ["pop_range" = '> 500 000'] {
+      font-size: 18;
+      label-priority:10000;
+    };
+    ["pop_range" = '100 000 - 500 000'] {
+      font-size: 14;
+      label-priority:8000;
+    };
+    ["pop_range" = '50 000 - 100 000'] {
+      font-size: 13;
+      label-priority:7000;
+    };
+    ["pop_range" = '10 000 - 50 000'] {
+      font-size: 11;
+      label-priority:6500;
+    }
+  }
+  
+  
+["urb_stat" = '1'] ["pop_range" in ('2 000 - 10 000')],
+["urb_stat" = '2'] ["pop_range" in ('10 000 - 50 000', '2 000 - 10 000', '< 2 000')],
+[@sd > 1500k] [@sd < 2500k] {
+  font-size: 10;
+}
+
+
+["urb_stat" in ('3', '4')] 
+[@sd > 1500k] [@sd < 2500k] {
+  font-size: 9;
+}

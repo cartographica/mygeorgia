@@ -1,0 +1,243 @@
+/*!---------------- 50k ----------------*/
+/*! Excluding Filter */
+["class_id" in ("61232000")] [@sd < 150k] {
+  stroke: red;
+  stroke-opacity: 0;
+}
+
+
+
+/*! START Railway */
+/* @title Main Railway 50k */
+["class_id" in ("61112100", "61111100", "61130000")] [@sd <= 50k] {
+  stroke: #808080;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 43;
+  ["class_id" in ("61112100", "61111100")] {
+    stroke: white;
+    stroke-width: 2px;
+    stroke-dasharray: 15 15;
+    stroke-linecap: butt;
+    stroke-opacity: 0.8;
+    z-index: 45;
+  };
+  /* Main Railway in Tunnel 50k */
+  ["class_id" in ("61130000")] {
+    stroke: white;
+    stroke-width: 2px;
+    stroke-dasharray: 5 12;
+    stroke-linecap: butt;
+    stroke-opacity: 0.8;
+    z-index: 44;
+  }
+}
+/*! END Railway */
+
+
+
+/*! START Narrow Railway, Railway in Stations */
+/* @title Narrow Railway, Railway in Stations 50k */
+["class_id" in ("61120000", "61211000")] [@sd <= 50k] {
+  stroke: #808080;
+  stroke-width: 1px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 21;
+  ["class_id" in ("61120000", "61211000")] {
+    stroke: white;
+    stroke-width: 0.5px;
+    stroke-dasharray: 5 5;
+    stroke-linecap: butt;
+    stroke-opacity: 1;
+    z-index: 41;
+  }
+}
+/*! END Narrow Railway, Railway in Stations */
+
+
+
+/*! START Ropeway, Ski Lift */
+/* @title Ropeway, Ski Lift 50k */
+["class_id" in ("62171000", "62360000", "62360001", "62360002")] [@sd <= 50k] {
+  stroke: black;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 20;
+  ["class_id" in ("62171000", "62360000", "62360001", "62360002")] {
+    stroke: black;
+    stroke-width: 4px;
+    stroke-dasharray: 0.1 15;
+    stroke-linecap: round;
+    stroke-opacity: 0.8;
+    z-index: 40;
+  }
+}
+/*! END Ropeway, Ski Lift */
+
+
+
+/*! START Subway on Ground */
+/* @title Subway on Ground 50k */
+["class_id" in ("61231000")] [@sd <= 50k] {
+  stroke: #808080;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 19;
+  ["class_id" in ("61231000")] {
+    stroke: white;
+    stroke-width: 1.5px;
+    stroke-dasharray: 5 5;
+    stroke-linecap: butt;
+    stroke-opacity: 0.8;
+    z-index: 39;
+  }
+}
+/*! END Subway on Ground */
+
+
+
+/*! START Funicular */
+/* @title Funicular 50k */
+["class_id" in ("62350000")] [@sd <= 50k] {
+  stroke: #808080;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  z-index: 18;
+  ["class_id" in ("62350000")] {
+    stroke: white;
+    stroke-width: 1.5px;
+    stroke-dasharray: 2 2;
+    stroke-linecap: butt;
+    z-index: 38;
+  }
+}
+/*! END Funicular */
+
+
+
+/*!---------------- 100k ----------------*/
+/*! START Railway */
+/* @title Main Railway 100k */
+["class_id" in ("61112100", "61111100", "61130000")] ["scale" >= 100] [@sd > 50k] [@sd < 150k] {
+  stroke: #808080;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 43;
+  ["class_id" in ("61112100", "61111100")] {
+    stroke: white;
+    stroke-width: 2px;
+    stroke-dasharray: 15 15;
+    stroke-linecap: butt;
+    stroke-opacity: 0.8;
+    z-index: 45;
+  };
+  /* Main Railway in Tunnel 100k */
+  ["class_id" in ("61130000")] {
+    stroke: white;
+    stroke-width: 2px;
+    stroke-dasharray: 5 12;
+    stroke-linecap: butt;
+    stroke-opacity: 0.8;
+    z-index: 44;
+  }
+}
+/*! END Railway */
+
+
+
+/*! START Narrow Railway, Railway in Stations */
+/* @title Narrow Railway, Railway in Stations 100k */
+["class_id" in ("61120000", "61211000")] ["scale" >= 100] [@sd > 50k] [@sd < 150k] {
+  stroke: #808080;
+  stroke-width: 1px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 21;
+  ["class_id" in ("61120000", "61211000")] {
+    stroke: white;
+    stroke-width: 0.5px;
+    stroke-dasharray: 5 5;
+    stroke-linecap: butt;
+    stroke-opacity: 1;
+    z-index: 41;
+  }
+}
+/*! END Narrow Railway, Railway in Stations */
+
+
+
+/*! START Ropeway, Ski Lift */
+/* @title Ropeway, Ski Lift 100k */
+["class_id" in ("62171000", "62360000", "62360001", "62360002")] ["scale" >= 100] [@sd > 50k] [@sd < 150k] {
+  stroke: black;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 20;
+  ["class_id" in ("62171000", "62360000", "62360001", "62360002")] {
+    stroke: black;
+    stroke-width: 4px;
+    stroke-dasharray: 0.1 15;
+    stroke-linecap: round;
+    stroke-opacity: 0.8;
+    z-index: 40;
+  }
+}
+/*! END Ropeway, Ski Lift */
+
+
+
+/*! START Subway on Ground */
+/* @title Subway on Ground 100k */
+["class_id" in ("61231000")] ["scale" >= 100] [@sd > 50k] [@sd < 150k] {
+  stroke: #808080;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 19;
+  ["class_id" in ("61231000")] {
+    stroke: white;
+    stroke-width: 1.5px;
+    stroke-dasharray: 5 5;
+    stroke-linecap: butt;
+    stroke-opacity: 0.8;
+    z-index: 39;
+  }
+}
+/*! END Subway on Ground */
+
+
+
+/*! START Funicular */
+/* @title Funicular 100k */
+["class_id" in ("62350000")] ["scale" >= 100] [@sd > 50k] [@sd < 150k] {
+  stroke: #808080;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  z-index: 18;
+  ["class_id" in ("62350000")] {
+    stroke: white;
+    stroke-width: 1.5px;
+    stroke-dasharray: 2 2;
+    stroke-linecap: butt;
+    z-index: 38;
+  }
+}
+/*! END Funicular */

@@ -1,0 +1,58 @@
+/*! Excluding Filter */
+* [@sd > 300k] [@sd < 700k] {
+  stroke: red;
+  stroke-opacity: 0;
+}
+
+
+
+/*! START Railway */
+/* @title Main Railway 500k */
+["class_id1" in ("61112100", "61130000")] [@sd > 300k] [@sd < 700k] {
+  stroke: #808080;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 43;
+  ["class_id1" in ("61112100")] {
+    stroke: white;
+    stroke-width: 2px;
+    stroke-dasharray: 15 15;
+    stroke-linecap: butt;
+    stroke-opacity: 0.8;
+    z-index: 45;
+  };
+  /* Main Railway in Tunnel 500k */
+  ["class_id1" in ("61130000")] {
+    stroke: white;
+    stroke-width: 2px;
+    stroke-dasharray: 5 12;
+    stroke-linecap: butt;
+    stroke-opacity: 0.8;
+    z-index: 44;
+  }
+}
+/*! END Railway */
+
+
+
+/*! START Narrow Railway */
+/* @title Narrow Railway, Railway in Stations 500k */
+["class_id1" in ("61120000")] [@sd > 300k] [@sd < 700k] {
+  stroke: #808080;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 21;
+  ["class_id1" in ("61120000")] {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 5 5;
+    stroke-linecap: butt;
+    stroke-opacity: 1;
+    z-index: 41;
+  }
+}
+/*! END Narrow Railway */

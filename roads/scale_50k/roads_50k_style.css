@@ -286,7 +286,7 @@
   z-index: 37;
 }
 /* @title Streets in Cities (big) 50k */
-["class_id"="62100000"] [@sd > 10000] [@sd < 100000] {
+["class_id"="62200000"] [@sd > 10000] [@sd < 100000] {
   stroke: #4b4b4b, #fffefd;
   stroke-width: 2.3px, 1.8px;
   stroke-linecap: round;

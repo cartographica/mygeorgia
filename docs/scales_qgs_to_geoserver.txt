@@ -1,0 +1,37 @@
+/* Scale transition between QGIS and GeoServer */
+
+        QGIS | GeoServer
+------------ | -------------
+         10k | 8.5k
+		 25k | 17k
+		 50k | 34k
+		100k | 68k
+		200k | 136k and 273k
+		500k | 545k
+	   1000k | 1000k
+	   2000k | 2000k
+/* roads; */
+  
+        QGIS | GeoServer
+------------ | -------------
+         10k | 8.5k
+		 25k | 17k
+		 50k | 34k
+		100k | 68k and 136k
+		200k | 273k
+		500k | 545k
+	   1000k | 1000k
+	   2000k | 2000k
+/* railroads; rivers; landcover; */
+
+        QGIS | GeoServer
+------------ | -------------
+         10k | 8.5k
+		 25k | 17k
+		 50k | 34k and 68k
+		100k | 136k
+		200k | 273k
+		500k | 545k
+	   1000k | 1000k
+	   2000k | 2000k
+/* settlements; boundary; */

@@ -100,8 +100,25 @@
   }
 }
 
-/** Other Settlements */
-["adm_stat" IN ('6 Comunity Centre', '7 Village')] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+/** Community Center */
+["adm_stat" = '6 Comunity Centre'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 3 3;
+  :nth-mark(1) {
+    size: 7px;
+    fill: white;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 2px;
+    fill: black;
+  }
+}
+
+/** Village */
+["adm_stat" = '7 Village'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
   mark: symbol('circle');
   mark-anchor: 0.5 0.5;
   label-offset: 3 3;
@@ -273,8 +290,25 @@
   }
 }
 
-/** Other Settlements */
-["adm_stat" IN ('6 Comunity Centre', '7 Village')] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+/** Community Center */
+["adm_stat" = '6 Comunity Centre'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 3 3;
+  :nth-mark(1) {
+    size: 6px;
+    fill: white;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 2px;
+    fill: black;
+  }
+}
+
+/** Village */
+["adm_stat" = '7 Village'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
   mark: symbol('circle');
   mark-anchor: 0.5 0.5;
   label-offset: 3 3;

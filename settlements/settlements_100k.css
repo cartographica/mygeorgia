@@ -3,8 +3,8 @@
 /** Capital City */
 ["adm_stat" = '1'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('circle'), symbol('star');
-  mark-offset: 13 0;
   mark-anchor: 0.5 0.5;
+  label-offset: 0 20;
   :nth-mark(1) {
     size: 16px;
     fill: #ff7575;
@@ -20,7 +20,7 @@
 ["adm_stat" = '2'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
-  label-offset: 5 5;
+  label-offset: 0 30;
   :nth-mark(1) {
     size: 14px;
     fill: #ff7575;
@@ -31,7 +31,7 @@
     fill: black;
   };
   ["sett_code" = '12850100'] {
-    label-anchor: 0.5 1.6;
+    font-size: 21;
   }
 }
 
@@ -40,7 +40,7 @@
   mark: symbol('circle'), symbol('circle');
   label-offset: 0 15;
   mark-anchor: 0.5 0.5;
-  label-offset: 5 5;
+  label-offset: 0 10;
   :mark {
     size: 12px;
     fill: #ffbab1;
@@ -53,7 +53,7 @@
 ["adm_stat" = '4'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
-  label-offset: 10 10;
+  label-offset: 0 23;
   :nth-mark(1) {
     size: 12px;
     fill: #ffbab1;
@@ -70,7 +70,7 @@
 ["adm_stat" = '5'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
-  label-offset: 5 5;
+  label-offset: 0 30;
   :nth-mark(1) {
     size: 10px;
     fill: #c4c3c3;
@@ -87,7 +87,7 @@
 ["adm_stat" = '8'] ["urb_stat" = '4'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('circle'), symbol("ttf://DejaVu Sans#U+002A");
   mark-anchor: 0.5 0.5;
-  label-offset: 6 6;
+  label-offset: 0 10;
   :nth-mark(1) {
     size: 8px;
     fill: #a61215;
@@ -104,7 +104,7 @@
 ["adm_stat" = '8'] ["urb_stat" = '5'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('square');
   mark-anchor: 0.5 0.5;
-  label-offset: 3 3;
+  label-offset: 0 10;
   :mark {
     size: 6px;
     fill: #a61215;
@@ -117,7 +117,7 @@
 ["adm_stat" = '6'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
-  label-offset: 3 3;
+  label-offset: 0 18;
   :nth-mark(1) {
     size: 7px;
     fill: white;
@@ -134,7 +134,7 @@
 ["adm_stat" IN ('7')] [@sd > 100k] [@sd < 200k] {
   mark: symbol('circle');
   mark-anchor: 0.5 0.5;
-  label-offset: 3 3;
+  label-offset: 0 15;
   :mark {
     size: 6px;
     fill: white;
@@ -154,14 +154,14 @@
   font-family: "DejaVu Sans";
   font-weight: normal;
   font-fill: black;
-  /*label-anchor: 0.5 0.5;*/
+  label-anchor: 0.5 1.0;
   label-allow-overruns: true;
   label-remove-overlaps: true;
   label-conflict-resolution: true;
   label-fit-goodness: 1;
   label-padding: 10;
   label-priority:[pop_total];
-  label-max-displacement: 20;
+  label-max-displacement: 40;
 }
 
 /*! ------▼ 100k label sizes ▼------ */

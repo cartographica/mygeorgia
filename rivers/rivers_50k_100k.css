@@ -1,4 +1,28 @@
 /*!---------------- 50k ----------------*/
+/*! Labels 50k-100k*/
+[@sd < 150k] {
+  label: [name_geo];
+  font-size: 11;
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-fill: #1f69b4;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-group: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-padding: 5;
+  label-follow-line: true;
+  label-max-angle-delta: 90;
+  label-max-displacement: 10;
+  label-repeat: 400;
+}
+
+
+
 /*! Excluding Filter */
 ["class_id" in ("39999999") ] [@sd < 150k] {
   stroke: red;
@@ -13,7 +37,7 @@
   stroke-width: 0.2px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 43;
 }
 /*! END Rivers permanent medium, Channels on the ground, Underground channels, Channels narrow */
@@ -27,7 +51,7 @@
   stroke-width: 0.4px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 45;
 }
 /*! END Rivers permanent large */
@@ -41,7 +65,7 @@
   stroke-width: 0.1px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.5;
+  stroke-opacity: 0.8;
   z-index: 43;
 }
 /*! END Rivers permanent small */
@@ -55,7 +79,7 @@
   stroke-width: 2px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 43;
   ["class_id" in ("31141100")] {
     stroke: #2edafc;
@@ -74,7 +98,7 @@
   stroke-width: 1.5px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 43;
   ["class_id" in ("31142100", "31151110")] {
     stroke: #2edafc;
@@ -94,7 +118,7 @@
   stroke-dasharray: 8 3;
   stroke-linecap: butt;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 43;
 }
 /*! END Interminent rivers */
@@ -109,7 +133,7 @@
   stroke-dasharray: 5 3;
   stroke-linecap: butt;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 42;
 }
 /*! END Interminent rivers small */
@@ -124,7 +148,7 @@
   stroke-width: 0.2px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 43;
 }
 /*! END Rivers permanent medium, Channels on the ground, Underground channels, Channels narrowa */
@@ -138,7 +162,7 @@
   stroke-width: 0.4px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 45;
 }
 /*! END Rivers permanent large */
@@ -152,7 +176,7 @@
   stroke-width: 0.1px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.5;
+  stroke-opacity: 0.8;
   z-index: 43;
 }
 /*! END Rivers permanent small */
@@ -166,7 +190,7 @@
   stroke-width: 2px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 43;
   ["class_id" in ("31141100")] {
     stroke: #2edafc;
@@ -185,7 +209,7 @@
   stroke-width: 1.5px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 43;
   ["class_id" in ("31142100", "31151110")] {
     stroke: #2edafc;
@@ -205,7 +229,7 @@
   stroke-dasharray: 8 3;
   stroke-linecap: butt;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 43;
 }
 /*! END Interminent rivers */
@@ -220,7 +244,7 @@
   stroke-dasharray: 5 3;
   stroke-linecap: butt;
   stroke-linejoin: round;
-  stroke-opacity: 0.7;
+  stroke-opacity: 0.8;
   z-index: 42;
 }
 /*! END Interminent rivers small */

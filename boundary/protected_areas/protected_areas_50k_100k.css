@@ -1,0 +1,29 @@
+/* @title Protected Areas */
+[@sd <= 500k] {
+  stroke: #219c1c, #219c1c;
+  stroke-geometry: [geom], categorize(@sd,
+      [buffer(geom, -0.8)], 2k,
+      [buffer(geom, -1.5)], 3k,
+      [buffer(geom, -3)], 5k,
+      [buffer(geom, -4)], 10k,
+      [buffer(geom, -10)], 25k,
+      [buffer(geom, -15)], 50k,
+      [buffer(geom, -25)], 100k,
+      [buffer(geom, -50)], 200k,
+      [buffer(geom, -90)]);
+  stroke-width: 0.5, categorize(@sd,
+      9, 2k,
+      8, 3k,
+      6, 5k,
+      7, 10k,
+      6, 25k,
+      6, 50k,
+      6, 100k,
+      6, 200k,
+      6);
+  stroke-opacity: 1, 0.3;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  z-index: 1, 0;
+  /*fill: #219c1c;*/
+}

@@ -1,0 +1,15 @@
+/* Protected Areas 1000k 2000k */
+[@sd > 500k] [@sd < 2500k] {
+  stroke: #219c1c, #219c1c;
+  stroke-geometry: [geom], categorize(@sd,
+      [buffer(geom, -200)], 1000k,
+      [buffer(geom, -300)]);
+  stroke-width: 0.5, categorize(@sd,
+      4, 1000k,
+      3);
+  stroke-opacity: 1, 0.3;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  z-index: 1, 0;
+  /*fill: #219c1c;*/
+}

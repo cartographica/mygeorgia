@@ -1,0 +1,88 @@
+/** Hydrography */
+["class_id" = 1] [@sd > 1000k] [@sd < 2000k] {
+  label: [name_geo];
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-style: italic;
+  font-weight: normal;
+  font-fill: #1f63b0; /* blue */
+  -gt-label-auto-wrap: 1;
+  label-anchor: 0.5 0.5;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-padding: 0;
+  label-max-displacement: 5;
+}
+
+
+/** National Parks */
+["class_id" = 3] [@sd > 1000k] [@sd < 2000k] {
+  label: [name_geo];
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-style: italic;
+  font-weight: normal;
+  font-fill: #006e00; /* green */
+  -gt-label-auto-wrap: 1;
+  label-anchor: 0.5 0.5;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-padding: 0;
+  label-max-displacement: 40;
+}
+
+
+/** Seas */
+["class_id" = 6] [@sd > 1000k] [@sd < 2000k] {
+  label: [name_geo];
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-size: 20;
+  font-family: "DejaVu Sans";
+  font-style: italic;
+  font-weight: normal;
+  font-fill: #1f63b0; /* blue */
+  -gt-label-auto-wrap: 1;
+  label-anchor: 0.5 0.5;
+  label-char-spacing: 1;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-padding: 10;
+  label-max-displacement: 20;
+}
+
+
+/** Countries */
+["class_id" = 7] [@sd > 1000k] [@sd < 2000k] {
+  label: [name_geo];
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-size: 30;
+  font-family: "DejaVu Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-fill: black; /* blue */
+  font-opacity: 0.4;
+  -gt-label-auto-wrap: 1;
+  label-anchor: 0.5 0;
+  label-char-spacing: 5;
+  /*label-allow-overruns: true;*/
+  /*label-remove-overlaps: true;*/
+  label-conflict-resolution: true;
+  /*label-fit-goodness: 1;*/
+  /*label-padding: 10;*/
+  label-max-displacement: 200;
+  label-priority: 2600;
+}

@@ -1,0 +1,34 @@
+/*! ------▼ 200k label properties ▼------ */
+[@sd > 100k] [@sd < 200k] {
+  label: [name_geo_g];
+  font-size: [lbl_size_geo*1.2];
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-style: italic;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-group: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-padding: 5;
+  label-follow-line: true;
+  label-max-angle-delta: 90;
+  label-max-displacement: 10;
+  label-repeat: 400;
+  ["class_id" = 1] {
+    font-fill: #b54f13; /* brown */
+    label: strCapitalize([name_geo_g]);
+  };
+  ["class_id" = 2] {
+    font-fill: #4d4d4d; /* dark brown */
+    font-size: [lbl_size_geo*1.5];
+  };
+  ["class_id" = 3] {
+    font-fill: #007795; /* blue */
+    label: strCapitalize([name_geo_g]);
+    font-size: [lbl_size_geo*1.5];
+  }
+}

@@ -73,17 +73,17 @@
 }
 
 
-/** Seas */
+/** Big Districts */
 ["class_id" = 6] [@sd < 25k] {
   label: [name_geo];
   halo-radius: 2;
   halo-color: white;
   halo-opacity: 0.6;
-  font-size: 30;
+  font-size: 16;
   font-family: "DejaVu Sans";
   font-style: italic;
   font-weight: normal;
-  font-fill: #1f63b0; /* blue */
+  font-fill: [lbl_color];
   -gt-label-auto-wrap: 1;
   label-anchor: 0.5 0.5;
   label-char-spacing: 1;
@@ -171,17 +171,17 @@
 }
 
 
-/** Seas */
+/** Big Districts */
 ["class_id" = 6] [@sd > 25k] [@sd < 50k] {
   label: [name_geo];
   halo-radius: 2;
   halo-color: white;
   halo-opacity: 0.6;
-  font-size: 30;
+  font-size: 16;
   font-family: "DejaVu Sans";
   font-style: italic;
   font-weight: normal;
-  font-fill: #1f63b0; /* blue */
+  font-fill: [lbl_color];
   -gt-label-auto-wrap: 1;
   label-anchor: 0.5 0.5;
   label-char-spacing: 1;
@@ -269,17 +269,17 @@
 }
 
 
-/** Seas */
+/** Big Districts */
 ["class_id" = 6] ["lbl_scale" >= 100] [@sd > 50k] [@sd < 100k] {
   label: [name_geo];
   halo-radius: 2;
   halo-color: white;
   halo-opacity: 0.6;
-  font-size: 20;
+  font-size: 12;
   font-family: "DejaVu Sans";
   font-style: italic;
   font-weight: normal;
-  font-fill: #1f63b0; /* blue */
+  font-fill: [lbl_color];
   -gt-label-auto-wrap: 1;
   label-anchor: 0.5 0.5;
   label-char-spacing: 1;

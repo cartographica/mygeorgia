@@ -1,0 +1,50 @@
+/*! ------▼ 50k isolines ▼------ */
+/*! 50k isoline labels */
+["class_id" in (21210000, 21211000)] [@sd > 25k] [@sd < 50k] {
+  label: [elev];
+  font-size: 8;
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-fill: #cc4d00; /* brown */
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-group: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-follow-line: true;
+  label-max-angle-delta: 90;
+  label-max-displacement: 10;
+  label-repeat: 100;
+}
+
+/*! 50k isoline symbols */
+/** Major Isoline */
+["class_id" = 21210000] [@sd > 25k] [@sd < 50k] {
+  stroke: #cc4d00; /* brown */
+  stroke-width: 0.5px;
+  stroke-opacity: 0.5;
+}
+
+/** Minor Isoline */
+["class_id" = 21220000] [@sd > 25k] [@sd < 50k] {
+  stroke: #cc4d00; /* brown */
+  stroke-width: 0.1px;
+  stroke-opacity: 0.5;
+}
+
+/** Major Isoline on Glacier */
+["class_id" = 21211000] [@sd > 25k] [@sd < 50k] {
+  stroke: #0080ff; /* blue */
+  stroke-width: 0.5px;
+  stroke-opacity: 0.5;
+}
+
+/** Minor Isoline on Glacier */
+["class_id" = 21221000] [@sd > 25k] [@sd < 50k] {
+  stroke: #0080ff; /* blue */
+  stroke-width: 0.1px;
+  stroke-opacity: 0.5;
+}

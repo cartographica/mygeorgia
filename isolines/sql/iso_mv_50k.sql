@@ -1,7 +1,7 @@
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_01
 AS (
     SELECT 
-    st_simplify(iso_50k_01.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_01.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_01.id,
     iso_50k_01.class_id,
     "left"(iso_50k_01.elevation::text, length(iso_50k_01.elevation::text) - 2) AS elev
@@ -24,7 +24,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_01 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_02
 AS (
     SELECT 
-    st_simplify(iso_50k_02.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_02.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_02.id,
     iso_50k_02.class_id,
     "left"(iso_50k_02.elevation::text, length(iso_50k_02.elevation::text) - 2) AS elev
@@ -47,7 +47,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_02 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_03
 AS (
     SELECT 
-    st_simplify(iso_50k_03.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_03.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_03.id,
     iso_50k_03.class_id,
     "left"(iso_50k_03.elevation::text, length(iso_50k_03.elevation::text) - 2) AS elev
@@ -70,7 +70,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_03 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_10
 AS (
     SELECT 
-    st_simplify(iso_50k_10.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_10.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_10.id,
     iso_50k_10.class_id,
     "left"(iso_50k_10.elevation::text, length(iso_50k_10.elevation::text) - 2) AS elev
@@ -93,7 +93,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_10 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_11
 AS (
     SELECT 
-    st_simplify(iso_50k_11.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_11.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_11.id,
     iso_50k_11.class_id,
     "left"(iso_50k_11.elevation::text, length(iso_50k_11.elevation::text) - 2) AS elev
@@ -116,7 +116,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_11 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_12
 AS (
     SELECT 
-    st_simplify(iso_50k_12.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_12.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_12.id,
     iso_50k_12.class_id,
     "left"(iso_50k_12.elevation::text, length(iso_50k_12.elevation::text) - 2) AS elev
@@ -139,7 +139,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_12 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_13
 AS (
     SELECT 
-    st_simplify(iso_50k_13.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_13.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_13.id,
     iso_50k_13.class_id,
     "left"(iso_50k_13.elevation::text, length(iso_50k_13.elevation::text) - 2) AS elev
@@ -162,7 +162,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_13 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_14
 AS (
     SELECT 
-    st_simplify(iso_50k_14.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_14.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_14.id,
     iso_50k_14.class_id,
     "left"(iso_50k_14.elevation::text, length(iso_50k_14.elevation::text) - 2) AS elev
@@ -185,7 +185,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_14 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_21
 AS (
     SELECT 
-    st_simplify(iso_50k_21.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_21.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_21.id,
     iso_50k_21.class_id,
     "left"(iso_50k_21.elevation::text, length(iso_50k_21.elevation::text) - 2) AS elev
@@ -208,7 +208,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_21 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_22
 AS (
     SELECT 
-    st_simplify(iso_50k_22.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_22.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_22.id,
     iso_50k_22.class_id,
     "left"(iso_50k_22.elevation::text, length(iso_50k_22.elevation::text) - 2) AS elev
@@ -231,7 +231,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_22 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_23
 AS (
     SELECT 
-    st_simplify(iso_50k_23.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_23.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_23.id,
     iso_50k_23.class_id,
     "left"(iso_50k_23.elevation::text, length(iso_50k_23.elevation::text) - 2) AS elev
@@ -254,7 +254,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_23 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_24
 AS (
     SELECT 
-    st_simplify(iso_50k_24.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_24.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_24.id,
     iso_50k_24.class_id,
     "left"(iso_50k_24.elevation::text, length(iso_50k_24.elevation::text) - 2) AS elev
@@ -277,7 +277,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_24 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_25
 AS (
     SELECT 
-    st_simplify(iso_50k_25.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_25.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_25.id,
     iso_50k_25.class_id,
     "left"(iso_50k_25.elevation::text, length(iso_50k_25.elevation::text) - 2) AS elev
@@ -300,7 +300,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_25 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_26
 AS (
     SELECT 
-    st_simplify(iso_50k_26.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_26.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_26.id,
     iso_50k_26.class_id,
     "left"(iso_50k_26.elevation::text, length(iso_50k_26.elevation::text) - 2) AS elev
@@ -323,7 +323,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_26 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_30
 AS (
     SELECT 
-    st_simplify(iso_50k_30.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_30.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_30.id,
     iso_50k_30.class_id,
     "left"(iso_50k_30.elevation::text, length(iso_50k_30.elevation::text) - 2) AS elev
@@ -346,7 +346,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_30 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_31
 AS (
     SELECT 
-    st_simplify(iso_50k_31.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_31.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_31.id,
     iso_50k_31.class_id,
     "left"(iso_50k_31.elevation::text, length(iso_50k_31.elevation::text) - 2) AS elev
@@ -369,7 +369,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_31 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_32
 AS (
     SELECT 
-    st_simplify(iso_50k_32.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_32.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_32.id,
     iso_50k_32.class_id,
     "left"(iso_50k_32.elevation::text, length(iso_50k_32.elevation::text) - 2) AS elev
@@ -392,7 +392,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_32 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_33
 AS (
     SELECT 
-    st_simplify(iso_50k_33.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_33.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_33.id,
     iso_50k_33.class_id,
     "left"(iso_50k_33.elevation::text, length(iso_50k_33.elevation::text) - 2) AS elev
@@ -415,7 +415,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_33 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_34
 AS (
     SELECT 
-    st_simplify(iso_50k_34.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_34.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_34.id,
     iso_50k_34.class_id,
     "left"(iso_50k_34.elevation::text, length(iso_50k_34.elevation::text) - 2) AS elev
@@ -438,7 +438,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_34 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_35
 AS (
     SELECT 
-    st_simplify(iso_50k_35.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_35.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_35.id,
     iso_50k_35.class_id,
     "left"(iso_50k_35.elevation::text, length(iso_50k_35.elevation::text) - 2) AS elev
@@ -461,7 +461,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_35 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_36
 AS (
     SELECT 
-    st_simplify(iso_50k_36.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_36.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_36.id,
     iso_50k_36.class_id,
     "left"(iso_50k_36.elevation::text, length(iso_50k_36.elevation::text) - 2) AS elev
@@ -484,7 +484,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_36 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_39
 AS (
     SELECT 
-    st_simplify(iso_50k_39.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_39.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_39.id,
     iso_50k_39.class_id,
     "left"(iso_50k_39.elevation::text, length(iso_50k_39.elevation::text) - 2) AS elev
@@ -507,7 +507,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_39 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_40
 AS (
     SELECT 
-    st_simplify(iso_50k_40.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_40.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_40.id,
     iso_50k_40.class_id,
     "left"(iso_50k_40.elevation::text, length(iso_50k_40.elevation::text) - 2) AS elev
@@ -530,7 +530,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_40 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_41
 AS (
     SELECT 
-    st_simplify(iso_50k_41.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_41.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_41.id,
     iso_50k_41.class_id,
     "left"(iso_50k_41.elevation::text, length(iso_50k_41.elevation::text) - 2) AS elev
@@ -553,7 +553,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_41 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_42
 AS (
     SELECT 
-    st_simplify(iso_50k_42.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_42.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_42.id,
     iso_50k_42.class_id,
     "left"(iso_50k_42.elevation::text, length(iso_50k_42.elevation::text) - 2) AS elev
@@ -576,7 +576,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_42 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_43
 AS (
     SELECT 
-    st_simplify(iso_50k_43.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_43.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_43.id,
     iso_50k_43.class_id,
     "left"(iso_50k_43.elevation::text, length(iso_50k_43.elevation::text) - 2) AS elev
@@ -599,7 +599,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_43 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_44
 AS (
     SELECT 
-    st_simplify(iso_50k_44.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_44.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_44.id,
     iso_50k_44.class_id,
     "left"(iso_50k_44.elevation::text, length(iso_50k_44.elevation::text) - 2) AS elev
@@ -622,7 +622,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_44 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_45
 AS (
     SELECT 
-    st_simplify(iso_50k_45.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_45.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_45.id,
     iso_50k_45.class_id,
     "left"(iso_50k_45.elevation::text, length(iso_50k_45.elevation::text) - 2) AS elev
@@ -645,7 +645,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_45 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_50
 AS (
     SELECT 
-    st_simplify(iso_50k_50.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_50.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_50.id,
     iso_50k_50.class_id,
     "left"(iso_50k_50.elevation::text, length(iso_50k_50.elevation::text) - 2) AS elev
@@ -668,7 +668,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_50 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_51
 AS (
     SELECT 
-    st_simplify(iso_50k_51.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_51.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_51.id,
     iso_50k_51.class_id,
     "left"(iso_50k_51.elevation::text, length(iso_50k_51.elevation::text) - 2) AS elev
@@ -691,7 +691,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_51 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_52
 AS (
     SELECT 
-    st_simplify(iso_50k_52.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_52.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_52.id,
     iso_50k_52.class_id,
     "left"(iso_50k_52.elevation::text, length(iso_50k_52.elevation::text) - 2) AS elev
@@ -714,7 +714,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_52 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_53
 AS (
     SELECT 
-    st_simplify(iso_50k_53.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_53.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_53.id,
     iso_50k_53.class_id,
     "left"(iso_50k_53.elevation::text, length(iso_50k_53.elevation::text) - 2) AS elev
@@ -737,7 +737,7 @@ GRANT ALL ON TABLE gl_iso_gen_50k.mv_iso_50k_53 TO postgres;
 CREATE TABLE gl_iso_gen_50k.mv_iso_50k_54
 AS (
     SELECT 
-    st_simplify(iso_50k_54.geom, 20::double precision)::geometry(MultiLineString,32638) AS geom,
+    st_simplify(iso_50k_54.geom, 10::double precision)::geometry(MultiLineString,32638) AS geom,
     iso_50k_54.id,
     iso_50k_54.class_id,
     "left"(iso_50k_54.elevation::text, length(iso_50k_54.elevation::text) - 2) AS elev

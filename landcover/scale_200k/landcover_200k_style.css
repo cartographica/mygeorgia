@@ -65,16 +65,6 @@
   }
 }
 
-/* @title Water Body 200k */
-["class_id"='31120000'] [@sd > 150000] [@sd < 300000],
-["class_id"='31121000'] [@sd > 150000] [@sd < 300000],
-["class_id"='31131000'] [@sd > 150000] [@sd < 300000],
-["class_id"='31141000'] [@sd > 150000] [@sd < 300000] {
-  fill: #2edafc;
-  fill-opacity: 0.5;
-  z-index: 1;
-}
-
 /* @title Island 200k */
 ["class_id"='31300000'] [@sd > 150000] [@sd < 300000] {
   fill: #f1f4c7;

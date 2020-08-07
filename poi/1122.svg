@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11.2889mm" height="11.2889mm"
+ viewBox="0 0 32 32"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#3d97f1" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="7.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M37.2598,16 C37.2598,27.7415 27.7415,37.2598 16,37.2598 C4.25851,37.2598 -5.25984,27.7415 -5.25984,16 C-5.25984,4.25851 4.25851,-5.25984 16,-5.25984 C27.7415,-5.25984 37.2598,4.25851 37.2598,16 "/>
+</g>
+
+<g fill="#ffffff" fill-opacity="0.94902" stroke="none" transform="matrix(1,0,0,1,16,11.748)"
+font-family="MS Shell Dlg 2" font-size="7.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M-6.9126,0.624512 L-10.4399,0.624512 L-10.4399,-1.49609 L-1.13867,-1.49609 L-1.13867,0.624512 L-4.51904,0.624512 L-4.51904,10.0938 L-6.9126,10.0938 L-6.9126,0.624512 M3.3125,10.0938 L-0.466797,-1.49609 L2.01074,-1.49609 L4.42529,7.30127 L6.96582,-1.49609 L9.44336,-1.49609 L5.53809,10.0938 L3.3125,10.0938 M14.1675,-5.69531 L14.1675,15.5317 L-15.0381,15.5317 L-15.0381,-5.69531 L14.1675,-5.69531 M4.84521,14.7549 C5.22314,14.7549 5.41211,14.5589 5.41211,14.167 C5.41211,14.041 5.36312,13.9115 5.26514,13.7786 C5.16715,13.6456 5.02718,13.5791 4.84521,13.5791 L-5.75781,13.5791 C-5.92578,13.5791 -6.06576,13.6456 -6.17773,13.7786 C-6.28971,13.9115 -6.3457,14.041 -6.3457,14.167 C-6.3457,14.5589 -6.14974,14.7549 -5.75781,14.7549 L4.84521,14.7549 M11.123,14.7549 C11.431,14.7549 11.585,14.5589 11.585,14.167 C11.585,14.041 11.536,13.9115 11.438,13.7786 C11.34,13.6456 11.235,13.5791 11.123,13.5791 C10.9131,13.5791 10.7626,13.6456 10.6716,13.7786 C10.5806,13.9115 10.5352,14.041 10.5352,14.167 C10.5352,14.5589 10.7311,14.7549 11.123,14.7549 M13.0967,-4.45654 L-13.9253,-4.45654 L-13.9253,12.4873 L13.0967,12.4873 L13.0967,-4.45654"/>
+</g>
+
+<g fill="#3d97f1" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="7.8" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

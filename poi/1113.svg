@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11.2889mm" height="11.2889mm"
+ viewBox="0 0 32 32"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#3d97f1" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="7.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M37.2598,16 C37.2598,27.7415 27.7415,37.2598 16,37.2598 C4.25851,37.2598 -5.25984,27.7415 -5.25984,16 C-5.25984,4.25851 4.25851,-5.25984 16,-5.25984 C27.7415,-5.25984 37.2598,4.25851 37.2598,16 "/>
+</g>
+
+<g fill="#ffffff" fill-opacity="0.94902" stroke="none" transform="matrix(1,0,0,1,17.1339,12.0315)"
+font-family="MS Shell Dlg 2" font-size="7.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2.00293,-7.71094 C3.15072,-7.71094 4.22852,-7.49048 5.23633,-7.04956 C6.24414,-6.60864 7.11898,-6.01375 7.86084,-5.26489 C8.6027,-4.51603 9.19759,-3.64119 9.64551,-2.64038 C10.0934,-1.63957 10.3174,-0.565267 10.3174,0.58252 C10.3174,1.73031 10.0934,2.80461 9.64551,3.80542 C9.19759,4.80623 8.6027,5.68807 7.86084,6.45093 C7.11898,7.21379 6.24414,7.80868 5.23633,8.2356 C4.22852,8.66252 3.15072,8.87598 2.00293,8.87598 L-3.33008,8.87598 L-3.33008,16.7495 L-8.13818,16.7495 L-8.13818,-7.71094 L2.00293,-7.71094 M2.04492,4.15186 C3.08073,4.15186 3.95907,3.79142 4.67993,3.07056 C5.4008,2.34969 5.76123,1.49235 5.76123,0.498535 C5.76123,-0.0193685 5.66675,-0.502279 5.47778,-0.950195 C5.28882,-1.39811 5.02287,-1.78654 4.67993,-2.11548 C4.337,-2.44442 3.94157,-2.70687 3.49365,-2.90283 C3.04574,-3.0988 2.56283,-3.19678 2.04492,-3.19678 L-3.33008,-3.19678 L-3.33008,4.15186 L2.04492,4.15186"/>
+</g>
+
+<g fill="#3d97f1" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="7.8" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

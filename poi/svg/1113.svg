@@ -1,28 +1,109 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="11.2889mm" height="11.2889mm"
- viewBox="0 0 32 32"
- xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
-<title>Qt SVG Document</title>
-<desc>Generated with Qt</desc>
-<defs>
-</defs>
-<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
-
-<g fill="#3d97f1" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="7.8" font-weight="400" font-style="normal" 
->
-<path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M37.2598,16 C37.2598,27.7415 27.7415,37.2598 16,37.2598 C4.25851,37.2598 -5.25984,27.7415 -5.25984,16 C-5.25984,4.25851 4.25851,-5.25984 16,-5.25984 C27.7415,-5.25984 37.2598,4.25851 37.2598,16 "/>
-</g>
-
-<g fill="#ffffff" fill-opacity="0.94902" stroke="none" transform="matrix(1,0,0,1,17.1339,12.0315)"
-font-family="MS Shell Dlg 2" font-size="7.8" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="evenodd" d="M2.00293,-7.71094 C3.15072,-7.71094 4.22852,-7.49048 5.23633,-7.04956 C6.24414,-6.60864 7.11898,-6.01375 7.86084,-5.26489 C8.6027,-4.51603 9.19759,-3.64119 9.64551,-2.64038 C10.0934,-1.63957 10.3174,-0.565267 10.3174,0.58252 C10.3174,1.73031 10.0934,2.80461 9.64551,3.80542 C9.19759,4.80623 8.6027,5.68807 7.86084,6.45093 C7.11898,7.21379 6.24414,7.80868 5.23633,8.2356 C4.22852,8.66252 3.15072,8.87598 2.00293,8.87598 L-3.33008,8.87598 L-3.33008,16.7495 L-8.13818,16.7495 L-8.13818,-7.71094 L2.00293,-7.71094 M2.04492,4.15186 C3.08073,4.15186 3.95907,3.79142 4.67993,3.07056 C5.4008,2.34969 5.76123,1.49235 5.76123,0.498535 C5.76123,-0.0193685 5.66675,-0.502279 5.47778,-0.950195 C5.28882,-1.39811 5.02287,-1.78654 4.67993,-2.11548 C4.337,-2.44442 3.94157,-2.70687 3.49365,-2.90283 C3.04574,-3.0988 2.56283,-3.19678 2.04492,-3.19678 L-3.33008,-3.19678 L-3.33008,4.15186 L2.04492,4.15186"/>
-</g>
-
-<g fill="#3d97f1" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="7.8" font-weight="400" font-style="normal" 
->
-</g>
-</g>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="1113.svg"
+   id="svg20"
+   version="1.2"
+   viewBox="0 0 42.519639 42.519639"
+   height="14.999999mm"
+   width="14.999999mm">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Qt SVG Document</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg20"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="28.346482"
+     inkscape:cx="28.346482"
+     inkscape:zoom="18.047943"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     id="namedview22"
+     inkscape:window-height="1013"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title2">Qt SVG Document</title>
+  <desc
+     id="desc4">Generated with Qt</desc>
+  <defs
+     id="defs6" />
+  <g
+     transform="translate(5.25984,5.25984)"
+     id="g18"
+     stroke-linejoin="bevel"
+     stroke-linecap="square"
+     fill-rule="evenodd"
+     stroke-width="1"
+     stroke="#000000"
+     fill="none">
+    <g
+       id="g10"
+       font-style="normal"
+       font-weight="400"
+       font-size="7.8px"
+       font-family="'MS Shell Dlg 2'"
+       stroke="none"
+       fill-opacity="1"
+       fill="#3d97f1">
+      <path
+         id="path8"
+         d="M 37.2598,16 C 37.2598,27.7415 27.7415,37.2598 16,37.2598 4.25851,37.2598 -5.25984,27.7415 -5.25984,16 -5.25984,4.25851 4.25851,-5.25984 16,-5.25984 27.7415,-5.25984 37.2598,4.25851 37.2598,16"
+         fill-rule="evenodd"
+         vector-effect="non-scaling-stroke" />
+    </g>
+    <g
+       id="g14"
+       font-style="normal"
+       font-weight="400"
+       font-size="7.8px"
+       font-family="'MS Shell Dlg 2'"
+       transform="translate(17.1339,12.0315)"
+       stroke="none"
+       fill-opacity="0.94902"
+       fill="#ffffff">
+      <path
+         id="path12"
+         d="m 2.00293,-7.71094 c 1.14779,0 2.22559,0.22046 3.2334,0.66138 1.00781,0.44092 1.88265,1.03581 2.62451,1.78467 0.74186,0.74886 1.33675,1.6237 1.78467,2.62451 0.44789,1.00081 0.67189,2.075113 0.67189,3.2229 0,1.14779 -0.224,2.22209 -0.67189,3.2229 C 9.19759,4.80623 8.6027,5.68807 7.86084,6.45093 7.11898,7.21379 6.24414,7.80868 5.23633,8.2356 4.22852,8.66252 3.15072,8.87598 2.00293,8.87598 h -5.33301 v 7.87352 h -4.8081 V -7.71094 H 2.00293 m 0.04199,11.8628 c 1.03581,0 1.91415,-0.36044 2.63501,-1.0813 0.72087,-0.72087 1.0813,-1.57821 1.0813,-2.572025 0,-0.5179035 -0.09448,-1.000814 -0.28345,-1.44873 C 5.28882,-1.39811 5.02287,-1.78654 4.67993,-2.11548 4.337,-2.44442 3.94157,-2.70687 3.49365,-2.90283 3.04574,-3.0988 2.56283,-3.19678 2.04492,-3.19678 h -5.375 v 7.34864 h 5.375"
+         fill-rule="evenodd"
+         vector-effect="none" />
+    </g>
+    <g
+       id="g16"
+       font-style="normal"
+       font-weight="400"
+       font-size="7.8px"
+       font-family="'MS Shell Dlg 2'"
+       stroke="none"
+       fill-opacity="1"
+       fill="#3d97f1" />
+  </g>
 </svg>

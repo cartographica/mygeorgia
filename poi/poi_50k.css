@@ -1,0 +1,6 @@
+/** Autonomy Center */
+[@sd < 100k] {
+  mark: symbol('https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1802.svg');
+  mark-size: 15px;
+  mark-anchor: 0.5 0.5;
+}

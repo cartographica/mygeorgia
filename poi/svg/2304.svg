@@ -1,105 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="2304.svg"
-   id="svg20"
-   version="1.2"
-   viewBox="0 0 42.519639 42.519639"
-   height="14.999999mm"
-   width="14.999999mm">
-  <metadata
-     id="metadata24">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Qt SVG Document</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <sodipodi:namedview
-     inkscape:current-layer="svg20"
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
-     inkscape:cy="28.346482"
-     inkscape:cx="28.346482"
-     inkscape:zoom="5.8410537"
-     showgrid="false"
-     id="namedview22"
-     inkscape:window-height="480"
-     inkscape:window-width="1034"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
-     bordercolor="#666666"
-     pagecolor="#ffffff" />
-  <title
-     id="title2">Qt SVG Document</title>
-  <desc
-     id="desc4">Generated with Qt</desc>
-  <defs
-     id="defs6" />
-  <g
-     transform="translate(5.25984,5.25984)"
-     id="g18"
-     stroke-linejoin="bevel"
-     stroke-linecap="square"
-     fill-rule="evenodd"
-     stroke-width="1"
-     stroke="#000000"
-     fill="none">
-    <g
-       id="g10"
-       font-style="normal"
-       font-weight="400"
-       font-size="7.8px"
-       font-family="'MS Shell Dlg 2'"
-       stroke="none"
-       fill-opacity="1"
-       fill="#ef4b65">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 42.52 42.52" height="56.693" width="56.693">
+   <g stroke-linejoin="bevel" stroke-linecap="square" fill-rule="evenodd" stroke="none" fill="none" font-weight="400"
+      font-size="7.8" font-family="'MS Shell Dlg 2'">
       <path
-         id="path8"
-         d="M 37.2598,16 C 37.2598,27.7415 27.7415,37.2598 16,37.2598 4.25851,37.2598 -5.25984,27.7415 -5.25984,16 -5.25984,4.25851 4.25851,-5.25984 16,-5.25984 27.7415,-5.25984 37.2598,4.25851 37.2598,16"
-         fill-rule="evenodd"
-         vector-effect="non-scaling-stroke" />
-    </g>
-    <g
-       id="g14"
-       font-style="normal"
-       font-weight="400"
-       font-size="7.8px"
-       font-family="'MS Shell Dlg 2'"
-       transform="translate(16,12.5984)"
-       stroke="none"
-       fill-opacity="0.94902"
-       fill="#ffffff">
+         d="M42.52 21.26C42.52 33 33 42.52 21.26 42.52 9.518 42.52 0 33 0 21.26 0 9.518 9.518 0 21.26 0 33 0 42.52 9.518 42.52 21.26"
+         vector-effect="non-scaling-stroke" fill="#ef4b65" />
       <path
-         id="path12"
-         d="m -4.90088,9.86279 h 1.42774 V 14.167 h -4.3042 V 9.86279 h 1.42773 v 1.02881 h 1.44873 V 9.86279 m 5.64795,0 H 2.15381 V 14.167 H -2.1084 V 9.86279 h 1.427736 V 10.8916 H 0.74707 V 9.86279 m 7.03369,0 V 14.167 H 3.53955 V 9.86279 H 4.94629 V 10.8916 H 6.37402 V 9.86279 H 7.78076 M 4.94629,8.91797 H 0.64209 V 4.65576 H 2.06982 V 5.70557 H 3.53955 V 4.65576 h 1.40674 v 4.26221 m -5.54297,0 h -4.3042 V 4.65576 h 1.42774 v 1.04981 h 1.44873 V 4.65576 h 1.42773 V 8.91797 M -11.0107,11.8364 V -1.39111 h -0.9449 v -3.10743 l 11.400912,-3.35937 c 0.37793,-0.19596 0.762859,-0.19596 1.154786,0 L 12.001,-4.49854 v 3.10743 H 11.0142 V 11.8364 h 0.6508 l 0.5879,2.3306 H 9.25049 V 0.141602 H -9.20508 V 14.167 h -3.00242 l 0.6089,-2.3306 h 0.5879 M 6.29004,-1.79004 H 10.3213 V -3.5957 H 6.29004 v 1.80566 m -5.500977,0 H 4.82031 V -3.5957 H 0.789063 v 1.80566 m -5.563963,0 h 4.052244 V -3.5957 H -4.7749 v 1.80566 m -5.501,0 h 4.01027 V -3.5957 h -4.01027 v 1.80566"
-         fill-rule="evenodd"
-         vector-effect="none" />
-    </g>
-    <g
-       id="g16"
-       font-style="normal"
-       font-weight="400"
-       font-size="7.8px"
-       font-family="'MS Shell Dlg 2'"
-       stroke="none"
-       fill-opacity="1"
-       fill="#ef4b65" />
-  </g>
+         d="M16.359 27.721h1.428v4.304h-4.304v-4.304h1.427v1.029h1.449V27.72m5.648 0h1.407v4.304H19.15v-4.304h1.428v1.029h1.428V27.72m7.034 0v4.304h-4.242v-4.304h1.407v1.029h1.428V27.72h1.407m-2.835-.945h-4.304v-4.262h1.428v1.05h1.47v-1.05h1.406v4.262m-5.543 0H16.36v-4.262h1.428v1.05h1.448v-1.05h1.428v4.262M10.25 29.695V16.467h-.945V13.36L20.705 10c.378-.196.763-.196 1.155 0l11.4 3.36v3.107h-.986v13.228h.65l.589 2.33H30.51V18H12.055v14.025H9.052l.61-2.33h.587m17.3-13.627h4.032v-1.805H27.55v1.805m-5.501 0h4.031v-1.805H22.05v1.805m-5.564 0h4.052v-1.805h-4.052v1.805m-5.501 0h4.01v-1.805h-4.01v1.805"
+         fill-opacity=".949" fill="#fff" />
+   </g>
 </svg>

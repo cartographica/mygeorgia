@@ -1,109 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="1007.svg"
-   id="svg20"
-   version="1.2"
-   viewBox="0 0 42.519639 42.519639"
-   height="14.999999mm"
-   width="14.999999mm">
-  <metadata
-     id="metadata24">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Qt SVG Document</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <sodipodi:namedview
-     inkscape:current-layer="svg20"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-9"
-     inkscape:window-x="-9"
-     inkscape:cy="28.346482"
-     inkscape:cx="28.346482"
-     inkscape:zoom="18.047943"
-     fit-margin-bottom="0"
-     fit-margin-right="0"
-     fit-margin-left="0"
-     fit-margin-top="0"
-     showgrid="false"
-     id="namedview22"
-     inkscape:window-height="1013"
-     inkscape:window-width="1920"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
-     bordercolor="#666666"
-     pagecolor="#ffffff" />
-  <title
-     id="title2">Qt SVG Document</title>
-  <desc
-     id="desc4">Generated with Qt</desc>
-  <defs
-     id="defs6" />
-  <g
-     transform="translate(5.25984,5.25984)"
-     id="g18"
-     stroke-linejoin="bevel"
-     stroke-linecap="square"
-     fill-rule="evenodd"
-     stroke-width="1"
-     stroke="#000000"
-     fill="none">
-    <g
-       id="g10"
-       font-style="normal"
-       font-weight="400"
-       font-size="7.8px"
-       font-family="'MS Shell Dlg 2'"
-       stroke="none"
-       fill-opacity="1"
-       fill="#1f78b4">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 42.52 42.52" height="56.693" width="56.693">
+   <g stroke-linejoin="bevel" stroke-linecap="square" fill-rule="evenodd" stroke="none" fill="none" font-weight="400"
+      font-size="7.8" font-family="'MS Shell Dlg 2'">
       <path
-         id="path8"
-         d="M 37.2598,16 C 37.2598,27.7415 27.7415,37.2598 16,37.2598 4.25851,37.2598 -5.25984,27.7415 -5.25984,16 -5.25984,4.25851 4.25851,-5.25984 16,-5.25984 27.7415,-5.25984 37.2598,4.25851 37.2598,16"
-         fill-rule="evenodd"
-         vector-effect="non-scaling-stroke" />
-    </g>
-    <g
-       id="g14"
-       font-style="normal"
-       font-weight="400"
-       font-size="7.8px"
-       font-family="'MS Shell Dlg 2'"
-       transform="translate(16,13.7323)"
-       stroke="none"
-       fill-opacity="1"
-       fill="#ffffff">
+         d="M42.52 21.26C42.52 33 33 42.52 21.26 42.52 9.518 42.52 0 33 0 21.26 0 9.518 9.518 0 21.26 0 33 0 42.52 9.518 42.52 21.26"
+         vector-effect="non-scaling-stroke" fill="#1f78b4" />
       <path
-         id="path12"
-         d="m 10.5942,-7.20703 -5.64791,4.3042 C 4.8903,-2.76286 4.83431,-2.60539 4.77832,-2.43042 4.72233,-2.25545 4.66634,-2.05599 4.61035,-1.83203 4.47038,-1.62207 4.31991,-1.43311 4.15894,-1.26514 3.99797,-1.09717 3.8055,-0.915202 3.58154,-0.719238 L 0.474121,1.52734 C 0.628092,1.63932 0.733073,1.7688 0.789063,1.91577 0.845052,2.06274 0.873047,2.20622 0.873047,2.34619 v 4.3042 c 0,0.44792 -0.16097,0.80485 -0.48291,1.0708 C 0.306152,7.77718 0.222168,7.81917 0.138184,7.84717 0.0541992,7.87516 -0.0577799,7.88916 -0.197754,7.88916 L -4.66992,8.70801 -1.96143,17.1694 H -9.33105 L -10.6118,9.08594 c -0.084,-0.39193 -0.014,-0.79086 0.2099,-1.19678 0.168,-0.30794 0.46896,-0.60889 0.90288,-0.90283 0.11198,-0.11198 0.30094,-0.16797 0.56689,-0.16797 1.02181,0.27995 1.95264,0.09098 2.79248,-0.5669 C -5.99967,6.11149 -5.8807,5.99251 -5.78271,5.89453 -5.68473,5.79655 -5.58675,5.67057 -5.48877,5.5166 -5.3488,5.29264 -5.22282,5.08618 -5.11084,4.89722 -4.99886,4.70825 -4.94287,4.52979 -4.94287,4.36182 L -4.58594,3.8999 -4.12402,2.26221 -3.51514,2.89209 -3.22119,2.64014 -3.30518,2.34619 0.0541992,-0.194336 0.390137,-1.43311 -1.66748,0.0996094 -2.15039,-0.446289 2.84668,-4.18359 l 0.46191,0.62988 -1.36474,0.98682 -0.25196,1.21777 8.54541,-6.36182 0.3569,0.50391 M -0.848633,2.55615 -3.22119,5.83154 -0.932617,5.74756 -0.848633,2.55615 M -7.04248,5.43262 c -0.5459,0.40592 -1.15479,0.57389 -1.82666,0.5039 -0.67188,-0.06998 -1.21076,-0.37793 -1.61666,-0.92382 -0.406,-0.5739 -0.5564,-1.19678 -0.4515,-1.86866 0.105,-0.67187 0.4305,-1.21077 0.97636,-1.6167 0.5739,-0.40592 1.19678,-0.563391 1.86865,-0.47241 0.67188,0.09098 1.21078,0.40243 1.6167,0.93433 0.39193,0.5459 0.53191,1.15828 0.41993,1.83716 -0.11198,0.67887 -0.44092,1.21427 -0.98682,1.6062"
-         fill-rule="evenodd"
-         vector-effect="none" />
-    </g>
-    <g
-       id="g16"
-       font-style="normal"
-       font-weight="400"
-       font-size="7.8px"
-       font-family="'MS Shell Dlg 2'"
-       stroke="none"
-       fill-opacity="1"
-       fill="#1f78b4" />
-  </g>
+         d="M31.854 11.785l-5.648 4.304c-.056.14-.112.298-.168.473a9.696 9.696 0 00-.168.598c-.14.21-.29.399-.451.567-.161.168-.354.35-.578.546l-3.107 2.246a.866.866 0 01.315.389c.056.147.084.29.084.43v4.305c0 .447-.161.804-.483 1.07a1.06 1.06 0 01-.252.126 1.092 1.092 0 01-.336.042l-4.472.82 2.708 8.46h-7.37l-1.28-8.083c-.084-.392-.014-.79.21-1.197.168-.308.469-.609.903-.903.112-.112.3-.168.567-.168 1.022.28 1.952.091 2.792-.566l.357-.357c.098-.098.196-.224.294-.378.14-.224.266-.43.378-.62.112-.189.168-.367.168-.535l.357-.462.462-1.638.609.63.294-.252-.084-.294 3.359-2.54.336-1.239-2.058 1.533-.483-.546 4.998-3.737.461.63-1.364.986-.252 1.218 8.545-6.362.357.504m-11.443 9.763l-2.372 3.276 2.288-.084.084-3.192m-6.194 2.877a2.524 2.524 0 01-1.826.504 2.222 2.222 0 01-1.617-.924c-.406-.574-.556-1.197-.451-1.869.105-.672.43-1.21.976-1.617.574-.405 1.197-.563 1.869-.472.671.091 1.21.403 1.616.934a2.37 2.37 0 01.42 1.838 2.376 2.376 0 01-.987 1.606"
+         fill="#fff" />
+   </g>
 </svg>

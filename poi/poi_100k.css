@@ -19,6 +19,15 @@
 
 
 /*! Symbols 100k */
+/** -- empty symbol -- */
+* ["scale" >= 100] [@sd > 50k] [@sd < 100k] {
+  mark: symbol(circle);
+  :mark {
+    stroke: red;
+    stroke-opacity: 0;
+  }
+}
+
 /** --- */
 ["class_id" = 1001] ["scale" >= 100] [@sd > 50k] [@sd < 100k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1001.svg);

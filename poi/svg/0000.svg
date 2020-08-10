@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.693" height="56.693" viewBox="0 0 42.52 42.52" version="1.2">
+   <g font-family="'MS Shell Dlg 2'" font-size="7.8" font-weight="400" fill="none" fill-rule="evenodd"
+      stroke-linecap="square" stroke-linejoin="bevel">
+      <path fill="#1f78b4" vector-effect="non-scaling-stroke"
+         d="M42.52 21.26C42.52 33 33 42.52 21.26 42.52 9.518 42.52 0 33 0 21.26 0 9.518 9.518 0 21.26 0 33 0 42.52 9.518 42.52 21.26" />
+      <path stroke="#fff" stroke-width=".702" stroke-linecap="butt" stroke-linejoin="miter"
+         paint-order="fill markers stroke" d="M9.328 8.541h23.864V33.98H9.328z" />
+      <path
+         d="M19.563 26.82h2.23v2.79h-2.23zm2.164-1.616h-2.098v-1.692q0-1.11.307-1.824.308-.714 1.297-1.658l.988-.978q.627-.583.901-1.099.286-.516.286-1.055 0-.977-.725-1.582-.714-.604-1.9-.604-.869 0-1.858.385-.977.384-2.043 1.12v-2.065q1.033-.626 2.087-.934 1.066-.308 2.198-.308 2.021 0 3.24 1.066 1.231 1.066 1.231 2.813 0 .835-.395 1.593-.396.747-1.385 1.691l-.967.945q-.516.517-.736.813-.208.286-.296.56-.066.231-.1.56-.032.33-.032.902z"
+         aria-label="?" font-size="22.5" font-family="sans-serif" letter-spacing="0" word-spacing="0" fill="#fff"
+         stroke-width=".75" />
+   </g>
+</svg>

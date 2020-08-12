@@ -1,5 +1,5 @@
-/*! Label Properties 50k */
-["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+/*! Label Properties 5k & below */
+ [@sd < 3k] {
   label: [name_geo];
   label-offset: 0 -12;
   label-anchor: 0.5 1.0;
@@ -18,9 +18,9 @@
 }
 
 
-/*! Symbols 50k */
+/*! Symbols 5k & below */
 /** -- empty symbol -- */
-["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+ [@sd < 3k] {
   mark: symbol(square);
   mark-size: 6px;
   :mark {
@@ -30,1512 +30,1512 @@
 }
 
 /** --- */
-["class_id" = 1001] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1001]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1001.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1002] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1002]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1002.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1003] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1003]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1003.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1004] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1004]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1004.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1005] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1005]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1005.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1006] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1006]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1006.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1007] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1007]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1007.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1008] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1008]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1008.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1009] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1009]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1009.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1010] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1010]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1010.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1011] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1011]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1011.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1012] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1012]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1012.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1013] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1013]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1013.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1014] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1014]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1014.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1015] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1015]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1015.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1016] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1016]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1016.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1101] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1101]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1101.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1102] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1102]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1102.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1103] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1103]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1103.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1104] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1104]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1104.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1105] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1105]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1105.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1106] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1106]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1106.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1107] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1107]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1107.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1108] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1108]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1108.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1109] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1109]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1109.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1110] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1110]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1110.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1111] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1111]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1111.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1112] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1112]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1112.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1113] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1113]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1113.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1115] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1115]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1115.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1115] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1115]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1115.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1116] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1116]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1116.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1117] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1117]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1117.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1118] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1118]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1118.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1119] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1119]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1119.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1120] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1120]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1120.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1121] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1121]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1121.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1122] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1122]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1122.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1123] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1123]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1123.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1124] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1124]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1124.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1125] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1125]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1125.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1126] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1126]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1126.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1127] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1127]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1127.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1128] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1128]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1128.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1301] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1301]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1301.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1302] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1302]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1302.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1303] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1303]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1303.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1304] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1304]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1304.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1401] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1401]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1401.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1402] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1402]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1402.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1403] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1403]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1403.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1501] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1501]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1501.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1502] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1502]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1502.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1503] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1503]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1503.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1504] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1504]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1504.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1505] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1505]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1505.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1506] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1506]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1506.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1507] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1507]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1507.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1508] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1508]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1508.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1509] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1509]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1509.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1601] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1601]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1601.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1602] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1602]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1602.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1603] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1603]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1603.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1604] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1604]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1604.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1605] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1605]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1605.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1606] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1606]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1606.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1607] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1607]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1607.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1608] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1608]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1608.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1609] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1609]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1609.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1610] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1610]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1610.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1611] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1611]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1611.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1612] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1612]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1612.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1613] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1613]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1613.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1614] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1614]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1614.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1615] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1615]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1615.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1616] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1616]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1616.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1617] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1617]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1617.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1618] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1618]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1618.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1701] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1701]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1701.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1701] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1701]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1701.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1702] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1702]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1702.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1703] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1703]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1703.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1704] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1704]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1704.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1705] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1705]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1705.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1706] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1706]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1706.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1707] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1707]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1707.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1708] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1708]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1708.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1709] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1709]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1709.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1710] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1710]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1710.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1711] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1711]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1711.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1712] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1712]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1712.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1713] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1713]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1713.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1714] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1714]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1714.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1715] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1715]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1715.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1716] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1716]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1716.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1717] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1717]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1717.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1718] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1718]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1718.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1719] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1719]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1719.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1720] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1720]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1720.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1721] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1721]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1721.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1722] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1722]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1722.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1723] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1723]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1723.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1724] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1724]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1724.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1725] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1725]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1725.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1726] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1726]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1726.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1801] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1801]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1801.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1802] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1802]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1802.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1803] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1803]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1803.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1804] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1804]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1804.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1805] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1805]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1805.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1806] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1806]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1806.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1807] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1807]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1807.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1808] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1808]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1808.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1809] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1809]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1809.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1810] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1810]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1810.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1811] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1811]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1811.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1812] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1812]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1812.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1813] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1813]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1813.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1814] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1814]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1814.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1815] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1815]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1815.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1816] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1816]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1816.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1817] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1817]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1817.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1818] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1818]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1818.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1819] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1819]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1819.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1901] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1901]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1901.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1902] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1902]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1902.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1903] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1903]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1903.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1904] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1904]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1904.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1905] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1905]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1905.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1906] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1906]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1906.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1907] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1907]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1907.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 1908] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 1908]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/1908.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2001] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2001]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2001.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2002] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2002]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2002.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2003] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2003]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2003.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2004] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2004]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2004.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2101] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2101]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2101.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2102] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2102]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2102.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2103] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2103]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2103.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2104] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2104]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2104.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2105] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2105]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2105.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2106] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2106]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2106.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2107] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2107]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2107.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2108] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2108]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2108.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2109] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2109]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2109.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2110] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2110]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2110.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2111] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2111]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2111.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2112] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2112]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2112.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2201] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2201]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2201.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2202] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2202]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2202.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2203] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2203]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2203.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2204] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2204]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2204.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2205] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2205]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2205.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2301] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2301]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2301.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2302] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2302]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2302.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2303] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2303]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2303.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2304] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2304]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2304.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2305] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2305]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2305.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2306] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2306]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2306.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2307] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2307]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2307.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2308] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2308]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2308.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2309] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2309]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2309.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2310] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2310]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2310.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2311] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2311]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2311.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2312] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2312]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2312.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2313] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2313]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2313.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2314] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2314]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2314.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2315] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2315]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2315.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2316] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2316]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2316.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2317] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2317]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2317.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2318] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2318]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2318.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2401] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2401]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2401.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2402] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2402]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2402.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2403] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2403]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2403.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2404] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2404]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2404.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2405] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2405]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2405.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2406] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2406]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2406.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2407] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2407]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2407.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2408] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2408]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2408.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2409] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2409]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2409.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2410] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2410]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2410.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2411] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2411]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2411.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2412] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2412]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2412.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2413] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2413]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2413.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2414] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2414]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2414.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2415] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2415]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2415.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2416] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2416]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2416.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2417] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2417]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2417.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2418] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2418]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2418.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2501] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2501]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2501.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2502] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2502]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2502.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2503] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2503]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2503.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2504] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2504]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2504.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2505] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2505]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2505.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2506] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2506]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2506.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2507] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2507]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2507.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2508] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2508]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2508.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2509] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2509]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2509.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2510] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2510]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2510.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2601] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2601]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2601.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2602] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2602]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2602.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2603] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2603]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2603.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2604] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2604]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2604.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2605] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2605]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2605.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2606] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2606]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2606.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2607] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2607]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2607.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2608] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2608]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2608.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2609] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2609]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2609.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2610] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2610]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2610.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2611] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2611]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2611.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2612] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2612]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2612.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2613] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2613]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2613.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2614] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2614]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2614.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2615] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2615]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2615.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 2616] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 2616]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/2616.svg);
   mark-mime: "image/svg";
   mark-size: 20px;
 }
 
 /** --- */
-["class_id" = 9901] ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
+["class_id" = 9901]  [@sd < 3k] {
   mark: url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/poi/svg/9901.svg);
   mark-mime: "image/svg";
   mark-size: 20px;

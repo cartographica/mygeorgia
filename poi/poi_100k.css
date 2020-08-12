@@ -1,6 +1,6 @@
 /*! Label Properties 100k */
 ["scale" >= 100] [@sd > 50k] [@sd < 100k] {
-  label: [name_geo_g];
+  label: [name_geo];
   label-offset: 0 -12;
   label-anchor: 0.5 1.0;
   
@@ -13,18 +13,19 @@
   font-weight: normal;
   
   mark-label-obstacle: true;
-  label-max-displacement: 100;
+  label-max-displacement: 30;
   label-padding: 2;
 }
 
 
 /*! Symbols 100k */
 /** -- empty symbol -- */
-* ["scale" >= 100] [@sd > 50k] [@sd < 100k] {
-  mark: symbol(circle);
+["scale" >= 100] [@sd > 50k] [@sd < 100k] {
+  mark: symbol(square);
+  mark-size: 6px;
   :mark {
-    stroke: red;
-    stroke-opacity: 0;
+    fill: red;
+    fill-opacity: 1;
   }
 }
 

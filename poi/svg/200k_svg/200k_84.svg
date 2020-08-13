@@ -1,60 +1,197 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="11.2889mm" height="11.2889mm"
- viewBox="0 0 32 32"
- xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
-<title>Qt SVG Document</title>
-<desc>Generated with Qt</desc>
-<defs>
-</defs>
-<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
-
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,16,16)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.33333,0,0,1.33333,16,16)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="#ffd42a" fill-opacity="1" stroke="none" transform="matrix(0.575773,0,0,0.575773,8.91339,8.91339)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="nonzero" d="M21.6654,12.308 C21.6654,17.4765 17.4765,21.6654 12.308,21.6654 C7.13948,21.6654 2.95056,17.4765 2.95056,12.308 C2.95056,7.13947 7.13948,2.95056 12.308,2.95056 C17.4765,2.95056 21.6654,7.13947 21.6654,12.308 "/>
-</g>
-
-<g fill="none" stroke="#aa8800" stroke-opacity="1" stroke-width="0.182763" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(0.575773,0,0,0.575773,8.91339,8.91339)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="nonzero" d="M21.6654,12.308 C21.6654,17.4765 17.4765,21.6654 12.308,21.6654 C7.13948,21.6654 2.95056,17.4765 2.95056,12.308 C2.95056,7.13947 7.13948,2.95056 12.308,2.95056 C17.4765,2.95056 21.6654,7.13947 21.6654,12.308 "/>
-</g>
-
-<g fill="#333333" fill-opacity="1" stroke="none" transform="matrix(0.0177979,0,0,0.0177979,11.3752,11.3752)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
-opacity="0.996078" >
-<path vector-effect="none" fill-rule="nonzero" d="M502.108,352.388 L462.166,283.208 L496.222,222.218 L455.786,222.218 L432.008,265.991 L373.074,265.991 L343.464,215.139 L372.993,163.562 L465.581,163.562 L445.189,128.543 L373.285,128.543 L333.355,59.3814 L233.613,59.3814 L193.682,128.543 L114.763,128.543 L68.9957,206.459 L109.772,206.459 L134.938,163.562 L193.975,163.562 L223.504,215.139 L193.894,265.991 L114.742,265.991 L64.8924,352.333 L114.699,439.332 L214.091,439.332 L253.852,370.171 L313.159,370.171 L342.779,421.258 L313.137,472.6 L237.084,472.6 L257.124,507.619 L333.354,507.619 L373.285,438.457 L452.204,438.457 L502.108,352.388 M313.116,335.152 L253.852,335.152 L224.189,283.556 L253.788,232.723 L313.18,232.723 L342.779,283.556 L313.116,335.152 M253.831,94.3999 L313.137,94.3999 L342.811,145.797 L313.094,197.705 L253.873,197.705 L224.156,145.797 L253.831,94.3999 M193.83,404.314 L135.002,404.314 L105.285,352.406 L134.959,301.009 L193.83,301.009 L223.526,352.662 L193.83,404.314 M372.926,403.438 L343.464,352.625 L373.139,301.009 L432.008,301.009 L461.65,352.352 L432.029,403.438 L372.926,403.438"/>
-</g>
-
-<g fill="#ffdd50" fill-opacity="1" stroke="none" transform="matrix(0.575773,0,0,0.575773,8.91339,8.91339)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="nonzero" d="M19.1783,14.5503 L17.9436,12.4118 L18.9963,10.5265 L17.7464,10.5265 L17.0114,11.8796 L15.1897,11.8796 L14.2744,10.3077 L15.1872,8.71337 L18.0492,8.71337 L17.4188,7.63091 L15.1962,7.63091 L13.9619,5.49304 L10.8787,5.49304 L9.64443,7.63091 L7.20496,7.63091 L5.79023,10.0394 L7.05068,10.0394 L7.82859,8.71337 L9.6535,8.71337 L10.5663,10.3077 L9.65098,11.8796 L7.20431,11.8796 L5.66339,14.5485 L7.20298,17.2378 L10.2753,17.2378 L11.5044,15.0999 L13.3376,15.0999 L14.2532,16.6791 L13.3369,18.2661 L10.986,18.2661 L11.6055,19.3486 L13.9619,19.3486 L15.1962,17.2107 L17.6357,17.2107 L19.1783,14.5503 M13.3363,14.0175 L11.5044,14.0175 L10.5875,12.4226 L11.5024,10.8512 L13.3383,10.8512 L14.2532,12.4226 L13.3363,14.0175 M11.5037,6.5755 L13.3369,6.5755 L14.2542,8.16423 L13.3356,9.76877 L11.505,9.76877 L10.5864,8.16423 L11.5037,6.5755 M9.64901,16.1553 L7.83057,16.1553 L6.91199,14.5508 L7.82924,12.9621 L9.64901,12.9621 L10.5669,14.5587 L9.64901,16.1553 M15.1851,16.1283 L14.2744,14.5576 L15.1917,12.9621 L17.0114,12.9621 L17.9277,14.5492 L17.0121,16.1283 L15.1851,16.1283"/>
-</g>
-
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.33333,0,0,1.33333,16,16)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,16,16)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-</g>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="200k_84.svg"
+   id="svg36"
+   version="1.2"
+   viewBox="0 0 10.88073 10.88073"
+   height="3.8384836mm"
+   width="3.8384836mm">
+  <metadata
+     id="metadata40">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg36"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="8.7438738"
+     inkscape:cx="12.512572"
+     inkscape:zoom="18.047943"
+     showgrid="false"
+     id="namedview38"
+     inkscape:window-height="1013"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title2">Qt SVG Document</title>
+  <desc
+     id="desc4">Generated with Qt</desc>
+  <defs
+     id="defs6" />
+  <g
+     transform="translate(-10.559628,-10.559628)"
+     id="g34"
+     stroke-linejoin="bevel"
+     stroke-linecap="square"
+     fill-rule="evenodd"
+     stroke-width="1"
+     stroke="#000000"
+     fill="none">
+    <g
+       id="g8"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="translate(16,16)"
+       stroke-linejoin="bevel"
+       stroke-linecap="square"
+       stroke-width="1"
+       stroke-opacity="1"
+       stroke="#000000"
+       fill="none" />
+    <g
+       id="g10"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="matrix(1.33333,0,0,1.33333,16,16)"
+       stroke-linejoin="bevel"
+       stroke-linecap="square"
+       stroke-width="1"
+       stroke-opacity="1"
+       stroke="#000000"
+       fill="none" />
+    <g
+       id="g14"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="matrix(0.575773,0,0,0.575773,8.91339,8.91339)"
+       stroke="none"
+       fill-opacity="1"
+       fill="#ffd42a">
+      <path
+         id="path12"
+         d="m 21.6654,12.308 c 0,5.1685 -4.1889,9.3574 -9.3574,9.3574 -5.16852,0 -9.35744,-4.1889 -9.35744,-9.3574 0,-5.16853 4.18892,-9.35744 9.35744,-9.35744 5.1685,0 9.3574,4.18891 9.3574,9.35744"
+         fill-rule="nonzero"
+         vector-effect="none" />
+    </g>
+    <g
+       id="g18"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="matrix(0.575773,0,0,0.575773,8.91339,8.91339)"
+       stroke-miterlimit="4"
+       stroke-linejoin="miter"
+       stroke-linecap="butt"
+       stroke-width="0.182763"
+       stroke-opacity="1"
+       stroke="#aa8800"
+       fill="none">
+      <path
+         id="path16"
+         d="m 21.6654,12.308 c 0,5.1685 -4.1889,9.3574 -9.3574,9.3574 -5.16852,0 -9.35744,-4.1889 -9.35744,-9.3574 0,-5.16853 4.18892,-9.35744 9.35744,-9.35744 5.1685,0 9.3574,4.18891 9.3574,9.35744"
+         fill-rule="nonzero"
+         vector-effect="none" />
+    </g>
+    <g
+       id="g22"
+       opacity="0.996078"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="matrix(0.0177979,0,0,0.0177979,11.3752,11.3752)"
+       stroke="none"
+       fill-opacity="1"
+       fill="#333333">
+      <path
+         id="path20"
+         d="m 502.108,352.388 -39.942,-69.18 34.056,-60.99 h -40.436 l -23.778,43.773 h -58.934 l -29.61,-50.852 29.529,-51.577 h 92.588 l -20.392,-35.019 h -71.904 l -39.93,-69.1616 h -99.742 l -39.931,69.1616 h -78.919 l -45.7673,77.916 h 40.7763 l 25.166,-42.897 h 59.037 l 29.529,51.577 -29.61,50.852 h -79.152 l -49.8496,86.342 49.8066,86.999 h 99.392 l 39.761,-69.161 h 59.307 l 29.62,51.087 -29.642,51.342 h -76.053 l 20.04,35.019 h 76.23 l 39.931,-69.162 h 78.919 l 49.904,-86.069 M 313.116,335.152 h -59.264 l -29.663,-51.596 29.599,-50.833 h 59.392 l 29.599,50.833 -29.663,51.596 M 253.831,94.3999 h 59.306 l 29.674,51.3971 -29.717,51.908 H 253.873 L 224.156,145.797 253.831,94.3999 M 193.83,404.314 h -58.828 l -29.717,-51.908 29.674,-51.397 h 58.871 l 29.696,51.653 -29.696,51.652 m 179.096,-0.876 -29.462,-50.813 29.675,-51.616 h 58.869 l 29.642,51.343 -29.621,51.086 h -59.103"
+         fill-rule="nonzero"
+         vector-effect="none" />
+    </g>
+    <g
+       id="g26"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="matrix(0.575773,0,0,0.575773,8.91339,8.91339)"
+       stroke="none"
+       fill-opacity="1"
+       fill="#ffdd50">
+      <path
+         id="path24"
+         d="m 19.1783,14.5503 -1.2347,-2.1385 1.0527,-1.8853 h -1.2499 l -0.735,1.3531 h -1.8217 l -0.9153,-1.5719 0.9128,-1.59433 h 2.862 L 17.4188,7.63091 H 15.1962 L 13.9619,5.49304 H 10.8787 L 9.64443,7.63091 H 7.20496 L 5.79023,10.0394 H 7.05068 L 7.82859,8.71337 H 9.6535 l 0.9128,1.59433 -0.91532,1.5719 H 7.20431 l -1.54092,2.6689 1.53959,2.6893 h 3.07232 l 1.2291,-2.1379 h 1.8332 l 0.9156,1.5792 -0.9163,1.587 H 10.986 l 0.6195,1.0825 h 2.3564 l 1.2343,-2.1379 h 2.4395 l 1.5426,-2.6604 m -5.842,-0.5328 h -1.8319 l -0.9169,-1.5949 0.9149,-1.5714 h 1.8359 l 0.9149,1.5714 -0.9169,1.5949 m -1.8326,-7.442 h 1.8332 l 0.9173,1.58873 -0.9186,1.60454 H 11.505 L 10.5864,8.16423 11.5037,6.5755 M 9.64901,16.1553 H 7.83057 L 6.91199,14.5508 7.82924,12.9621 h 1.81977 l 0.91789,1.5966 -0.91789,1.5966 m 5.53609,-0.027 -0.9107,-1.5707 0.9173,-1.5955 h 1.8197 l 0.9163,1.5871 -0.9156,1.5791 h -1.827"
+         fill-rule="nonzero"
+         vector-effect="none" />
+    </g>
+    <g
+       id="g28"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="matrix(1.33333,0,0,1.33333,16,16)"
+       stroke-linejoin="bevel"
+       stroke-linecap="square"
+       stroke-width="1"
+       stroke-opacity="1"
+       stroke="#000000"
+       fill="none" />
+    <g
+       id="g30"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="translate(16,16)"
+       stroke-linejoin="bevel"
+       stroke-linecap="square"
+       stroke-width="1"
+       stroke-opacity="1"
+       stroke="#000000"
+       fill="none" />
+    <g
+       id="g32"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       stroke-linejoin="bevel"
+       stroke-linecap="square"
+       stroke-width="1"
+       stroke-opacity="1"
+       stroke="#000000"
+       fill="none" />
+  </g>
 </svg>

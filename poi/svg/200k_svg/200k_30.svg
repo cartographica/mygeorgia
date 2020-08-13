@@ -1,73 +1,186 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="11.2889mm" height="11.2889mm"
- viewBox="0 0 32 32"
- xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
-<title>Qt SVG Document</title>
-<desc>Generated with Qt</desc>
-<defs>
-</defs>
-<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
-
-<g fill="none" stroke="none" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="none" transform="matrix(1.33333,0,0,1.33333,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="#a61215" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="evenodd" d="M21.402,17.114 C21.402,17.87 21.2597,18.5817 20.975,19.249 C20.6903,19.9163 20.2983,20.4973 19.799,20.992 C19.2997,21.4867 18.7163,21.8763 18.049,22.161 C17.3817,22.4457 16.67,22.588 15.914,22.588 C15.158,22.588 14.4463,22.4457 13.779,22.161 C13.1117,21.8763 12.5307,21.4867 12.036,20.992 C11.5413,20.4973 11.1517,19.9163 10.867,19.249 C10.5823,18.5817 10.44,17.87 10.44,17.114 C10.44,16.358 10.5823,15.6463 10.867,14.979 C11.1517,14.3117 11.5413,13.7283 12.036,13.229 C12.5307,12.7297 13.1117,12.3377 13.779,12.053 C14.4463,11.7683 15.158,11.626 15.914,11.626 C16.67,11.626 17.3817,11.7683 18.049,12.053 C18.7163,12.3377 19.2997,12.7297 19.799,13.229 C20.2983,13.7283 20.6903,14.3117 20.975,14.979 C21.2597,15.6463 21.402,16.358 21.402,17.114 "/>
-</g>
-
-<g fill="none" stroke="none" transform="matrix(1.33333,0,0,1.33333,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="none" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="none" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="none" transform="matrix(1.33333,0,0,1.33333,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="evenodd" d="M13.33,16.83 L13.33,15.41 L13.04,15.47 L12.89,15.28 L14.72,14.17 L15.35,14.58 L15.35,14 L15.57,14 L15.57,14.71 L16.52,15.28 L16.38,15.47 L16.08,15.41 L16.08,15.96 L14.93,16.66 L14.08,16.66 L14.08,16.83 L13.33,16.83 M14.93,15.41 L14.48,15.41 L14.48,16.41 L14.93,16.41 L14.93,15.41 M15.21,16 L15.69,16 L15.69,15.49 L15.21,15.49 L15.21,16 M14.4,14.9 L15.01,14.9 L14.72,14.58 L14.4,14.9 M13.72,16 L14.21,16 L14.21,15.49 L13.72,15.49 L13.72,16 M19.16,17.56 L18.95,17.81 L18.55,17.73 L18.55,19.73 L17.48,19.73 L17.48,19.58 L15.72,19.58 L15.72,19.73 L14.67,19.73 L14.67,17.73 L14.25,17.81 L14.06,17.56 L16.61,16 L17.52,16.56 L17.52,15.77 L17.8,15.77 L17.8,16.73 L19.16,17.56 M16.61,16.56 C16.4767,16.56 16.3683,16.605 16.285,16.695 C16.2017,16.785 16.16,16.8867 16.16,17 L17.03,17 C17.03,16.8867 16.9883,16.785 16.905,16.695 C16.8217,16.605 16.7233,16.56 16.61,16.56 M16.28,17.73 L16.28,19.15 L16.93,19.15 L16.93,17.73 L16.28,17.73 M15.89,17.85 L15.23,17.85 L15.23,18.85 L15.89,18.85 L15.89,17.85 M17.12,19.36 L16.08,19.36 L16.08,19.47 L17.12,19.47 L17.12,19.36 M17.99,17.85 L17.32,17.85 L17.32,18.85 L17.99,18.85 L17.99,17.85"/>
-</g>
-
-<g fill="none" stroke="none" transform="matrix(1.33333,0,0,1.33333,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="none" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
-font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" 
->
-</g>
-</g>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="200k_30.svg"
+   id="svg38"
+   version="1.2"
+   viewBox="0 0 10.962 10.962"
+   height="3.8671539mm"
+   width="3.8671539mm">
+  <metadata
+     id="metadata42">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg38"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="5.832006"
+     inkscape:cx="7.4133409"
+     inkscape:zoom="18.047943"
+     showgrid="false"
+     id="namedview40"
+     inkscape:window-height="1013"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title2">Qt SVG Document</title>
+  <desc
+     id="desc4">Generated with Qt</desc>
+  <defs
+     id="defs6" />
+  <g
+     transform="translate(-10.44,-11.626)"
+     id="g36"
+     stroke-linejoin="bevel"
+     stroke-linecap="square"
+     fill-rule="evenodd"
+     stroke-width="1"
+     stroke="#000000"
+     fill="none">
+    <g
+       id="g8"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       stroke="none"
+       fill="none" />
+    <g
+       id="g10"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="scale(1.33333)"
+       stroke="none"
+       fill="none" />
+    <g
+       id="g14"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       stroke="none"
+       fill-opacity="1"
+       fill="#a61215">
+      <path
+         id="path12"
+         d="m 21.402,17.114 c 0,0.756 -0.1423,1.4677 -0.427,2.135 -0.2847,0.6673 -0.6767,1.2483 -1.176,1.743 -0.4993,0.4947 -1.0827,0.8843 -1.75,1.169 -0.6673,0.2847 -1.379,0.427 -2.135,0.427 -0.756,0 -1.4677,-0.1423 -2.135,-0.427 -0.6673,-0.2847 -1.2483,-0.6743 -1.743,-1.169 -0.4947,-0.4947 -0.8843,-1.0757 -1.169,-1.743 -0.2847,-0.6673 -0.427,-1.379 -0.427,-2.135 0,-0.756 0.1423,-1.4677 0.427,-2.135 0.2847,-0.6673 0.6743,-1.2507 1.169,-1.75 0.4947,-0.4993 1.0757,-0.8913 1.743,-1.176 0.6673,-0.2847 1.379,-0.427 2.135,-0.427 0.756,0 1.4677,0.1423 2.135,0.427 0.6673,0.2847 1.2507,0.6767 1.75,1.176 0.4993,0.4993 0.8913,1.0827 1.176,1.75 0.2847,0.6673 0.427,1.379 0.427,2.135"
+         fill-rule="evenodd"
+         vector-effect="none" />
+    </g>
+    <g
+       id="g16"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="scale(1.33333)"
+       stroke="none"
+       fill="none" />
+    <g
+       id="g18"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       stroke="none"
+       fill="none" />
+    <g
+       id="g20"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       stroke-linejoin="bevel"
+       stroke-linecap="square"
+       stroke-width="1"
+       stroke-opacity="1"
+       stroke="#000000"
+       fill="none" />
+    <g
+       id="g22"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       stroke="none"
+       fill="none" />
+    <g
+       id="g24"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="scale(1.33333)"
+       stroke="none"
+       fill="none" />
+    <g
+       id="g28"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       stroke="none"
+       fill-opacity="1"
+       fill="#ffffff">
+      <path
+         id="path26"
+         d="m 13.226,17.072 v -1.42 l -0.29,0.06 -0.15,-0.19 1.83,-1.11 0.63,0.41 v -0.58 h 0.22 v 0.71 l 0.95,0.57 -0.14,0.19 -0.3,-0.06 v 0.55 l -1.15,0.7 h -0.85 v 0.17 h -0.75 m 1.6,-1.42 h -0.45 v 1 h 0.45 v -1 m 0.28,0.59 h 0.48 v -0.51 h -0.48 v 0.51 m -0.81,-1.1 h 0.61 l -0.29,-0.32 -0.32,0.32 m -0.68,1.1 h 0.49 v -0.51 h -0.49 v 0.51 m 5.44,1.56 -0.21,0.25 -0.4,-0.08 v 2 h -1.07 v -0.15 h -1.76 v 0.15 h -1.05 v -2 l -0.42,0.08 -0.19,-0.25 2.55,-1.56 0.91,0.56 v -0.79 h 0.28 v 0.96 l 1.36,0.83 m -2.55,-1 c -0.1333,0 -0.2417,0.045 -0.325,0.135 -0.0833,0.09 -0.125,0.1917 -0.125,0.305 h 0.87 c 0,-0.1133 -0.0417,-0.215 -0.125,-0.305 -0.0833,-0.09 -0.1817,-0.135 -0.295,-0.135 m -0.33,1.17 v 1.42 h 0.65 v -1.42 h -0.65 m -0.39,0.12 h -0.66 v 1 h 0.66 v -1 m 1.23,1.51 h -1.04 v 0.11 h 1.04 v -0.11 m 0.87,-1.51 h -0.67 v 1 h 0.67 v -1"
+         fill-rule="evenodd"
+         vector-effect="none" />
+    </g>
+    <g
+       id="g30"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       transform="scale(1.33333)"
+       stroke="none"
+       fill="none" />
+    <g
+       id="g32"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       stroke="none"
+       fill="none" />
+    <g
+       id="g34"
+       font-style="normal"
+       font-weight="400"
+       font-size="8.25px"
+       font-family="'MS Shell Dlg 2'"
+       stroke-linejoin="bevel"
+       stroke-linecap="square"
+       stroke-width="1"
+       stroke-opacity="1"
+       stroke="#000000"
+       fill="none" />
+  </g>
 </svg>

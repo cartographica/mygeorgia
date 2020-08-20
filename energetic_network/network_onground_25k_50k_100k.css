@@ -5,7 +5,7 @@
 }
 
 /*! START Electricity Line 100k */
-/** Pipeline */ 
+/** Electricity Line */ 
 ["class_id" = '53432000'] [@sd < 100k] {
   stroke: black;
   stroke-width: 0.2px;
@@ -15,7 +15,7 @@
   z-index: 10;
 }
 
-/** Line Dots */
+/** Vertlines */
 ["class_id" = '53432000'] [@sd < 100k] {
   stroke: symbol('shape://vertline');
   stroke-dashoffset: 5;

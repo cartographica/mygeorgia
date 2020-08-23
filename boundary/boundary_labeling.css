@@ -1,23 +1,18 @@
-/* @title Boundary Labeling */
-["reg_code" in ('11')]{
-  fill:blue;
-  stroke: red;
-  stroke-width: 5px;
-  stroke-linecap: round;
-}
-
-["reg_code" in ('11')] {
-  stroke-geometry: [boundary(buffer(geom, 100))];
-  label: [reg_eng];
+/** Boundary Labeling */
+[@sd < 150k] {
+  fill:transparent;
+  label: [reg_geo];
   label-group: true;
-  font-family: Arial;
+  label-offset: -12;
+  font-family: "DejaVu Sans";
   font-weight: normal;
-  font-fill: black;
-  font-size: 10;
+  font-fill: #b34694;
+  font-size: 11;
   halo-color: white;
   halo-radius: 1;
   label-follow-line: true;
-  label-max-angle-delta: 90;
-  label-max-displacement: 400;
-  label-repeat: 150;
+  label-max-angle-delta: 45;
+  label-max-displacement: 200;
+  label-repeat: 500;
+  label-padding: 10;
 }

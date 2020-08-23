@@ -1,6 +1,6 @@
 /** Boundary Labeling */
 [@sd < 150k] {
-  fill:transparent;
+  fill: transparent;
   label: [reg_geo];
   label-group: true;
   label-offset: -12;
@@ -15,4 +15,8 @@
   label-max-displacement: 200;
   label-repeat: 500;
   label-padding: 10;
+  /* Tskhinvali Region */
+  ["reg_code" = 13] {
+    font-fill: #b3b3b3;
+  }
 }

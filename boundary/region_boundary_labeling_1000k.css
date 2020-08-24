@@ -1,7 +1,7 @@
-/** Boundary Labeling */
-[@sd < 150k] {
+/** Region Boundary Labeling 1000k */
+["state" NOT IN ('BSE','KSP')] [@sd > 150k] {
   fill: transparent;
-  label: [reg_geo];
+  label: [region_geo_geo];
   label-group: true;
   label-offset: -12;
   font-family: "DejaVu Sans";
@@ -17,6 +17,6 @@
   label-padding: 10;
   /* Tskhinvali Region */
   ["reg_code" = 13] {
-    font-fill: #b3b3b3;
+    font-fill: #737373;
   }
 }

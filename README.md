@@ -8,4 +8,14 @@
 
 # Geoland - MyGeorgia Project
 
-<img src="docs/main.jpg" alt="MyGeorgia Project" style="max-width:100%">
+### MyGeorgia Sattelite
+
+<img src="docs/my_georgia_satellite.jpg" alt="MyGeorgia Project Sattelite" style="max-width:100%">
+
+### MyGeorgia Main View
+
+<img src="docs/my_georgia_main.jpg" alt="MyGeorgia Project" style="max-width:100%">
+
+### MyGeorgia Gori Centered View
+
+<img src="docs/my_georgia_-_gori.jpg" alt="MyGeorgia Project" style="max-width:100%">

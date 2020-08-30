@@ -167,7 +167,7 @@
 
 /*! ------▼ 50k label properties ▼------ */
 [@sd < 100k] {
-  label: [set_geo];
+  label: [set_eng];
   label-offset: 0 -6;
   label-anchor: 0.5 1.0;
   

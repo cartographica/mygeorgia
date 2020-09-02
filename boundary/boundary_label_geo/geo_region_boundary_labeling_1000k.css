@@ -1,5 +1,5 @@
 /** Region Boundary Labeling 1000k */
-["state" NOT IN ('BSE','KSP')] [@sd > 150k] {
+["state" NOT IN ('BSE','KSP')] [@sd > 150k] [@sd < 1500k] {
   fill: transparent;
   label: [region_geo_geo];
   label-group: true;

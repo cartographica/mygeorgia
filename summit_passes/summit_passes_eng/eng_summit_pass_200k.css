@@ -1,0 +1,90 @@
+/* @title Summit Pass 200k */
+/*! ------▼ 200k symbols ▼------ */
+/** Major Summit */
+["class_id1" = '21122000'] [@sd > 100k] [@sd < 200k] {
+  mark: symbol('triangle');
+  label: Concatenate('მ. '[name_geo_g]'
+') parseInt([elevation]);
+  font-size: 11;
+  mark-anchor: 0.5 0.5;
+  :mark {
+    size: 10px;
+    fill: black;
+    stroke: white;
+  }
+}
+
+/** Summit */
+["class_id1" = '21125000'] [@sd > 100k] [@sd < 200k] {
+  mark: symbol('triangle');
+  label: Concatenate('მ. '[name_geo_g]'
+') parseInt([elevation]);
+  font-size: 9;
+  mark-anchor: 0.5 0.5;
+  :mark {
+    size: 8.5px;
+    fill: black;
+    stroke: white;
+  }
+}
+
+
+/** Major Pass */
+["class_id1" = '21123000'] [@sd > 100k] [@sd < 200k] {
+  mark: symbol('x'), symbol('shape://times');
+  label: Concatenate('უღ. '[label_geo_]'
+') '('[vada]')';
+  font-size: 11;
+  -gt-label-auto-wrap: 70;
+  mark-anchor: 0.5 0.5;
+  mark-rotation: [rotation];
+  :nth-mark(1) {
+    size: 9px;
+    stroke: white;
+    fill: white;
+  };
+  :nth-mark(2) {
+    size: 7.5px;
+    stroke: black;
+  }
+}
+
+
+/** Pass */
+["class_id1" = '21121000'] [@sd > 100k] [@sd < 200k] {
+  mark: symbol('x'), symbol('shape://times');
+  label: Concatenate('უღ. '[label_geo_]'
+') '('[vada]')';
+  font-size: 9;
+  -gt-label-auto-wrap: 80;
+  mark-anchor: 0.5 0.5;
+  mark-rotation: [rotation];
+  :nth-mark(1) {
+    size: 8px;
+    stroke: white;
+    fill: white;
+  };
+  :nth-mark(2) {
+    size: 6.5px;
+    stroke: black;
+  }
+}
+
+
+/*! ------▼ 200k label properties ▼------ */
+[@sd > 100k] [@sd < 200k] {
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.8;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-style: italic;
+  font-fill: black;
+  label-offset: 0 4;
+  label-anchor: 0.5 0;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-max-displacement: 10;
+}

@@ -1,0 +1,147 @@
+/*!---------------- 200k-500k ----------------*/
+/*! Labels 200k-500k*/
+[@sd > 150k] [@sd < 700k] {
+  label: [name];
+  font-size: 11;
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-fill: #1f69b4;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-group: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-padding: 5;
+  label-follow-line: true;
+  label-max-angle-delta: 90;
+  label-max-displacement: 10;
+  label-repeat: 150;
+}
+
+
+
+/*! Excluding Filter */
+["class_id" in ("50", "46") ] [@sd > 150k] [@sd < 700k] {
+  stroke: red;
+  stroke-opacity: 0;
+}
+
+
+/*! START River L, XL, XXL */
+/* @title River L, XL, XXL 200k-500k */
+["class_id" in ("30", "31", "32")] [@sd > 150k] [@sd < 700k] {
+  stroke: #1f78b4;
+  stroke-width: 0.2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  z-index: 43;
+  /* River XL 200k-500k */
+  ["class_id" in ("31")] {
+    stroke-width: 0.3px;
+    z-index: 45;
+  };
+  /* River XXL 200k-500k */
+  ["class_id" in ("32")] {
+    stroke-width: 0.4px;
+    z-index: 45;
+  }
+}
+/*! END River L, XL, XXL */
+
+
+
+/*! START River, Channels, River M, Islands, Water Line */
+/* @title River, Channels, River M, Islands, Water Line 200k-500k */
+  ["class_id" in ("1", "4", "5", "8", "43", "45")] [@sd > 150k] [@sd < 700k] {
+    stroke: #1f78b4;
+    stroke-width: 0.1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity: 0.9;
+    z-index: 42;
+    /* River XXL 200k-500k */
+    ["class_id" in ("4", "5")] {
+      stroke-width: 0.15px;
+      z-index: 45;
+    }
+  }
+/*! END River, Channels, River M, Islands, Water Line */
+
+
+/*! START Rivers drawn in double line, Channels Double  */
+/* @title Rivers drawn in double line, Channels Double 200k-500k */
+["class_id" in ("3", "47")] [@sd > 150k] [@sd < 700k] {
+  stroke: #1f63b0;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  z-index: 43;
+  ["class_id" in ("3", "47")] {
+    stroke: #2edafc;
+    stroke-width: 1px;
+    z-index: 44;
+  }
+}
+/*! END Rivers drawn in double line, Channels Double */
+
+
+
+/*! START Interminent Channels */
+/* @title Interminent Channels 200k-500k */
+["class_id" in ("41")] [@sd > 150k] [@sd < 700k] {
+  stroke: #1f78b4;
+  stroke-width: 0.2px;
+  stroke-dasharray: 8 3;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  z-index: 43;
+}
+/*! END Interminent Channels */
+
+
+
+/*! START Interminent Rivers */
+/* @title Interminent Rivers 200k-500k */
+["class_id" in ("2")] [@sd > 150k] [@sd < 700k] {
+  stroke: #1f78b4;
+  stroke-width: 0.1px;
+  stroke-dasharray: 5 3;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  z-index: 43;
+}
+/*! END Interminent Rivers */
+
+
+/*! START Underground rivers */
+/* @title Underground rivers 200k-500k */
+["class_id" in ("42")] [@sd > 150k] [@sd < 700k] {
+  stroke: #1f78b4;
+  stroke-width: 0.2px;
+  stroke-dasharray: 5 3;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  z-index: 42;
+}
+/*! END Underground rivers */
+
+
+/*! START Underground Channels */
+/* @title Underground Channels 200k-500k */
+["class_id" in ("44")] [@sd > 150k] [@sd < 700k] {
+  stroke: #1f78b4;
+  stroke-width: 0.1px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  z-index: 42;
+}
+/*! END Underground Channels */

@@ -1,0 +1,130 @@
+/** Labels */
+[@sd < 100k] {
+  label: [name_eng];
+  font-size: 11;
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-fill: black;
+  label-allow-overruns: true;
+  label-group: true;
+  label-offset: 10;
+  label-conflict-resolution: true;
+  label-padding: 1;
+  label-follow-line: true;
+  label-max-angle-delta: 45;
+  label-max-displacement: 10;
+}
+
+
+/** All Elements */
+* {
+  stroke: #0099cc;
+  stroke-opacity: 0.1;
+}
+
+/*! START Double Pipeline 100k */
+/** Pipelines */
+["class_id" in ("53400000")] [@sd < 100k] {
+  stroke: black;
+  stroke-width: 0.1px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 10;
+  ["class_id" in ("53400000")] {
+    stroke-offset: -1.2;
+    z-index: 10;
+  };
+  ["class_id" in ("53400000")] {
+    stroke-offset: 1.2;
+    z-index: 15;
+  }
+}
+
+/** Pipeline Dots */
+["class_id"='53400000'] [@sd < 100k] {
+  stroke: symbol(circle);
+  stroke-dashoffset: 5;
+  stroke-dasharray: 10 80;
+  stroke-dashoffset: 50;
+  z-index: 20;
+  :stroke {
+    size: 7px;
+    fill: black;
+    stroke: black;
+    stroke-width: 0.5;
+  }
+}
+
+["class_id"='53400000'] [@sd < 100k] {
+  stroke: symbol(circle);
+  stroke-dashoffset: 5;
+  stroke-dasharray: 10 80;
+  z-index: 25;
+  :stroke {
+    size: 7px;
+    fill: white;
+    stroke: black;
+    stroke-width: 0.5;
+  }
+}
+/*! END Double Pipeline 100k */
+
+
+
+/*! START Oil Pipeline 100k */
+/** Pipeline */ 
+["class_id" = '53412000'] [@sd < 100k] {
+  stroke: black;
+  stroke-width: 0.2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 10;
+}
+
+/** Pipeline Dots */
+["class_id" = '53412000'] [@sd < 100k] {
+  stroke: symbol(circle);
+  stroke-dashoffset: 5;
+  stroke-dasharray: 10 40;
+  z-index: 20;
+  :stroke {
+    size: 7px;
+    fill: black;
+    stroke: black;
+    stroke-width: 0.5;
+  }
+}
+/*! END Oil Pipeline 100k */
+
+
+
+/*! START Gas Pipeline 100k */
+/** Pipeline */ 
+["class_id" = '53422000'] [@sd < 100k] {
+  stroke: black;
+  stroke-width: 0.2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 10;
+}
+
+/** Pipeline Dots */
+["class_id" = '53422000'] [@sd < 100k] {
+  stroke: symbol(circle);
+  stroke-dashoffset: 5;
+  stroke-dasharray: 10 40;
+  z-index: 20;
+  :stroke {
+    size: 7px;
+    fill: white;
+    stroke: black;
+    stroke-width: 0.5;
+  }
+}
+/*! END Gas Pipeline 100k */

@@ -1,0 +1,51 @@
+/** Labels */
+[@sd < 100k] {
+  label: [name_eng];
+  font-size: 11;
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-fill: black;
+  label-allow-overruns: true;
+  label-group: true;
+  label-offset: 10;
+  label-conflict-resolution: true;
+  label-padding: 1;
+  label-follow-line: true;
+  label-max-angle-delta: 45;
+  label-max-displacement: 10;
+}
+
+/** All Elements */
+* {
+  stroke: #0099cc;
+  stroke-opacity: 0;
+}
+
+/*! START Electricity Line 100k */
+/** Electricity Line */ 
+["class_id" = '53432000'] [@sd < 100k] {
+  stroke: black;
+  stroke-width: 0.2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  z-index: 10;
+}
+
+/** Vertlines */
+["class_id" = '53432000'] [@sd < 100k] {
+  stroke: symbol('shape://vertline');
+  stroke-dashoffset: 5;
+  stroke-dasharray: 10 40;
+  z-index: 20;
+  :stroke {
+    size: 7px;
+    fill: black;
+    stroke: black;
+    stroke-width: 0.5;
+  }
+}
+/*! END Electricity Line 100k */

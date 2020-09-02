@@ -1,0 +1,288 @@
+/* @title Summit Pass 1000k */
+/*! ------▼ 1000k symbols ▼------ */
+/** Major Summit */
+["class_id" = '21122000'] ["scale" >= 1000000] [@sd > 500k] [@sd < 1000k] {
+  mark: symbol('triangle');
+  label: Concatenate('მ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 10;
+  label-priority:1100;
+  mark-anchor: 0.5 0.5;
+  :mark {
+    size: 10px;
+    fill: black;
+    stroke: white;
+  }
+}
+
+/** Summit */
+["class_id" = '21125000'] ["scale" >= 1000000] [@sd > 500k] [@sd < 1000k] {
+  mark: symbol('triangle');
+  label: Concatenate('მ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 9;
+  label-priority:1050;
+  mark-anchor: 0.5 0.5;
+  :mark {
+    size: 8.5px;
+    fill: black;
+    stroke: white;
+  }
+}
+
+
+/** Major Pass */
+["class_id" = '21121000'] ["scale" >= 1000000] [@sd > 500k] [@sd < 1000k] {
+  mark: symbol('x'), symbol('shape://times');
+  label: Concatenate('უღ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 10;
+  label-priority:1100;
+  /*-gt-label-auto-wrap: 70;*/
+  mark-anchor: 0.5 0.5;
+  mark-rotation: [rotacion];
+  :nth-mark(1) {
+    size: 9px;
+    stroke: white;
+    fill: white;
+  };
+  :nth-mark(2) {
+    size: 7.5px;
+    stroke: black;
+  }
+}
+
+
+/** Pass */
+["class_id" = '21123000'] ["scale" >= 1000000] [@sd > 500k] [@sd < 1000k] {
+  mark: symbol('x'), symbol('shape://times');
+  label: Concatenate('უღ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 9;
+  label-priority:1050;
+  /*-gt-label-auto-wrap: 80;*/
+  mark-anchor: 0.5 0.5;
+  mark-rotation: [rotacion];
+  :nth-mark(1) {
+    size: 8px;
+    stroke: white;
+    fill: white;
+  };
+  :nth-mark(2) {
+    size: 6.5px;
+    stroke: black;
+  }
+}
+
+
+/*! ------▼ 1000k label properties ▼------ */
+["scale" >= 1000000] [@sd > 500k] [@sd < 1000k] {
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.8;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-style: italic;
+  font-fill: black;
+  label-offset: 0 4;
+  label-anchor: 0.5 0;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-max-displacement: 20;
+}
+
+
+
+/* @title Summit Pass 2000k */
+/*! ------▼ 2000k symbols ▼------ */
+/** Major Summit */
+["class_id" = '21122000'] ["scale" >= 2000000] [@sd > 1000k] [@sd < 2000k] {
+  mark: symbol('triangle');
+  label: Concatenate('მ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 10;
+  label-priority:1100;
+  mark-anchor: 0.5 0.5;
+  :mark {
+    size: 10px;
+    fill: black;
+    stroke: white;
+  }
+}
+
+/** Summit */
+["class_id" = '21125000'] ["scale" >= 2000000] [@sd > 1000k] [@sd < 2000k] {
+  mark: symbol('triangle');
+  label: Concatenate('მ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 9;
+  label-priority:1050;
+  mark-anchor: 0.5 0.5;
+  :mark {
+    size: 8.5px;
+    fill: black;
+    stroke: white;
+  }
+}
+
+
+/** Major Pass */
+["class_id" = '21121000'] ["scale" >= 2000000] [@sd > 1000k] [@sd < 2000k] {
+  mark: symbol('x'), symbol('shape://times');
+  label: Concatenate('უღ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 10;
+  label-priority:1100;
+  /*-gt-label-auto-wrap: 70;*/
+  mark-anchor: 0.5 0.5;
+  mark-rotation: [rotacion];
+  :nth-mark(1) {
+    size: 9px;
+    stroke: white;
+    fill: white;
+  };
+  :nth-mark(2) {
+    size: 7.5px;
+    stroke: black;
+  }
+}
+
+
+/** Pass */
+["class_id" = '21123000'] ["scale" >= 2000000] [@sd > 1000k] [@sd < 2000k] {
+  mark: symbol('x'), symbol('shape://times');
+  label: Concatenate('უღ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 9;
+  label-priority:1050;
+  /*-gt-label-auto-wrap: 80;*/
+  mark-anchor: 0.5 0.5;
+  mark-rotation: [rotacion];
+  :nth-mark(1) {
+    size: 8px;
+    stroke: white;
+    fill: white;
+  };
+  :nth-mark(2) {
+    size: 6.5px;
+    stroke: black;
+  }
+}
+
+
+/*! ------▼ 2000k label properties ▼------ */
+["scale" >= 2000000] [@sd > 1000k] [@sd < 2000k] {
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.8;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-style: italic;
+  font-fill: black;
+  label-offset: 0 4;
+  label-anchor: 0.5 0;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-max-displacement: 20;
+}
+
+
+
+/* @title Summit Pass 3000k */
+/*! ------▼ 3000k symbols ▼------ */
+/** Major Summit */
+["class_id" = '21122000'] ["scale" >= 3000000] [@sd > 2000k] [@sd < 3000k] {
+  mark: symbol('triangle');
+  label: Concatenate('მ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 10;
+  label-priority:1100;
+  mark-anchor: 0.5 0.5;
+  :mark {
+    size: 10px;
+    fill: black;
+    stroke: white;
+  }
+}
+
+/** Summit */
+["class_id" = '21125000'] ["scale" >= 3000000] [@sd > 2000k] [@sd < 3000k] {
+  mark: symbol('triangle');
+  label: Concatenate('მ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 9;
+  label-priority:1050;
+  mark-anchor: 0.5 0.5;
+  :mark {
+    size: 8.5px;
+    fill: black;
+    stroke: white;
+  }
+}
+
+
+/** Major Pass */
+["class_id" = '21121000'] ["scale" >= 3000000] [@sd > 2000k] [@sd < 3000k] {
+  mark: symbol('x'), symbol('shape://times');
+  label: Concatenate('უღ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 10;
+  label-priority:1100;
+  /*-gt-label-auto-wrap: 70;*/
+  mark-anchor: 0.5 0.5;
+  mark-rotation: [rotacion];
+  :nth-mark(1) {
+    size: 9px;
+    stroke: white;
+    fill: white;
+  };
+  :nth-mark(2) {
+    size: 7.5px;
+    stroke: black;
+  }
+}
+
+
+/** Pass */
+["class_id" = '21123000'] ["scale" >= 3000000] [@sd > 2000k] [@sd < 3000k] {
+  mark: symbol('x'), symbol('shape://times');
+  label: Concatenate('უღ. '[name_geo_g]'
+') parseInt([elev]);
+  font-size: 9;
+  label-priority:1050;
+  /*-gt-label-auto-wrap: 80;*/
+  mark-anchor: 0.5 0.5;
+  mark-rotation: [rotacion];
+  :nth-mark(1) {
+    size: 8px;
+    stroke: white;
+    fill: white;
+  };
+  :nth-mark(2) {
+    size: 6.5px;
+    stroke: black;
+  }
+}
+
+
+/*! ------▼ 3000k label properties ▼------ */
+["scale" >= 3000000] [@sd > 2000k] [@sd < 3000k] {
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.8;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-style: italic;
+  font-fill: black;
+  label-offset: 0 4;
+  label-anchor: 0.5 0;
+  label-allow-overruns: true;
+  label-remove-overlaps: true;
+  label-conflict-resolution: true;
+  label-fit-goodness: 1;
+  label-max-displacement: 20;
+}

@@ -3,7 +3,7 @@
 /** Major Summit */
 ["class_id1" = '21122000'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('triangle');
-  label: Concatenate('მ. '[name_geo_g]'
+  label: Concatenate('M. '[name_eng]'
 ') parseInt([elevation]);
   font-size: 11;
   mark-anchor: 0.5 0.5;
@@ -17,7 +17,7 @@
 /** Summit */
 ["class_id1" = '21125000'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('triangle');
-  label: Concatenate('მ. '[name_geo_g]'
+  label: Concatenate('M. '[name_eng]'
 ') parseInt([elevation]);
   font-size: 9;
   mark-anchor: 0.5 0.5;
@@ -32,7 +32,7 @@
 /** Major Pass */
 ["class_id1" = '21123000'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('x'), symbol('shape://times');
-  label: Concatenate('უღ. '[label_geo_]'
+  label: Concatenate('Pass '[label_eng]'
 ') '('[vada]')';
   font-size: 11;
   -gt-label-auto-wrap: 70;
@@ -53,7 +53,7 @@
 /** Pass */
 ["class_id1" = '21121000'] [@sd > 100k] [@sd < 200k] {
   mark: symbol('x'), symbol('shape://times');
-  label: Concatenate('უღ. '[label_geo_]'
+  label: Concatenate('Pass '[label_eng]'
 ') '('[vada]')';
   font-size: 9;
   -gt-label-auto-wrap: 80;

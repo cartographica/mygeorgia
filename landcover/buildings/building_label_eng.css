@@ -1,0 +1,39 @@
+/* @title buidlings */
+* [@sd > 2000] [@sd < 5000] {
+    label: [house_number];
+    halo-radius: 2;
+    halo-color: white;
+    halo-opacity: 0.6;
+    font-family: Arial;
+    font-weight: normal;
+    font-fill: black;
+    font-size: 8;
+    label-anchor: 0.5 0.5;
+    label-allow-overruns: true;
+    label-remove-overlaps: true;
+    label-all-group: true;
+    label-auto-wrap: 3;
+    label-conflict-resolution: true;
+    label-fit-goodness: 0.5;
+    label-max-displacement: 400;
+}
+
+/* @title buidlings */
+* [@sd < 2000] {
+    label: [strt_addr_eng];
+    halo-radius: 2;
+    halo-color: white;
+    halo-opacity: 0.6;
+    font-family: Arial;
+    font-weight: normal;
+    font-fill: black;
+    font-size: 10;
+    label-anchor: 0.5 0.5;
+    label-allow-overruns: true;
+    label-remove-overlaps: true;
+    label-all-group: true;
+    label-auto-wrap: 75;
+    label-conflict-resolution: true;
+    label-fit-goodness: 0.5;
+    label-max-displacement: 5;
+}

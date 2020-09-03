@@ -1,6 +1,6 @@
 /*! ------▼ 25k label properties ▼------ */
 [@sd < 25k] {
-  label: [name_geo];
+  label: [name_eng];
   font-size: [lbl_size_25k*1.5];
   halo-radius: 2;
   halo-color: white;
@@ -20,7 +20,7 @@
   label-repeat: 400;
   ["class_id" = 1] {
     font-fill: #b54f13; /* brown */
-    label: strCapitalize([name_geo]);
+    label: strCapitalize([name_eng]);
   };
   ["class_id" = 2] {
     font-fill: #4d4d4d; /* dark brown */
@@ -28,14 +28,14 @@
   };
   ["class_id" = 3] {
     font-fill: #007795; /* blue */
-    label: strCapitalize([name_geo]);
+    label: strCapitalize([name_eng]);
   }
 }
 
 
 /*! ------▼ 50k label properties ▼------ */
 ["scale" >= 50] [@sd > 25k] [@sd < 50k] {
-  label: [name_geo];
+  label: [name_eng];
   font-size: [lbl_size_50k*1.5];
   halo-radius: 2;
   halo-color: white;
@@ -55,7 +55,7 @@
   label-repeat: 400;
   ["class_id" = 1] {
     font-fill: #b54f13; /* brown */
-    label: strCapitalize([name_geo]);
+    label: strCapitalize([name_eng]);
   };
   ["class_id" = 2] {
     font-fill: #4d4d4d; /* dark brown */
@@ -63,14 +63,14 @@
   };
   ["class_id" = 3] {
     font-fill: #007795; /* blue */
-    label: strCapitalize([name_geo]);
+    label: strCapitalize([name_eng]);
   }
 }
 
 
 /*! ------▼ 100k label properties ▼------ */
 ["scale" >= 100] [@sd > 50k] [@sd < 100k] {
-  label: [name_geo];
+  label: [name_eng];
   font-size: [lbl_size_100k*1.3];
   halo-radius: 2;
   halo-color: white;
@@ -90,7 +90,7 @@
   label-repeat: 400;
   ["class_id" = 1] {
     font-fill: #b54f13; /* brown */
-    label: strCapitalize([name_geo]);
+    label: strCapitalize([name_eng]);
   };
   ["class_id" = 2] {
     font-fill: #4d4d4d; /* dark brown */
@@ -98,6 +98,6 @@
   };
   ["class_id" = 3] {
     font-fill: #007795; /* blue */
-    label: strCapitalize([name_geo]);
+    label: strCapitalize([name_eng]);
   }
 }

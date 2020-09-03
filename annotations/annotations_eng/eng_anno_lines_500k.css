@@ -1,6 +1,6 @@
 /*! ------▼ 500k label properties ▼------ */
 [@sd > 200k] [@sd < 500k] {
-  label: [name_geo_geo];
+  label: [name_eng];
   font-size: [lbl_size_geo*1.2];
   halo-radius: 2;
   halo-color: white;
@@ -20,20 +20,20 @@
   label-repeat: 400;
   ["class_id" = 1] {
     font-fill: #b54f13; /* brown */
-    label: strCapitalize([name_geo_geo]);
-    font-size: [lbl_size_geo*1.5];
+    label: strCapitalize([name_eng]);
+    font-size: [lbl_size_eng*1.5];
   };
   ["class_id" = 100] {
     font-fill: #b54f13; /* brown */
-    label: strCapitalize([name_geo_geo]);
+    label: strCapitalize([name_eng]);
   };
   ["class_id" = 2] {
     font-fill: #4d4d4d; /* dark brown */
-    font-size: [lbl_size_geo*2];
+    font-size: [lbl_size_eng*2];
   };
   ["class_id" = 3] {
     font-fill: #007795; /* blue */
-    label: strCapitalize([name_geo_geo]);
-    font-size: [lbl_size_geo*1.5];
+    label: strCapitalize([name_eng]);
+    font-size: [lbl_size_eng*1.5];
   }
 }

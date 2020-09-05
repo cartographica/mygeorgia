@@ -1,0 +1,18 @@
+/** Municipality Boundary Labeling 1000k */
+["state" = 'GEO'] [@sd > 150k] [@sd < 1000k] {
+  fill: transparent;
+  label: [name_eng];
+  label-group: true;
+  label-offset: -12;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-fill: #b34694;
+  font-size: 11;
+  halo-color: white;
+  halo-radius: 1;
+  label-follow-line: true;
+  label-max-angle-delta: 45;
+  label-max-displacement: 200;
+  label-repeat: 500;
+  label-padding: 10;
+}

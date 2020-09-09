@@ -1,7 +1,7 @@
 /** Region Boundary Labeling 50k */
 [@sd < 150k] {
   fill: transparent;
-  label: [mun_eng];
+  label: [reg_eng];
   label-group: true;
   label-offset: -12;
   font-family: "DejaVu Sans";

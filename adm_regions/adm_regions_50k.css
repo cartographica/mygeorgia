@@ -1,0 +1,30 @@
+/** Adm-Region Symbol 50k */
+["color_code" = '1'] [@sd < 100k] {
+  fill: #ffffd9;
+  fill-opacity: 0.5;
+  z-index: 1;
+}
+
+["color_code" = '2'] [@sd < 100k] {
+  fill: #ffecd9;
+  fill-opacity: 0.5;
+  z-index: 1;
+}
+
+["color_code" = '3'] [@sd < 100k] {
+  fill: #ffd9ff;
+  fill-opacity: 0.5;
+  z-index: 1;
+}
+
+["color_code" = '4'] [@sd < 100k] {
+  fill: #dcd9ff;
+  fill-opacity: 0.5;
+  z-index: 1;
+}
+
+["color_code" = '5'] [@sd < 100k] {
+  fill: #e8ffd9;
+  fill-opacity: 0.5;
+  z-index: 1;
+}

@@ -1,4 +1,4 @@
-/** Adm-Region Symbol 50k */
+/** Adm-Region Symbol 50k-200k */
 ["color_code" = '1'] [@sd < 200k] {
   fill: #fbb4ae;
   fill-opacity: 0.5;
@@ -24,7 +24,7 @@
 }
 
 ["color_code" = '5'] [@sd < 200k] {
-  fill: #e5d8bd;
+  fill: #bee5be;
   fill-opacity: 0.5;
   z-index: 1;
 }

@@ -10,7 +10,11 @@
 
 **MyGeorgia** is a project of the Georgian-based Cartographic Company ["Geoland"](http://geoland.ge/). 
 
-The project aims to provide the best and comprehensive coverage of Georgia for everyone, both in Georgian and in English languages - for free!
+The project aims to provide to users the best and comprehensive coverage of Georgia - for free!
+
+### The online map characteristics 
+- <img width="20px" src="https://raw.githubusercontent.com/tailwindlabs/heroicons/master/optimized/outline/translate.svg">  Languages: **Georgian** and **English**
+- <img width="20px" src="https://raw.githubusercontent.com/tailwindlabs/heroicons/master/optimized/outline/map.svg">  Map Themes: **General**, **Administrative**, **Physical**
 
 ### MyGeorgia Sattelite
 

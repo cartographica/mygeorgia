@@ -6,7 +6,11 @@
 ![Top Language](https://img.shields.io/github/languages/top/vitruvius21/mygeorgia?style=plastic)
 ![Languages](https://img.shields.io/github/languages/count/vitruvius21/mygeorgia?color=blueviolet&style=plastic)
 
-# Geoland - MyGeorgia Project
+# Welcome to MyGeorgia Project Repository!
+
+**MyGeorgia** is a project of the Georgian-based Cartographic Company ["Geoland"](http://geoland.ge/). 
+
+The project aims to provide the best and comprehensive coverage of Georgia for everyone, both in Georgian and in English languages - for free!
 
 ### MyGeorgia Sattelite
 

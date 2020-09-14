@@ -1,4 +1,4 @@
-/** Adm-Municipality Symbol 50k 200k */
+/** Adm-Municipality Symbol 50k-200k */
 ["color_code_reg" = '1'] [@sd < 200k] {
   fill: [recode(color_code_mun,
       1,'#bfd0ff', 2,'#b2c7ff', 3,'#a6beff',

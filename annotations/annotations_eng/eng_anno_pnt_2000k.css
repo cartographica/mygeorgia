@@ -1,6 +1,6 @@
 /** Hydrography */
 ["class_id" = 1] [@sd > 1000k] [@sd < 2000k] {
-  label: [name_eng];
+  label: [name_eng_main];
   halo-radius: 2;
   halo-color: white;
   halo-opacity: 0.6;
@@ -21,7 +21,7 @@
 
 /** National Parks */
 ["class_id" = 3] [@sd > 1000k] [@sd < 2000k] {
-  label: [name_eng];
+  label: [name_eng_main];
   halo-radius: 2;
   halo-color: white;
   halo-opacity: 0.6;
@@ -42,7 +42,7 @@
 
 /** Seas */
 ["class_id" = 6] [@sd > 1000k] [@sd < 2000k] {
-  label: [name_eng];
+  label: [name_eng_main];
   halo-radius: 2;
   halo-color: white;
   halo-opacity: 0.6;
@@ -65,7 +65,7 @@
 
 /** Countries */
 ["class_id" = 7] [@sd > 1000k] [@sd < 2000k] {
-  label: [name_eng];
+  label: [name_eng_main];
   halo-radius: 2;
   halo-color: white;
   halo-opacity: 0.6;

@@ -1,0 +1,377 @@
+/* @title settlements 2000k */
+/*! ------▼ 2000k symbols ▼------ */
+/** Capital City */
+["adm_stat" = '1 Capital of States'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  mark: symbol('circle'), symbol('star');
+  mark-anchor: 0.5 0.5;
+  label-offset: 12 12;
+  :nth-mark(1) {
+    size: 16px;
+    fill: #ff7575;
+    stroke: black;
+  };
+  :nth-mark(2) {
+    size: 10px;
+    fill: black;
+  }
+}
+
+/** Autonomy Center */
+["adm_stat" = '2 Capital of Authonomies'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  :nth-mark(1) {
+    size: 14px;
+    fill: #ff7575;
+    stroke: black;
+  };
+  :nth-mark(2) {
+    size: 8px;
+    fill: black;
+  };
+  /*Sokhumi*/
+  ["sett_code" = '12850100'] {
+    label-anchor: 0.5 1.9;
+  }
+}
+
+/** State Importance City */
+["adm_stat" = '3 City of State Importance'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  :mark {
+    size: 12px;
+    fill: #ffbab1;
+    stroke: black;
+    stroke-width: 0.5px;
+  }
+}
+
+/** Region Center */
+["adm_stat" = '4 Region Centre'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 7 7;
+  :nth-mark(1) {
+    size: 12px;
+    fill: #ffbab1;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 4px;
+    fill: black;
+  }
+}
+
+/** Municipality Center */
+["adm_stat" = '5 District Centre'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  :nth-mark(1) {
+    size: 10px;
+    fill: #c4c3c3;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 2px;
+    fill: black;
+  }
+}
+
+/** Resort */
+["adm_stat" = '8 No status'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  mark: symbol('circle'), symbol("ttf://DejaVu Sans#U+002A");
+  mark-anchor: 0.5 0.5;
+  label-offset: 4 4;
+  :nth-mark(1) {
+    size: 8px;
+    fill: #a61215;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 6px;
+    fill: white;
+  }
+}
+
+/** Community Center */
+["adm_stat" = '6 Comunity Centre'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 3 3;
+  :nth-mark(1) {
+    size: 7px;
+    fill: white;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 2px;
+    fill: black;
+  }
+}
+
+/** Village */
+["adm_stat" = '7 Village'] ["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  mark: symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 3 3;
+  :mark {
+    size: 6px;
+    fill: white;
+    stroke: black;
+    stroke-width: 0.5px;
+  }
+}
+
+
+
+/*! ------▼ 2000k label properties ▼------ */
+["scale" >= 1000000] [@sd > 600k] [@sd < 1500k] {
+  label: [name_eng];
+  label-offset: 0 -12;
+  label-anchor: 0.5 1.0;
+  
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-fill: black;
+  
+  mark-label-obstacle: true;
+  label-padding: 2;
+  label-max-displacement: 20;
+}
+
+/*! ------▼ 2000k label sizes ▼------ */
+["urb_stat" = '1'] [@sd > 600k] [@sd < 1500k] {
+    ["pop_range" = '> 500 000'] {
+      font-size: 22;
+      label-priority:3000;
+    };
+    ["pop_range" = '100 000 - 500 000'] {
+      font-size: 16;
+      label-priority:2900;
+    };
+    ["pop_range" = '50 000 - 100 000'] {
+      font-size: 15;
+      label-priority:2800;
+    };
+    ["pop_range" = '10 000 - 50 000'] {
+      font-size: 13;
+      label-priority:2700;
+    }
+  }
+  
+  
+["urb_stat" = '1'] ["pop_range" in ('2 000 - 10 000')],
+["urb_stat" = '2'] ["pop_range" in ('10 000 - 50 000', '2 000 - 10 000', '< 2 000')],
+[@sd > 600k] [@sd < 1500k] {
+  font-size: 11;
+  label-priority:2600;
+}
+
+
+["urb_stat" in ('3', '4')] 
+[@sd > 600k] [@sd < 1500k] {
+  font-size: 10;
+  label-priority:2500;
+}
+
+
+
+
+/*! ------▼ 3000k symbols ▼------ */
+/** Capital City */
+["adm_stat" = '1 Capital of States'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  mark: symbol('circle'), symbol('star');
+  mark-offset: 0 0;
+  mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  :nth-mark(1) {
+    size: 14px;
+    fill: #ff7575;
+    stroke: black;
+  };
+  :nth-mark(2) {
+    size: 9px;
+    fill: black;
+  }
+}
+
+/** Autonomy Center */
+["adm_stat" = '2 Capital of Authonomies'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  :nth-mark(1) {
+    size: 11px;
+    fill: #ff7575;
+    stroke: black;
+  };
+  :nth-mark(2) {
+    size: 6px;
+    fill: black;
+  };
+  /*Sokhumi*/
+  ["sett_code" = '12850100'] {
+    label-anchor: 0.5 1.9;
+  }
+}
+
+/** State Importance City */
+["adm_stat" = '3 City of State Importance'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  :mark {
+    size: 11px;
+    fill: #ffbab1;
+    stroke: black;
+    stroke-width: 0.5px;
+  }
+}
+
+/** Region Center */
+["adm_stat" = '4 Region Centre'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 7 7;
+  :nth-mark(1) {
+    size: 11px;
+    fill: #ffbab1;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 4px;
+    fill: black;
+  }
+}
+
+/** Municipality Center */
+["adm_stat" = '5 District Centre'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  :nth-mark(1) {
+    size: 9px;
+    fill: #c4c3c3;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 2px;
+    fill: black;
+  }
+}
+
+/** Resort */
+["adm_stat" = '8 No status'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  mark: symbol('circle'), symbol("ttf://DejaVu Sans#U+002A");
+  mark-anchor: 0.5 0.5;
+  label-offset: 4 4;
+  :nth-mark(1) {
+    size: 7px;
+    fill: #a61215;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 5px;
+    fill: white;
+  }
+}
+
+/** Community Center */
+["adm_stat" = '6 Comunity Centre'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  mark: symbol('circle'), symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 3 3;
+  :nth-mark(1) {
+    size: 6px;
+    fill: white;
+    stroke: black;
+    stroke-width: 0.5px;
+  };
+  :nth-mark(2) {
+    size: 2px;
+    fill: black;
+  }
+}
+
+/** Village */
+["adm_stat" = '7 Village'] ["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  mark: symbol('circle');
+  mark-anchor: 0.5 0.5;
+  label-offset: 3 3;
+  :mark {
+    size: 5px;
+    fill: white;
+    stroke: black;
+    stroke-width: 0.5px;
+  }
+}
+
+
+/*! ------▼ 3000k label properties ▼------ */
+["scale" >= 3000000] [@sd > 1500k] [@sd < 2500k] {
+  label: [name_eng];
+  label-offset: 0 -12;
+  label-anchor: 0.5 1.0;
+  
+  halo-radius: 2;
+  halo-color: white;
+  halo-opacity: 0.6;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-fill: black;
+  
+  mark-label-obstacle: true;
+  label-padding: 2;
+  label-max-displacement: 20;
+}
+
+
+/*! ------▼ 3000k label sizes ▼------ */
+["urb_stat" = '1'] [@sd > 1500k] [@sd < 2500k] {
+    ["pop_range" = '> 500 000'] {
+      font-size: 18;
+      label-priority:3000;
+    };
+    ["pop_range" = '100 000 - 500 000'] {
+      font-size: 14;
+      label-priority:2900;
+    };
+    ["pop_range" = '50 000 - 100 000'] {
+      font-size: 13;
+      label-priority:2800;
+    };
+    ["pop_range" = '10 000 - 50 000'] {
+      font-size: 11;
+      label-priority:2700;
+    }
+  }
+  
+  
+["urb_stat" = '1'] ["pop_range" in ('2 000 - 10 000')],
+["urb_stat" = '2'] ["pop_range" in ('10 000 - 50 000', '2 000 - 10 000', '< 2 000')],
+[@sd > 1500k] [@sd < 2500k] {
+  font-size: 10;
+  label-priority:2600;
+  
+}
+
+
+["urb_stat" in ('3', '4')] 
+[@sd > 1500k] [@sd < 2500k] {
+  font-size: 9;
+  label-priority:2500;
+}

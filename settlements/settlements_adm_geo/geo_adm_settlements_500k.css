@@ -5,6 +5,7 @@
   mark: symbol('circle'), symbol('star');
   mark-offset: 13 0;
   mark-anchor: 0.5 0.5;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 16px;
     fill: #ff7575;
@@ -21,6 +22,7 @@
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
   label-offset: 5 5;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 14px;
     fill: #ff7575;
@@ -41,6 +43,7 @@
   label-offset: 0 15;
   mark-anchor: 0.5 0.5;
   label-offset: 5 5;
+  label-underline-text: true;
   :mark {
     size: 12px;
     fill: #ffbab1;
@@ -54,6 +57,7 @@
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
   label-offset: 10 10;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 12px;
     fill: #ffbab1;
@@ -71,6 +75,7 @@
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
   label-offset: 5 5;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 10px;
     fill: #c4c3c3;
@@ -105,6 +110,7 @@
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
   label-offset: 3 3;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 7px;
     fill: white;

@@ -20,7 +20,6 @@
 ["adm_stat" = '2'] ["urb_stat" = '1'] [@sd < 100k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
-  label-offset: 0 40;
   :nth-mark(1) {
     size: 14px;
     fill: #ff7575;
@@ -29,9 +28,13 @@
   :nth-mark(2) {
     size: 8px;
     fill: black;
-  };
+  };/* sokhumi */
   ["set_code" = '12850100'] {
     label-anchor: 0.5 1.6;
+  };/* batumi */
+  ["set_code" = '11000101'] {
+    label-offset: 0 -20;
+    label-conflict-resolution: false;
   }
 }
 
@@ -187,15 +190,19 @@
 ["urb_stat" = '1'] [@sd < 100k] {
   ["pop_range" = '1'] {
     font-size: 30;
+    label-priority:3000;
   };
   ["pop_range" = '3'] {
     font-size: 25;
+    label-priority:2900;
   };
   ["pop_range" = '4'] {
     font-size: 21;
+    label-priority:2800;
   };
   ["pop_range" in ('5','6')] {
     font-size: 18;
+    label-priority:2700;
   }
 }
 
@@ -205,6 +212,7 @@
 ["urb_stat" = '3'] ["pop_range" in ('1','2')],
 [@sd < 100k] {
   font-size: 15;
+  label-priority:2600;
 }
 
 
@@ -212,6 +220,7 @@
 ["urb_stat" = '2'] ["pop_range" in ('3','4')],
 [@sd < 100k] {
   font-size: 14;
+  label-priority:2500;
 }
 
 

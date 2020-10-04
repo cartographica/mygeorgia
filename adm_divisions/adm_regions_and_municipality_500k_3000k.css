@@ -86,9 +86,9 @@
 /** ========== Georgia & Neighbor's Adm-Regions Symbol 1000k-3000k ========== */
 ["state" = 'GEO'] [@sd > 1000k] [@sd < 3000k] {
   fill: [recode(color_code_reg,
-      1,'#edffbf', 2,'#e9ffb3', 3,'#e5ffa6',
-      4,'#e2ff99', 5,'#dfff8c')];
-  fill-opacity: 0.4;
+      1,'#edffbf', 2,'#e9ffb3', 3,'#e6ffa6',
+      4,'#e2ff99', 5,'#deff8c')];
+  fill-opacity: 0.6;
   z-index: 1;
 }
 

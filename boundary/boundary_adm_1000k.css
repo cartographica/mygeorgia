@@ -1,0 +1,503 @@
+/*! START State */
+/* @title State 1000k */
+["class_id" in ('1','3')] [@sd > 600k] {
+  ["river" not in ('2')] {
+   stroke: #ff00b7;
+   stroke-width: 6px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-opacity:0.5;
+   z-index: 22;
+   ["river"='0'] {
+     stroke: black;
+     stroke-width: 0.6px;
+     stroke-dasharray: 10 4 1 4;
+     stroke-linecap: butt;
+     stroke-opacity:1;
+     z-index: 42;
+   };
+   ["river"='1'] {
+     stroke: #0091c1;
+     stroke-width: 0.6px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-opacity:1;
+     z-index: 42;
+   }
+ };
+ ["river"='2'] {
+   stroke: black;
+   stroke-width: 0.6px;
+   stroke-dasharray: 10 4 1 4;
+   stroke-linecap: butt;
+   z-index: 42;
+ }
+}
+
+/* @title State 500k */
+["class_id" in ('1','3')] [@sd > 300k] [@sd < 600k] {
+ ["river" not in ('2')] {
+  stroke: #ff00b7;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity:0.5;
+  z-index: 22;
+  ["river"='0'] {
+    stroke: black;
+    stroke-width: 0.8px;
+    stroke-dasharray: 10 4 1 4;
+    stroke-linecap: butt;
+    stroke-opacity:1;
+    z-index: 42;
+  };
+  ["river"='1'] {
+    stroke: #0091c1;
+    stroke-width: 0.8px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity:1;
+    z-index: 42;
+  }
+};
+["river"='2'] {
+  stroke: black;
+  stroke-width: 0.8px;
+  stroke-dasharray: 10 4 1 4;
+  stroke-linecap: butt;
+  z-index: 42;
+}
+}
+
+/* @title State 200k */
+["class_id" in ('1','3')] [@sd > 150k] [@sd < 300k] {
+ ["river" not in ('2')] {
+  stroke: #ff00b7;
+  stroke-width: 12px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity:0.5;
+  z-index: 22;
+  ["river"='0'] {
+    stroke: black;
+    stroke-width: 1px;
+    stroke-dasharray: 10 4 1 4;
+    stroke-linecap: butt;
+    stroke-opacity:1;
+    z-index: 42;
+  };
+  ["river"='1'] {
+    stroke: #0091c1;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity:1;
+    z-index: 42;
+  }
+};
+["river"='2'] {
+  stroke: black;
+  stroke-width: 1px;
+  stroke-dasharray: 10 4 1 4;
+  stroke-linecap: butt;
+  z-index: 42;
+}
+}
+/*! END State */
+
+
+/*! START Autonomy */
+/* @title Autonomy 1000k */
+["class_id" in ('2','8')] [@sd > 600k] {
+ ["river" not in ('2')] {
+  stroke: #ff26c5;
+  stroke-width: 5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity:0.5;
+  z-index: 21;
+  ["river"='0'] {
+    stroke: black;
+    stroke-width: 0.4px;
+    stroke-dasharray: 10 3 1 3 1 3;
+    stroke-linecap: butt;
+    stroke-opacity:1;
+    z-index: 41;
+  };
+  ["river"='1'] {
+    stroke: #0091c1;
+    stroke-width: 0.4px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity:1;
+    z-index: 41;
+  }
+};
+["river"='2']{
+  stroke: black;
+  stroke-width: 0.4px;
+  stroke-dasharray: 10 3 1 3 1 3;
+  stroke-linecap: butt;
+  z-index: 41;
+}
+}
+
+/* @title Autonomy 500k */
+["class_id" in ('2','8')] [@sd > 300k] [@sd < 600k] {
+ ["river" not in ('2')] {
+  stroke: #ff26c5;
+  stroke-width: 7px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity:0.5;
+  z-index: 21;
+  ["river"='0'] {
+    stroke: black;
+    stroke-width: 0.6px;
+    stroke-dasharray: 10 3 1 3 1 3;
+    stroke-linecap: butt;
+    stroke-opacity:1;
+    z-index: 41;
+  };
+  ["river"='1'] {
+    stroke: #0091c1;
+    stroke-width: 0.6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity:0.5;
+    z-index: 41;
+  }
+};
+["river"='2']{
+  stroke: black;
+  stroke-width: 0.6px;
+  stroke-dasharray: 10 3 1 3 1 3;
+  stroke-linecap: butt;
+  z-index: 41;
+}
+}
+
+/* @title Autonomy 200k */
+["class_id" in ('2','8')] [@sd > 150k] [@sd < 300k] {
+ ["river" not in ('2')] {
+  stroke: #ff26c5;
+  stroke-width: 9px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity:0.5;
+  z-index: 21;
+  ["river"='0'] {
+    stroke: black;
+    stroke-width: 0.8px;
+    stroke-dasharray: 10 3 1 3 1 3;
+    stroke-linecap: butt;
+    stroke-opacity:1;
+    z-index: 41;
+  };
+  ["river"='1'] {
+    stroke: #0091c1;
+    stroke-width: 0.8px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity:1;
+    z-index: 41;
+  }
+};
+["river"='2']{
+  stroke: black;
+  stroke-width: 0.8px;
+  stroke-dasharray: 10 3 1 3 1 3;
+  stroke-linecap: butt;
+  z-index: 41;
+}
+}
+/*! END Autonomy */
+
+
+/*! START Occupied Territory */
+/* @title Occupied Territory 1000k */
+["class_id" in ('7')] [@sd > 600k] {
+ ["river" not in ('2')] {
+   stroke: #b3b3b3;
+   stroke-width: 4.5px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-opacity:0.5;
+   z-index: 20;
+   ["river"='0'] {
+     stroke: black;
+     stroke-width: 0.4px;
+     stroke-dasharray: 10 3 1 3 1 3;
+     stroke-linecap: butt;
+     stroke-opacity:1;
+     z-index: 40;
+   };
+   ["river"='1'] {
+     stroke: #0091c1;
+     stroke-width: 0.4px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-opacity:1;
+     z-index: 40;
+   }
+ };
+ ["river"='2'] {
+   stroke: black;
+   stroke-width: 0.4px;
+   stroke-dasharray: 10 3 1 3 1 3;
+   stroke-linecap: butt;
+   z-index: 40;
+ }
+}
+
+/* @title Occupied Territory 500k */
+["class_id" in ('7')] [@sd > 300k] [@sd < 600k] {
+ ["river" not in ('2')] {
+   stroke: #b3b3b3;
+   stroke-width: 6.5px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-opacity:0.5;
+   z-index: 20;
+   ["river"='0'] {
+     stroke: black;
+     stroke-width: 0.6px;
+     stroke-dasharray: 10 3 1 3 1 3;
+     stroke-linecap: butt;
+     stroke-opacity:1;
+     z-index: 40;
+   };
+   ["river"='1'] {
+     stroke: #0091c1;
+     stroke-width: 0.6px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-opacity:1;
+     z-index: 40;
+   }
+ };
+ ["river"='2'] {
+   stroke: black;
+   stroke-width: 0.6px;
+   stroke-dasharray: 10 3 1 3 1 3;
+   stroke-linecap: butt;
+   z-index: 40;
+ }
+}
+
+/* @title Occupied Territory 200k */
+["class_id" in ('7')] [@sd > 150k] [@sd < 300k] {
+ ["river" not in ('2')] {
+   stroke: #b3b3b3;
+   stroke-width: 8.5px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-opacity:0.5;
+   z-index: 20;
+   ["river"='0'] {
+     stroke: black;
+     stroke-width: 0.8px;
+     stroke-dasharray: 10 3 1 3 1 3;
+     stroke-linecap: butt;
+     stroke-opacity:1;
+     z-index: 40;
+   };
+   ["river"='1'] {
+     stroke: #0091c1;
+     stroke-width: 0.8px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-opacity:1;
+     z-index: 40;
+   }
+ };
+ ["river"='2'] {
+   stroke: black;
+   stroke-width: 0.8px;
+   stroke-dasharray: 10 3 1 3 1 3;
+   stroke-linecap: butt;
+   z-index: 40;
+ }
+}
+/*! END Occupied Territory */
+
+
+/*! START Region */
+/* @title Region 1000k */
+["class_id" in ('6', '9')] [@sd > 600k] {
+ ["river" not in ('2')] {
+   stroke: #ff26c5;
+   stroke-width: 3.5px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-opacity:0.5;
+   z-index: 19;
+   ["river"='0'] {
+     stroke: black;
+     stroke-width: 0.3px;
+     stroke-dasharray: 10 3 1 3 1 3 1 3;
+     stroke-linecap: butt;
+     stroke-opacity:1;
+     z-index: 39;
+   };
+   ["river"='1'] {
+     stroke: #0091c1;
+     stroke-width: 0.3px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-opacity:1;
+     z-index: 39;
+   }
+ };
+ ["river"='2'] {
+   stroke: black;
+   stroke-width: 0.3px;
+   stroke-dasharray: 10 3 1 3 1 3 1 3;
+   stroke-linecap: butt;
+   z-index: 39;
+ }
+}
+
+/* @title Region 500k */
+["class_id" in ('6', '9')] [@sd > 300k] [@sd < 600k] {
+ ["river" not in ('2')] {
+   stroke: #ff26c5;
+   stroke-width: 4.5px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-opacity:0.5;
+   z-index: 19;
+   ["river"='0'] {
+     stroke: black;
+     stroke-width: 0.5px;
+     stroke-dasharray: 10 3 1 3 1 3 1 3;
+     stroke-linecap: butt;
+     stroke-opacity:1;
+     z-index: 39;
+   };
+   ["river"='1'] {
+     stroke: #0091c1;
+     stroke-width: 0.5px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-opacity:1;
+     z-index: 39;
+   }
+ };
+ ["river"='2'] {
+   stroke: black;
+   stroke-width: 0.5px;
+   stroke-dasharray: 10 3 1 3 1 3 1 3;
+   stroke-linecap: butt;
+   z-index: 39;
+ }
+}
+
+/* @title Region 200k */
+["class_id" in ('6', '9')] [@sd > 150k] [@sd < 300k] {
+ ["river" not in ('2')] {
+   stroke: #ff26c5;
+   stroke-width: 6.5px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-opacity:0.5;
+   z-index: 19;
+   ["river"='0'] {
+     stroke: black;
+     stroke-width: 0.7px;
+     stroke-dasharray: 10 3 1 3 1 3 1 3;
+     stroke-linecap: butt;
+     stroke-opacity:1;
+     z-index: 39;
+   };
+   ["river"='1'] {
+     stroke: #0091c1;
+     stroke-width: 0.7px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-opacity:1;
+     z-index: 39;
+   }
+ };
+ ["river"='2'] {
+   stroke: black;
+   stroke-width: 0.7px;
+   stroke-dasharray: 10 3 1 3 1 3 1 3;
+   stroke-linecap: butt;
+   z-index: 39;
+ }
+}
+/*! END Region */
+
+
+/*! START Municipality */
+/* @title Municipality 500k */
+["class_id" in ('5')] [@sd > 300k] [@sd < 600k] {
+ ["river" not in ('2')] {
+   stroke: #ff66d7;
+   stroke-width: 2.5px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-opacity:0.7;
+   z-index: 18;
+   ["river"='0'] {
+     stroke: black;
+     stroke-width: 0.2px;
+     stroke-dasharray: 10 3 1 3 1 3 1 3 1 3;
+     stroke-linecap: butt;
+     stroke-opacity:1;
+     z-index: 38;
+   };
+   ["river"='1'] {
+     stroke: #0091c1;
+     stroke-width: 0.2px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-opacity:1;
+     z-index: 38;
+   }
+ };
+ ["river"='2'] {
+   stroke: black;
+   stroke-width: 0.2px;
+   stroke-dasharray: 10 3 1 3 1 3 1 3 1 3;
+   stroke-linecap: butt;
+   z-index: 38;
+ }
+}
+
+/* @title Municipality 200k */
+["class_id" in ('5')] [@sd > 150k] [@sd < 300k] {
+ ["river" not in ('2')] {
+   stroke: #ff66d7;
+   stroke-width: 3.5px;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-opacity:0.7;
+   z-index: 18;
+   ["river"='0'] {
+     stroke: black;
+     stroke-width: 0.3px;
+     stroke-dasharray: 10 3 1 3 1 3 1 3 1 3;
+     stroke-linecap: butt;
+     stroke-opacity:1;
+     z-index: 38;
+   };
+   ["river"='1'] {
+     stroke: #0091c1;
+     stroke-width: 0.3px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-opacity:1;
+     z-index: 38;
+   }
+ };
+ ["river"='2'] {
+   stroke: black;
+   stroke-width: 0.3px;
+   stroke-dasharray: 10 3 1 3 1 3 1 3 1 3;
+   stroke-linecap: butt;
+   z-index: 38;
+ }
+}
+/*! END Municipality */

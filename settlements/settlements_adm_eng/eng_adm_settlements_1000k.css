@@ -1,9 +1,12 @@
-/* @title settlements 200k */
-/*! ------▼ 200k symbols ▼------ */
+/* @title settlements 1000k */
+/*! ------▼ 1000k symbols ▼------ */
 /** Capital City */
-["adm_stat" = '1'] [@sd > 100k] [@sd < 200k] {
+["adm_stat" = '1 Capital of States'] [@sd > 300k] [@sd < 600k] {
   mark: symbol('circle'), symbol('star');
+  mark-offset: 0 0;
   mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 16px;
     fill: #ff7575;
@@ -16,9 +19,11 @@
 }
 
 /** Autonomy Center */
-["adm_stat" = '2'] [@sd > 100k] [@sd < 200k] {
+["adm_stat" = '2 Capital of Authonomies'] [@sd > 300k] [@sd < 600k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 14px;
     fill: #ff7575;
@@ -28,15 +33,18 @@
     size: 8px;
     fill: black;
   };
+  /*Sokhumi*/
   ["sett_code" = '12850100'] {
-    font-size: 21;
+    label-anchor: 0.5 1.9;
   }
 }
 
 /** State Importance City */
-["adm_stat" = '3'] [@sd > 100k] [@sd < 200k] {
+["adm_stat" = '3 City of State Importance'] [@sd > 300k] [@sd < 600k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  label-underline-text: true;
   :mark {
     size: 12px;
     fill: #ffbab1;
@@ -46,9 +54,11 @@
 }
 
 /** Region Center */
-["adm_stat" = '4'] [@sd > 100k] [@sd < 200k] {
+["adm_stat" = '4 Region Centre'] [@sd > 300k] [@sd < 600k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
+  label-offset: 7 7;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 12px;
     fill: #ffbab1;
@@ -62,9 +72,11 @@
 }
 
 /** Municipality Center */
-["adm_stat" = '5'] [@sd > 100k] [@sd < 200k] {
+["adm_stat" = '5 District Centre'] [@sd > 300k] [@sd < 600k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
+  label-offset: 5 5;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 10px;
     fill: #c4c3c3;
@@ -78,9 +90,10 @@
 }
 
 /** Resort */
-["adm_stat" = '8'] ["urb_stat" = '4'] [@sd > 100k] [@sd < 200k] {
+["adm_stat" = '8 No status'] [@sd > 300k] [@sd < 600k] {
   mark: symbol('circle'), symbol("ttf://DejaVu Sans#U+002A");
   mark-anchor: 0.5 0.5;
+  label-offset: 4 4;
   :nth-mark(1) {
     size: 8px;
     fill: #a61215;
@@ -93,22 +106,12 @@
   }
 }
 
-/** Summer Cottage */
-["adm_stat" = '8'] ["urb_stat" = '5'] [@sd > 100k] [@sd < 200k] {
-  mark: symbol('square');
-  mark-anchor: 0.5 0.5;
-  :mark {
-    size: 6px;
-    fill: #a61215;
-    stroke: black;
-    stroke-width: 0.5px;
-  }
-}
-
 /** Community Center */
-["adm_stat" = '6'] [@sd > 100k] [@sd < 200k] {
+["adm_stat" = '6 Comunity Centre'] [@sd > 300k] [@sd < 600k] {
   mark: symbol('circle'), symbol('circle');
   mark-anchor: 0.5 0.5;
+  label-offset: 3 3;
+  label-underline-text: true;
   :nth-mark(1) {
     size: 7px;
     fill: white;
@@ -122,9 +125,10 @@
 }
 
 /** Village */
-["adm_stat" IN ('7')] [@sd > 100k] [@sd < 200k] {
+["adm_stat" = '7 Village'] [@sd > 300k] [@sd < 600k] {
   mark: symbol('circle');
   mark-anchor: 0.5 0.5;
+  label-offset: 3 3;
   :mark {
     size: 6px;
     fill: white;
@@ -135,10 +139,10 @@
 
 
 
-/*! ------▼ 200k label properties ▼------ */
-[@sd > 100k] [@sd < 200k] {
+/*! ------▼ 1000k label properties ▼------ */
+[@sd > 300k] [@sd < 600k] {
   label: [name_eng];
-  label-offset: 0 -6;
+  label-offset: 0 -12;
   label-anchor: 0.5 1.0;
   
   halo-radius: 2;
@@ -149,53 +153,36 @@
   font-fill: black;
   
   mark-label-obstacle: true;
-  label-priority:[pop_total];
   label-padding: 2;
-  label-max-displacement: 25;
+  label-priority:["scale"/1000];
+  label-max-displacement: 20;
 }
 
-/*! ------▼ 200k label sizes ▼------ */
-["urb_stat" = '1'] [@sd > 100k] [@sd < 200k] {
-    ["pop_range" = '1'] {
-      font-size: 30;
-    };
-    ["pop_range" = '2'] {
+/*! ------▼ 1000k label sizes ▼------ */
+["urb_stat" = '1'] [@sd > 300k] [@sd < 600k] {
+    ["pop_range" = '> 500 000'] {
       font-size: 25;
     };
-    ["pop_range" = '3'] {
-      font-size: 21;
-    };
-    ["pop_range" = '4'] {
+    ["pop_range" = '100 000 - 500 000'] {
       font-size: 18;
     };
-    ["pop_range" in ('5','6')] {
-      font-size: 16;
+    ["pop_range" = '50 000 - 100 000'] {
+      font-size: 17;
+    };
+    ["pop_range" = '10 000 - 50 000'] {
+      font-size: 15;
     }
   }
   
   
-  ["urb_stat" = '1'] ["pop_range" in ('7')],
-  ["urb_stat" = '2'] ["pop_range" in ('1','2')],
-  ["urb_stat" = '3'] ["pop_range" in ('1','2')],
-  [@sd > 100k] [@sd < 200k] {
-    font-size: 12;
-  }
-  
-  
-  ["urb_stat" = '1'] ["pop_range" in ('-1')],
-  ["urb_stat" = '2'] ["pop_range" in ('3','4')],
-  [@sd > 100k] [@sd < 200k] {
-    font-size: 11;
-  }
-  
-  
-  ["urb_stat" = '2'] ["pop_range" in ('5','-1')],
-  ["urb_stat" = '3'] ["pop_range" in ('3','4','5','6','-1')],
-  [@sd > 100k] [@sd < 200k] {
-    font-size: 10.5;
-  }
-  
+["urb_stat" = '1'] ["pop_range" in ('2 000 - 10 000')],
+["urb_stat" = '2'] ["pop_range" in ('10 000 - 50 000', '2 000 - 10 000', '< 2 000')],
+[@sd > 300k] [@sd < 600k] {
+  font-size: 12;
+}
 
-  ["urb_stat" in ('4','5','6','7')] [@sd > 100k] [@sd < 200k] {
-    font-size: 9.5;
-  }
+
+["urb_stat" in ('3', '4')] 
+[@sd > 300k] [@sd < 600k] {
+  font-size: 11;
+}

@@ -1,0 +1,9 @@
+/**  Physical Heights */
+[@sd < 3000k] {
+  fill: [recode(class_id,
+      1,'#b8ff99', 2,'#b8ff99', 3,'#ddffcc',
+      4,'#fedeb1', 5,'#fec37e', 6,'#ffa040',
+      7,'#ff8426', 8,'#ff6a0d', 9,'#ff5900')];
+  fill-opacity: 0.5;
+  z-index: 1;
+}

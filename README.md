@@ -20,10 +20,14 @@ The project aims to provide to users the best and comprehensive coverage of Geor
 
 <img src="docs/my_georgia_satellite.jpg" alt="MyGeorgia Project Sattelite" style="max-width:100%">
 
-### MyGeorgia Main View
+### MyGeorgia General Map View *(English)*
 
-<img src="docs/my_georgia_main.jpg" alt="MyGeorgia Project" style="max-width:100%">
+<img src="docs/my_georgia_main.jpg" alt="MyGeorgia Project General Map View" style="max-width:100%">
 
-### MyGeorgia Gori Centered View
+### MyGeorgia Administrative Map View *(English)*
 
-<img src="docs/my_georgia_-_gori.jpg" alt="MyGeorgia Project" style="max-width:100%">
+<img src="docs/my_georgia_-_tbilisi.jpg" alt="MyGeorgia Project Administrative Map View" style="max-width:100%">
+
+### MyGeorgia General Map Gori Centered View *(Georgian)*
+
+<img src="docs/my_georgia_-_gori.jpg" alt="MyGeorgia Project General Map Gori Centered View" style="max-width:100%">

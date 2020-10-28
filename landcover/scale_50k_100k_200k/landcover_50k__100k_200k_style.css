@@ -1,7 +1,6 @@
 /** All Elements */
 * {
-  fill: red;
-  fill-opacity: 0.5;
+  fill: transparent;
 }
 
 /* @title Cemetery 50k 100k 200k */
@@ -170,20 +169,8 @@
   fill: #c8d38d,
     url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/icons/garden_vinary_100k.svg);
   fill-mime: "image/svg";
-  fill-size: 30px;
-  fill-opacity: 0.5, 0.5;
-  z-index: 1, 2;
-  fill-random: free;
-  fill-random-seed: 10;
-  fill-random-rotation: none;
-  fill-random-symbol-count: 1;
-  fill-random-tile-size: 30;
-  :fill {
-    size: 4;
-    stroke: #576831;
-    stroke-width: 1;
-    stroke-linecap: mitter;
-  }
+  fill-size: '30px';
+  fill-opacity: 0.5;
 }
 
 /* @title Moraine 50k 100k 200k */

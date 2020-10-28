@@ -1,5 +1,5 @@
 /* @title Cemetery 500k */
-["class_id1"='10000004'] [@sd > 300000] [@sd < 600000] {
+["class_id"='10000004'] [@sd > 200k] [@sd < 500k] {
   fill: #7fe678, symbol('shape://plus');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -17,14 +17,14 @@
 }
 
 /* @title Airport Runway 500k */
-["class_id1"='16000000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='16000000'] [@sd > 200k] [@sd < 500k] {
   fill: #c4c3c3;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Skiing Place 500k */
-["class_id1"='17000000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='17000000'] [@sd > 200k] [@sd < 500k] {
   fill: #78a5b4;
   fill-opacity: 0.5;
   stroke: #00a9e6;
@@ -35,21 +35,21 @@
 }
 
 /* @title Glacier 500k */
-["class_id1"='22110000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='22110000'] [@sd > 200k] [@sd < 500k] {
   fill: #86e1ff;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Firn Snow 500k */
-["class_id1"='22120000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='22120000'] [@sd > 200k] [@sd < 500k] {
   fill: #86e1ff;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Rock 500k */
-["class_id1"='22542000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='22542000'] [@sd > 200k] [@sd < 500k] {
   fill: #e6e5e5, symbol('triangle');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -66,7 +66,7 @@
 }
 
 /* @title Island 500k */
-["class_id1"='31300000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='31300000'] [@sd > 200k] [@sd < 500k] {
   fill: #f1f4c7;
   fill-opacity: 0.5;
   stroke: #afb38a;
@@ -76,74 +76,74 @@
 }
 
 /* @title City Low/High Building 500k */
-["class_id1"='42111000'] [@sd > 300000] [@sd < 600000],
-["class_id1"='42113000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='42111000'] [@sd > 200k] [@sd < 500k],
+["class_id"='42113000'] [@sd > 200k] [@sd < 500k] {
   fill: #fdbf6f;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title City Industrial Area 500k */
-["class_id1"='42114000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='42114000'] [@sd > 200k] [@sd < 500k] {
   fill: #cc9e65;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Village 500k */
-["class_id1"='42112000'] [@sd > 300000] [@sd < 600000],
-["class_id1"='42112100'] [@sd > 300000] [@sd < 600000] {
+["class_id"='42112000'] [@sd > 200k] [@sd < 500k],
+["class_id"='42112100'] [@sd > 200k] [@sd < 500k] {
   fill: #cccbcb;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Deep Forest 500k */
-["class_id1"='71111000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='71111000'] [@sd > 200k] [@sd < 500k] {
   fill: #b3ec75;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Sparse Forest 500k */
-["class_id1"='71112000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='71112000'] [@sd > 200k] [@sd < 500k] {
   fill: #d7edb2;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Bushes 500k */
-["class_id1"='71210000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='71210000'] [@sd > 200k] [@sd < 500k] {
   fill: #d7fa96;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Grass 500k */
-["class_id1"='10000001'] [@sd > 300000] [@sd < 600000] {
+["class_id"='10000001'] [@sd > 200k] [@sd < 500k] {
   fill: #f8ffe5;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Park 500k */
-["class_id1"='10000003'] [@sd > 300000] [@sd < 600000] {
+["class_id"='10000003'] [@sd > 200k] [@sd < 500k] {
   fill: #7fe678;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Railway 500k */
-["class_id1"='71211000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='71211000'] [@sd > 200k] [@sd < 500k] {
   fill: #c4c3c3;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Bush Plantation 500k */
-["class_id1"='71712000'] [@sd > 300000] [@sd < 600000],
-["class_id1"='71721000'] [@sd > 300000] [@sd < 600000],
-["class_id1"='71722000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='71712000'] [@sd > 200k] [@sd < 500k],
+["class_id"='71721000'] [@sd > 200k] [@sd < 500k],
+["class_id"='71722000'] [@sd > 200k] [@sd < 500k] {
   fill: #c8d38d, symbol('shape://vertline');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -161,7 +161,7 @@
 }
 
 /* @title Moraine 500k */
-["class_id1"='72120000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='72120000'] [@sd > 200k] [@sd < 500k] {
   fill: #f8ffe5, symbol('triangle');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -178,21 +178,21 @@
 }
 
 /* @title City Green Area 500k */
-["class_id1"='72220000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='72220000'] [@sd > 200k] [@sd < 500k] {
   fill: #7fe678;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Arable Land 500k */
-["class_id1"='72254000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='72254000'] [@sd > 200k] [@sd < 500k] {
   fill: #f8ffe5;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Sand, Beach 500k */
-["class_id1"='72255000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='72255000'] [@sd > 200k] [@sd < 500k] {
   fill: #e6e5e5, symbol('circle');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -209,7 +209,7 @@
 }
 
 /* @title Impassable Swamp 500k */
-["class_id1"='72311000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='72311000'] [@sd > 200k] [@sd < 500k] {
   fill: symbol('shape://horline');
   fill-opacity: 0.5;
   z-index: 2;
@@ -228,7 +228,7 @@
 }
 
 /* @title Passable Swamp 500k */
-["class_id1"='72312000'] [@sd > 300000] [@sd < 600000] {
+["class_id"='72312000'] [@sd > 200k] [@sd < 500k] {
   fill: symbol('shape://horline');
   fill-opacity: 0.5;
   z-index: 2;
@@ -247,7 +247,7 @@
 }
 
 /* @title Passable, Forest Swamp 500k */
-["class_id1"='72312100'] [@sd > 300000] [@sd < 600000] {
+["class_id"='72312100'] [@sd > 200k] [@sd < 500k] {
   fill: #7fe678, symbol('shape://horline');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -266,14 +266,14 @@
 }
 
 /* @title Stadium 500k */
-["class_id1"='77001122'] [@sd > 300000] [@sd < 600000] {
+["class_id"='77001122'] [@sd > 200k] [@sd < 500k] {
   fill: #7fe678;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
 /* @title Quarry Territory 500k */
-["class_id1"='77001133'] [@sd > 300000] [@sd < 600000] {
+["class_id"='77001133'] [@sd > 200k] [@sd < 500k] {
   fill: #ae989c;
   fill-opacity: 0.5;
   stroke: black;

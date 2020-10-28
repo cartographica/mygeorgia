@@ -1,5 +1,5 @@
-/* @title Cemetery 50k */
-["class_id"='10000004'] [@sd < 150000] {
+/* @title Cemetery 2000k 3000k */
+["class_id"='10000004'] [@sd > 1000k] [@sd < 3000k] {
   fill: #7fe678, symbol('shape://plus');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -16,15 +16,15 @@
   }
 }
 
-/* @title Airport Runway 50k */
-["class_id"='16000000'] [@sd < 150000] {
+/* @title Airport Runway 2000k 3000k */
+["class_id"='16000000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #c4c3c3;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Skiing Place 50k */
-["class_id"='17000000'] [@sd < 150000] {
+/* @title Skiing Place 2000k 3000k */
+["class_id"='17000000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #78a5b4;
   fill-opacity: 0.5;
   stroke: #00a9e6;
@@ -34,22 +34,22 @@
   z-index: 1;
 }
 
-/* @title Glacier 50k */
-["class_id"='22110000'] [@sd < 150000] {
+/* @title Glacier 2000k 3000k */
+["class_id"='22110000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #86e1ff;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Firn Snow 50k */
-["class_id"='22120000'] [@sd < 150000] {
+/* @title Firn Snow 2000k 3000k */
+["class_id"='22120000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #86e1ff;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Rock 50k */
-["class_id"='22542000'] [@sd < 150000] {
+/* @title Rock 2000k 3000k */
+["class_id"='22542000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #e6e5e5, symbol('triangle');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -65,8 +65,8 @@
   }
 }
 
-/* @title Island 50k */
-["class_id"='31300000'] [@sd < 150000] {
+/* @title Island 2000k 3000k */
+["class_id"='31300000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #f1f4c7;
   fill-opacity: 0.5;
   stroke: #afb38a;
@@ -75,74 +75,75 @@
   z-index: 1;
 }
 
-/* @title City Low/High Building 50k */
-["class_id"='42111000'] [@sd < 150000],
-["class_id"='42113000'] [@sd < 150000] {
+/* @title City Low/High Building 2000k 3000k */
+["class_id"='42111000'] [@sd > 1000k] [@sd < 3000k],
+["class_id"='42113000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #fdbf6f;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title City Industrial Area 50k */
-["class_id"='42114000'] [@sd < 150000] {
+/* @title City Industrial Area 2000k 3000k */
+["class_id"='42114000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #cc9e65;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Village 50k */
-["class_id"='42112000'] [@sd < 150000],
-["class_id"='42112100'] [@sd < 150000] {
+/* @title Village 2000k 3000k */
+["class_id"='42112000'] [@sd > 1000k] [@sd < 3000k],
+["class_id"='42112100'] [@sd > 1000k] [@sd < 3000k] {
   fill: #cccbcb;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Deep Forest 50k */
-["class_id"='71111000'] [@sd < 150000] {
+/* @title Deep Forest 2000k 3000k */
+["class_id"='71111000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #b3ec75;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Sparse Forest 50k */
-["class_id"='71112000'] [@sd < 150000] {
+/* @title Sparse Forest 2000k 3000k */
+["class_id"='71112000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #d7edb2;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Bushes 50k */
-["class_id"='71210000'] [@sd < 150000] {
+/* @title Bushes 2000k 3000k */
+["class_id"='71210000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #d7fa96;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Grass 50k */
-["class_id"='10000001'] [@sd < 150000] {
+/* @title Grass 2000k 3000k */
+["class_id" in ('10000001', '77777777')] [@sd > 1000k] [@sd < 3000k] {
   fill: #f8ffe5;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Park 50k */
-["class_id"='10000003'] [@sd < 150000] {
+/* @title Park 2000k 3000k */
+["class_id"='10000003'] [@sd > 1000k] [@sd < 3000k] {
   fill: #7fe678;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Railway 50k */
-["class_id"='71211000'] [@sd < 150000] {
+/* @title Railway 2000k 3000k */
+["class_id"='71211000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #c4c3c3;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Bush Plantation 50k */
-["class_id"='71712000'] [@sd < 150000],
-["class_id"='71721000'] [@sd < 150000] {
+/* @title Bush Plantation 2000k 3000k */
+["class_id"='71712000'] [@sd > 1000k] [@sd < 3000k],
+["class_id"='71721000'] [@sd > 1000k] [@sd < 3000k],
+["class_id"='71722000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #c8d38d, symbol('shape://vertline');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -159,29 +160,8 @@
   }
 }
 
-/* @title Vineyard Plantation 50k */
-["class_id"='71722000'] [@sd < 150000] {
-  fill: #c8d38d,
-    url(https://raw.githubusercontent.com/GeolandLTD/mygeorgia/master/icons/garden-vinary_100k.svg);
-  fill-mime: 'image/svg';
-  fill-size: 30px;
-  fill-opacity: 0.5;
-  z-index: 1, 2;
-  fill-random: free;
-  fill-random-seed: 10;
-  fill-random-rotation: none;
-  fill-random-symbol-count: 1;
-  fill-random-tile-size: 30;
-  :fill {
-    size: 4;
-    stroke: #576831;
-    stroke-width: 1;
-    stroke-linecap: mitter;
-  }
-}
-
-/* @title Moraine 50k */
-["class_id"='72120000'] [@sd < 150000] {
+/* @title Moraine 2000k 3000k */
+["class_id"='72120000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #f8ffe5, symbol('triangle');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -197,22 +177,22 @@
   }
 }
 
-/* @title City Green Area 50k */
-["class_id"='72220000'] [@sd < 150000] {
+/* @title City Green Area 2000k 3000k */
+["class_id"='72220000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #7fe678;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Arable Land 50k */
-["class_id"='72254000'] [@sd < 150000] {
+/* @title Arable Land 2000k 3000k */
+["class_id"='72254000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #f8ffe5;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Sand, Beach 50k */
-["class_id"='72255000'] [@sd < 150000] {
+/* @title Sand, Beach 2000k 3000k */
+["class_id"='72255000'] [@sd > 1000k] [@sd < 3000k] {
   fill: #e6e5e5, symbol('circle');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -228,8 +208,8 @@
   }
 }
 
-/* @title Impassable Swamp 50k */
-["class_id"='72311000'] [@sd < 150000] {
+/* @title Impassable Swamp 2000k 3000k */
+["class_id"='72311000'] [@sd > 1000k] [@sd < 3000k] {
   fill: symbol('shape://horline');
   fill-opacity: 0.5;
   z-index: 2;
@@ -247,8 +227,8 @@
   }
 }
 
-/* @title Passable Swamp 50k */
-["class_id"='72312000'] [@sd < 150000] {
+/* @title Passable Swamp 2000k 3000k */
+["class_id"='72312000'] [@sd > 1000k] [@sd < 3000k] {
   fill: symbol('shape://horline');
   fill-opacity: 0.5;
   z-index: 2;
@@ -266,8 +246,8 @@
   }
 }
 
-/* @title Passable, Forest Swamp 50k */
-["class_id"='72312100'] [@sd < 150000] {
+/* @title Passable, Forest Swamp 2000k 3000k */
+["class_id"='72312100'] [@sd > 1000k] [@sd < 3000k] {
   fill: #7fe678, symbol('shape://horline');
   fill-opacity: 0.5;
   z-index: 1, 2;
@@ -285,19 +265,19 @@
   }
 }
 
-/* @title Stadium 50k */
-["class_id"='77001122'] [@sd < 150000] {
+/* @title Stadium 2000k 3000k */
+["class_id"='77001122'] [@sd > 1000k] [@sd < 3000k] {
   fill: #7fe678;
   fill-opacity: 0.5;
   z-index: 1;
 }
 
-/* @title Quarry Territory 50k */
-["class_id"='77001133'] [@sd < 150000] {
+/* @title Quarry Territory 2000k 3000k */
+["class_id"='77001133'] [@sd > 1000k] [@sd < 3000k] {
   fill: #ae989c;
   fill-opacity: 0.5;
   stroke: black;
-  stroke-width: 0.07;
-  stroke-opacity: 0.5;
+  stroke-width:0.07;
+  stroke-opacity:0.5;
   z-index: 1;
 }

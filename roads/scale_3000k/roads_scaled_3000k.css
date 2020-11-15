@@ -1,12 +1,12 @@
-/* @title Autobahn 4000k */
-["class_id"="62111000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title Autobahn 3000k */
+["class_id"="62111000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #4b4b4b, #ff8805;
   stroke-width: 5.1px, 4.3px;
   stroke-linecap: round;
   z-index: 22, 42;
 }
-/* @title Autobahn symbol 4000k */
-["class_id"="62111000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title Autobahn symbol 3000k */
+["class_id"="62111000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #4b4b4b;
   stroke-width: 0.5px;
   stroke-linecap: round;
@@ -32,15 +32,15 @@
   }
 }
 
-/* @title International HWY 4000k */
-["class_id"="62121000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title International HWY 3000k */
+["class_id"="62121000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #4b4b4b;
   stroke-width: 3.5px;
   stroke-linecap: round;
   z-index: 21;
 }
-/* @title International HWY symbol 4000k */
-["class_id"="62121000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title International HWY symbol 3000k */
+["class_id"="62121000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #ff8805;
   stroke-width: 3px;
   stroke-linecap: round;
@@ -66,15 +66,15 @@
   }
 }
 
-/* @title State HWY 4000k */
-["class_id"="62122000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title State HWY 3000k */
+["class_id"="62122000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #4b4b4b;
   stroke-width: 3px;
   stroke-linecap: round;
   z-index: 18;
 }
-/* @title State HWY symbol 4000k */
-["class_id"="62122000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title State HWY symbol 3000k */
+["class_id"="62122000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #ffc105;
   stroke-width: 2px;
   stroke-linecap: round;
@@ -100,15 +100,15 @@
   }
 }
 
-/* @title State Road Unpaved 4000k */
-["class_id"="62340000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title State Road Unpaved 3000k */
+["class_id"="62340000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #4b4b4b;
   stroke-width: 2.5px;
   stroke-linecap: round;
   z-index: 15;
 }
-/* @title State Road Unpaved symbol 4000k */
-["class_id"="62340000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title State Road Unpaved symbol 3000k */
+["class_id"="62340000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #ffdf7f;
   stroke-width: 1.9px;
   stroke-linecap: round;
@@ -134,15 +134,15 @@
   }
 }
 
-/* @title Local Paved Road 4000k */
-["class_id"="62001100"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title Local Paved Road 3000k */
+["class_id"="62001100"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #4b4b4b;
   stroke-width: 2px;
   stroke-linecap: round;
   z-index: 14;
 }
-/* @title Local Paved Road symbol 4000k */
-["class_id"="62001100"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title Local Paved Road symbol 3000k */
+["class_id"="62001100"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #f2f20b;
   stroke-width: 1.5px;
   stroke-linecap: round;
@@ -168,37 +168,37 @@
   }
 }
 
-/* @title Improved Unpaved (2 lines) 4000k */
-["class_id"="62131000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title Improved Unpaved (2 lines) 3000k */
+["class_id"="62131000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #1a1a1a;
   stroke-opacity: 0.85;
   stroke-width: 1.4px;
   stroke-linecap: round;
   z-index: 12;
 }
-["class_id"="62131000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+["class_id"="62131000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #ffffff;
   stroke-width: 1px;
   stroke-linecap: round;
   z-index: 37;
 }
 
-/* @title Rural Dirt 4000k */
-["class_id"="62132000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title Rural Dirt 3000k */
+["class_id"="62132000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #000000;
   stroke-width: 1.4px;
   stroke-linecap: square;
   z-index: 3;
 }
-["class_id"="62132000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+["class_id"="62132000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #ffffff;
   stroke-width: 1px;
   stroke-linecap: square;
   z-index: 36;
 }
 
-/* @title Forest Dirt 4000k */
-["class_id"="62133000"] ["scale" >="3000000"] [@sd > 2500000] [@sd < 4500000] {
+/* @title Forest Dirt 3000k */
+["class_id"="62133000"] ["scale" >="3000000"] [@sd > 2000k] [@sd < 3000k] {
   stroke: #797979;
   stroke-width: 0.6px;
   stroke-dasharray: 7.2, 3.2;

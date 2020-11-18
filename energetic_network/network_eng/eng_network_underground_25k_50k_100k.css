@@ -21,8 +21,7 @@
 
 /** All Elements */
 * {
-  stroke: #0099cc;
-  stroke-opacity: 0.1;
+  stroke: none;
 }
 
 /*! START Double Pipeline 100k */

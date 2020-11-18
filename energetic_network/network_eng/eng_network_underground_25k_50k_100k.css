@@ -18,12 +18,6 @@
   label-max-displacement: 10;
 }
 
-
-/** All Elements */
-* {
-  stroke: none;
-}
-
 /*! START Double Pipeline 100k */
 /** Pipelines */
 ["class_id" in ("53400000")] [@sd < 100k] {

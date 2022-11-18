@@ -13,8 +13,8 @@
 The project aims to provide to users the best and comprehensive coverage of Georgia - for free!
 
 ### The online map characteristics 
-- <img width="20px" src="https://raw.githubusercontent.com/tailwindlabs/heroicons/master/optimized/outline/translate.svg">  Languages: **Georgian** and **English**
-- <img width="20px" src="https://raw.githubusercontent.com/tailwindlabs/heroicons/master/optimized/outline/map.svg">  Map Themes: **General**, **Administrative**, **Physical**
+- <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Language_icon.png">  Languages: **Georgian** and **English**
+- <img width="20px" src="https://pic.onlinewebfonts.com/svg/img_303807.png">  Map Themes: **General**, **Administrative**, **Physical**
 
 ### MyGeorgia Sattelite
 

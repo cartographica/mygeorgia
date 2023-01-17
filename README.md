@@ -1,6 +1,6 @@
 [![Commit Activity](https://img.shields.io/github/commit-activity/m/vitruvius21/mygeorgia?style=plastic)](https://github.com/GeolandLTD/mygeorgia/graphs/commit-activity)
 [![Last Commit](https://img.shields.io/github/last-commit/vitruvius21/mygeorgia?style=plastic)](https://github.com/vitruvius21/mygeorgia/graphs/commit-activity)
-[![Issues](https://img.shields.io/github/issues/GeolandLTD/mygeorgia?style=plastic)](https://github.com/GeolandLTD/mygeorgia/issues)
+[![Issues](https://img.shields.io/github/issues/vitruvius21/mygeorgia?style=plastic)](https://github.com/vitruvius21/mygeorgia/issues)
 ![Code Size](https://img.shields.io/github/repo-size/vitruvius21/mygeorgia?style=plastic)
 ![Repo Size](https://img.shields.io/github/languages/code-size/vitruvius21/mygeorgia?style=plastic)
 ![Top Language](https://img.shields.io/github/languages/top/vitruvius21/mygeorgia?style=plastic)
@@ -8,9 +8,7 @@
 
 # Welcome to MyGeorgia Project Repository!
 
-**MyGeorgia** is a project of the Georgian-based Cartographic Company ["Geoland"](http://geoland.ge/). 
-
-The project aims to provide to users the best and comprehensive coverage of Georgia - for free!
+The **MyGeorgia** project aims to provide to users the best and comprehensive coverage of Georgia - for free!
 
 ### The online map characteristics 
 - <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Language_icon.png">  Languages: **Georgian** and **English**

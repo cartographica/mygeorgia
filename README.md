@@ -1,10 +1,10 @@
-[![Commit Activity](https://img.shields.io/github/commit-activity/m/vitruvius21/mygeorgia?style=plastic)](https://github.com/GeolandLTD/mygeorgia/graphs/commit-activity)
-[![Last Commit](https://img.shields.io/github/last-commit/vitruvius21/mygeorgia?style=plastic)](https://github.com/vitruvius21/mygeorgia/graphs/commit-activity)
-[![Issues](https://img.shields.io/github/issues/vitruvius21/mygeorgia?style=plastic)](https://github.com/vitruvius21/mygeorgia/issues)
-![Code Size](https://img.shields.io/github/repo-size/vitruvius21/mygeorgia?style=plastic)
-![Repo Size](https://img.shields.io/github/languages/code-size/vitruvius21/mygeorgia?style=plastic)
-![Top Language](https://img.shields.io/github/languages/top/vitruvius21/mygeorgia?style=plastic)
-![Languages](https://img.shields.io/github/languages/count/vitruvius21/mygeorgia?color=blueviolet&style=plastic)
+[![Commit Activity](https://img.shields.io/github/commit-activity/m/cartographica/mygeorgia?style=plastic)](https://github.com/cartographica/mygeorgia/graphs/commit-activity)
+[![Last Commit](https://img.shields.io/github/last-commit/cartographica/mygeorgia?style=plastic)](https://github.com/cartographica/mygeorgia/graphs/commit-activity)
+[![Issues](https://img.shields.io/github/issues/cartographica/mygeorgia?style=plastic)](https://github.com/cartographica/mygeorgia/issues)
+![Code Size](https://img.shields.io/github/repo-size/cartographica/mygeorgia?style=plastic)
+![Repo Size](https://img.shields.io/github/languages/code-size/cartographica/mygeorgia?style=plastic)
+![Top Language](https://img.shields.io/github/languages/top/cartographica/mygeorgia?style=plastic)
+![Languages](https://img.shields.io/github/languages/count/cartographica/mygeorgia?color=blueviolet&style=plastic)
 
 # Welcome to MyGeorgia Project Repository!
 

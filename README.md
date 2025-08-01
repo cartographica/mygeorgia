@@ -14,6 +14,42 @@ The **MyGeorgia** project aims to provide to users the best and comprehensive co
 - <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Language_icon.png">  Languages: **Georgian** and **English**
 - <img width="20px" src="https://pic.onlinewebfonts.com/svg/img_303807.png">  Map Themes: **General**, **Administrative**, **Physical**
 
+### Tech used
+<table align="left" style="border: none">
+  <tr style="border: none">
+    <td align="center" width="96" style="border: none">
+      <a href="https://qgis.org/en/site/">
+        <img src="https://qgis.org/img/logosign.svg" width="50" height="50" alt="QGIS" />
+      </a>
+      <br>QGIS
+    </td>
+    <td align="center" width="96" style="border: none">
+      <a href="http://geoserver.org/">
+        <img src="https://avatars.githubusercontent.com/u/186522?s=200&v=4" width="50" height="50" alt="GeoServer" />
+      </a>
+      <br>GeoServer
+    </td>
+    <td align="center" width="96">
+      <a href="https://github.com/topics/css">
+        <img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" width="50" height="50" alt="CSS" />
+      </a>
+      <br>CSS
+    </td>
+    <td align="center" width="96" style="border: none">
+      <a href="https://www.bluemarblegeo.com/global-mapper">
+        <img src="https://github.com/Vitruvius21/Vitruvius21/blob/0e3e5e1959fceb253e42c1c52c35d8be5b9e2e8b/Global-Mapper-logo-1.png" width="50" height="50" alt="GlobalMapper" />
+      </a>
+      <br>G.Mapper
+    </td>
+    <td align="center" width="96" style="border: none">
+      <a href="https://github.com/topics/postgresql">
+        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" width="50" height="50" alt="PostgreSQL" />
+      </a>
+      <br>PostgreSQL
+    </td>
+  </tr>
+</table>
+
 ### MyGeorgia Sattelite
 
 <img src="docs/my_georgia_satellite.jpg" alt="MyGeorgia Project Sattelite" style="max-width:100%">

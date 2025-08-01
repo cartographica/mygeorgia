@@ -15,7 +15,7 @@ The **MyGeorgia** project aims to provide to users the best and comprehensive co
 - <img width="20px" src="https://pic.onlinewebfonts.com/svg/img_303807.png">  Map Themes: **General**, **Administrative**, **Physical**
 
 ### Tech used
-<table align="left" style="border: none">
+<table style="border: none">
   <tr style="border: none">
     <td align="center" width="96" style="border: none">
       <a href="https://qgis.org/en/site/">
